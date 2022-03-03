@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather site planning document's home page with weather site's name 
+    and logo for Jeremy T. Suchanski in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Weather Site Planning Document Home Page | Jeremy T. Suchanski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/weather_small.css">       
+    <link rel="stylesheet" href="css/weather_medium.css"> 
+    <link rel="stylesheet" href="css/weather_large.css"> 
+</head>
+
+<body>
+    <header>
+        <img src="/lesson2/sources/logo.svg" alt="Community Weather Chatter logo"> 
+        <h1><span>The Weather Chatter </span><span> Community</span></h1>
+        <nav>       
+            <ul>
+                <li><a href="https://jmmonjeremy.github.io/lesson2/index.html">
+                    Home
+                </a></li>
+                <li><a href="https://jmmonjeremy.github.io/lesson2/typography.html"
+                    class="active">
+                    Typography
+                </a></li>
+                <li><a href="https://jmmonjeremy.github.io/lesson2/target-audience.html">
+                    Target Audience
+                </a></li>
+                <li><a href="https://jmmonjeremy.github.io/lesson2/color-scheme.html">
+                    Color Scheme
+                </a ></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sole_span">      
+            <h2 >Typography</h2>                       
+       
+        <div class="division_line fnt"></div>
+        <br>
+        
+        <p id="font">
+            &#10033; The primary text fonts are Ranchers and Krona One (stacked in that order).                         
+         </p>
+
+        <table>
+            <tr id="title_row">
+                <th>HTML Location</th>
+                <th>Font Family</th>
+                <th>Font Size</th>
+                <th>Hex Color</th>
+                <th colspan="2">Example</th>
+            </tr>
+            <tr id="head_row">
+                <td>Site Header</td>
+                <td id="head_fontf">Ranchers</td>
+                <td id="head_size">50px</td>
+                <td id="head_color">#FF9E80</td>
+                <td id="head_ex">D</td>
+                <td id="head_ex2">emo</td>                          
+            </tr>
+            <tr id="nav_row">
+                <td>Primary Navigation</td>
+                <td id="nav_fontf">Ranchers</td>
+                <td id="nav_size">16px</td>
+                <td id="nav_color">#ffff00</td>
+                <td id="nav_ex" colspan="2">Demo</td>                
+            </tr>
+            <tr id="ft_nav_row"> 
+                <td>Footer Navigation</td>
+                <td id="ft_nav_fontf">Ranchers</td>
+                <td id="ft_nav_size">16px</td>
+                <td id="ft_nav_color">#FF9E80</td>
+                <td id="ft_nav_ex" colspan="2">Demo</td>               
+            </tr>
+            <tr id="h1_row">
+                <td>Heading 1 (h1)</td>
+                <td id="h1_fontf">Ranchers</td>
+                <td id="h1_size">50px</td>
+                <td id="h1_color">#1A237E</td>
+                <td id="h1_ex">D</td>
+                <td id="h1_ex2">emo</td>  
+            </tr>
+            <tr id="h2_row">
+                <td>Heading 2 (h2)</td>
+                <td id="h2_fontf">Ranchers</td>
+                <td id="h2_size">24px</td>
+                <td id="h2_color">#000000</td>
+                <td id="h2_ex" colspan="2">Demo</td>              
+            </tr>
+            <tr id="h3_row">
+                <td>Heading 3 (h3)</td>
+                <td id="h3_fontf">Ranchers</td>
+                <td id="h3_size">18.72px</td>
+                <td id="h3_color">#000000</td>
+                <td id="h3_ex" colspan="2">Demo</td>              
+            </tr>
+            <tr id="h4_row">
+                <td>Heading 4 (h4)</td>
+                <td id="h4_fontf">Krona One</td>
+                <td id="h4_size">16px</td>
+                <td id="h4_color">#000000</td>
+                <td id="h4_ex" colspan="2">Demo</td>              
+            </tr>
+            <tr id="p1_row">
+                <td>Type 1 Paragraph Text (p)</td>
+                <td id="p1_fontf">Krona One</td>
+                <td id="p1_size">16px</td>
+                <td id="p1_color">#000000</td>
+                <td id="p1_ex" colspan="2">Demo</td>              
+            </tr>
+            <tr id="p2_row">
+                <td>Type 2 Paragraph Text (p)</td>
+                <td id="p2_fontf">Krona One</td>
+                <td id="p2_size">14px</td>
+                <td id="p2_color">#000000</td>
+                <td id="p2_ex" colspan="2">Demo</td>                
+            </tr>           
+        </table> 
+        </section>
+    </main>
+
+    <footer>                              
+        <p id="footer_info">
+            &copy; <span id="current_year"></span> | Jeremy T. Suchanski | Oregon |
+            <a href="https://www.byui.edu/online" target="_blank">
+                BYUI Online Learning
+            </a>
+        </p>                                                    
+        <p id="footer_update" ><span id="modified"></span></p>                             
+    </footer>
+
+    <script src="js/index.js"></script>    
+    
+</body>
+</html>

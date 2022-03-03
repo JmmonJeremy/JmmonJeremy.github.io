@@ -1,0 +1,251 @@
+/* set a max width for the content and the backgroung color for the screen*/
+/*  background colors: dark blue = #1A237E  light yellow = #FFF9C4 dark green =#1a2e04 */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #474747;   
+}
+header { 
+    color: #1A237E;
+    background-color: #FF9E80;	   
+}	
+header img {  
+    box-sizing: border-box;
+    margin: 10px 0  10px 30px;
+    width: 80%;
+    /*float: left;*/
+}
+h1 {   
+    text-align: center;    
+    font-family: "Ranchers", "Verdana", cursive;
+    font-size: 20px;
+    letter-spacing: 5px;     
+}
+nav {    
+    padding: 15px;
+    background-color: #1A237E;    
+}
+nav ul {   
+    text-align: center;   
+}
+nav li {   
+    list-style: none;   
+}
+a:hover {   
+    color: #ffffff;    
+    background-color: #FF9E80; 
+}
+/* default font size = 16px */
+nav a { 
+    font-size: 16px;
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #ffff00;     
+    text-decoration: none;
+    line-height: 50px;    
+}
+.active {
+    color: #1A237E;
+    background-color: #FF9E80;   
+}
+/*  background colors: dark blue = #1A237E  light yellow = #FFF9C4 light blues = #e3e6ff*/
+main { 
+    background-color: #e3f0ff;       
+    padding: 30px;
+}
+/* (h2) = 24px */
+h2 {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 5px;  
+}
+/* default font size = 16px */
+p {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 12px; 
+}
+/* Start for TYPOGRAPHY PAGE **********************************/
+th, td {
+    border:1px solid #000000;
+}
+table {
+    display: flex;  
+    flex-wrap: nowrap;
+    justify-content: center;
+} 
+table tr {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;    
+}
+th {
+  
+    color: #ffffff;
+    background-color: #1A237E;    
+}
+td {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    white-space: nowrap;
+}  
+#head_ex {   
+    color: #1A237E;
+    background-color: #FF9E80;
+}
+#h2_ex, #h3_ex {
+    letter-spacing: 5px;
+}
+#head_fontf, #head_ex, #nav_fontf, #nav_ex, #ft_nav_fontf, #ft_nav_ex, #h1_fontf, #h1_ex, #h2_ex, 
+#h2_fontf, #h3_ex, #h3_fontf {
+    font-family: "Ranchers", "Verdana", cursive;    
+}
+#head_ex, #h1_ex {
+    font-size: 50px;
+}
+#head_color {
+    color: #FF9E80;
+    background-color: #474747;
+}
+#nav_ex, #ft_nav_ex {    
+    background-color: #1A237E;
+}
+#nav_size, #nav_ex, #ft_nav_size, #ft_nav_ex {
+    font-size: 16px;
+}
+#nav_color {
+    background-color: #474747;
+}
+#nav_color, #nav_ex {
+    color: #ffff00;  
+}
+#ft_nav_color {
+    background-color: #474747;
+}
+#ft_nav_color, #ft_nav_ex {
+    color: #FF9E80;  
+}
+#h1_color, #h1_ex {
+    color: #1A237E;
+} 
+#h1_color {
+    background-color: #ffff00;
+    font-weight: 900; 
+}
+#h1_ex {
+    background-color: #FF9E80;
+}
+#h2_ex {
+    font-size: 24px;
+}
+#h2_color, #h2_ex, #h3_color, #h3_ex {
+    color: #000000;
+}
+#h3_size, #h3_ex {
+    font-size: 18.72;
+}
+#p2_ex, #p2_size {
+    font-size: 14px;
+}
+#head_color, #nav_color, #ft_nav_color, #h1_color, #h2_color, 
+#h3_color, #h4_color, #p1_color, #p2_color {
+    font-size: 12px;
+}
+#head_ex, #head_ex2, #h1_ex, #h1_ex2 {
+    border: 0; 
+    background-color: #FF9E80;    
+}
+/************************************ End for TYPOGRAPHY PAGE */
+/* Start for TARGET AUDIENCE PAGE *****************************/
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.section_title {
+    grid-column: 1/3;
+    text-align: center;
+}
+.division_line {
+    grid-column: 1/3;
+    justify-self: center;
+    width: 90%;
+    border-bottom: 5px solid;
+    margin: auto;
+}
+.sole_span {
+    grid-column: 1/3;    
+}
+/* Start for TYPOGRAPHY PAGE **********************************/
+#font {
+    text-align: center;
+}
+/************************************ End for TYPOGRAPHY PAGE */
+/* Start for TARGET AUDIENCE PAGE *****************************/
+/* (h3) = 18.72px */
+.subtitle {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 5px;
+    text-align: center;   
+}
+/* (h4) = 16px */
+.p_titles {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    text-align: start;
+    display: inline;   
+}
+
+.p_info {
+    display: inline; 
+    font-size: 14px;
+/* medium = 16px */   
+}
+strong {
+    font-size:medium;
+}
+.sole_span h2, .half1 h2 {
+    text-align: center;
+}
+/******************************* End for TARGET AUDIENCE PAGE */
+/* Start for COLOR SCHEME PAGE *****************************/ 
+.hex_colors {
+    font-size: 12px;
+    text-align: center;
+}
+#color_header {
+    text-align: center;
+}
+#domain_header, #domain {
+    text-align:center;
+}
+footer a {
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #FF9E80;
+}
+
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer {      
+    background-color: #1A237E;
+    text-align: center;        
+    padding: 5px 0;  
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+#footer_info {     
+    color: #FF9E80;
+    margin: 10px 0 10px 0;
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: #ffff00;
+    margin-top: 0;    
+       
+    
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}

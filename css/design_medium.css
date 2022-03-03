@@ -1,0 +1,13 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {     
+        font-size: 2.2em;
+        line-height: 110px;     
+    }
+    main {      
+        grid-template-columns: 1fr 1fr; 
+        margin: auto 0;            
+    }  
+    #three {
+        grid-column: 1/3;
+    }   
+}

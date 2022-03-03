@@ -1,0 +1,107 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: grid;
+        grid-template-columns: 200px;
+    }
+
+    header img {
+        grid-column: 1; 
+        width: 200px;   
+    }
+
+    h1 {
+        grid-column: 2/6;
+        display: grid;
+        align-items: center;
+        font-size: 30px;
+        letter-spacing: 14px;
+    }
+
+    nav {
+        grid-column: 1/6;
+    }
+    
+    nav a {
+        line-height: 16px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1 1 auto;
+    }
+
+    a:hover {
+        padding: 15px;
+        border-radius: 2em;
+    }
+    .active {
+        padding: 15px;
+        border-radius: 2em;
+    } 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }       
+    /* Start for TYPOGRAPHY PAGE **********************************/
+    table {
+        border: 5px solid #000000;
+        display:table;
+        width: 100%; 
+    }
+
+    table tr {
+        display:table-row;
+        text-align: left;
+    }
+
+    td {
+        white-space: normal;
+    }
+    #head_ex, #head_ex2, #h1_ex, #h1_ex2 {
+        border: 0; 
+        background-color: #FF9E80;    
+    }
+    #head_ex2, #h1_ex2 {
+        position:relative;
+        left: -2px;           
+    }
+    #head_ex, #h1_ex {
+        text-align: right;      
+    }
+    /************************************ End for TYPOGRAPHY PAGE */
+    section img {
+        display: block;
+        margin: auto;
+        width: 400px;
+    }
+     /* Start for COLOR SCHEME PAGE *****************************/
+    .home1 {
+        grid-column: 1;
+        padding-right: 30px;
+        border-right: 2.5px solid;
+    }
+    .home1 p {
+        text-align: justify;
+    }
+    .home2 {
+        grid-column: 2;
+        padding-left: 30px;
+        border-left: 2.5px solid;
+        display: grid;
+        grid-template-rows: 48%;
+    }
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }
+}

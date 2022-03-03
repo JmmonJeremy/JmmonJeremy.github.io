@@ -1,0 +1,137 @@
+/* set a max width for the content and zero the margins */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {     
+    display: flex;
+    align-items: center; 
+    column-gap: 10px;          
+    background-color: #FFB74D; 
+    padding: 20px 20px;     
+}
+
+header img {       
+    border-radius: 4em;            
+    border: 1px solid #ccc; 
+    box-shadow: 5px 5px 5px #999; 
+    margin: 20px 20px;      
+    box-sizing: border-box; 
+    width: 100px;  
+}
+
+#title_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+h1, h2 {
+    font-family: "Orbitron", "Tahoma", sans-serif;    
+}
+
+h1 {
+    color: #296491;
+    font-size: 1.5em;    
+    margin: 0;
+    margin-left: 50px;        
+}
+
+header h3 {
+    font-family: "Space Mono", "Verdana", monospace;    
+    color: #296491;
+    margin: 0;
+    margin-top: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #E3F2FD;
+    color: #FFB74D;    
+    justify-items: center;      
+}
+
+#one, #two, #three {
+    margin: 10px 5px;
+    background-color: #296491;
+    padding: 20px; 
+    border-radius: 2em;            
+    border: 2px solid #FFB74D;
+    font-family: "Space Mono", "Verdana", monospace; 
+}
+
+#three {
+    grid-column: 1;
+}
+
+section h2 {
+    height: 50px;
+    border-top: 2px solid #E91E63;
+    padding-top: 15px
+}
+
+section h3 {
+    color: #fff;
+    margin: 0;
+}
+
+section a {
+    
+    color: #FFD3E1;
+    line-height: 40px;      
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section p {
+    color: #fff;
+    border-top: 2px solid #E91E63;
+    padding-top: 15px
+}
+
+.button {
+    width: 35px;
+    height: 40px;
+    background-color: #E91E63;
+    margin: auto;
+    border-radius: 2em;            
+    border: 3px inset #FFB74D;
+}
+
+a:hover {
+    background-color: #95B2B0;
+    color: #020664;
+    text-decoration: none;
+}
+
+a {
+    color: #55443F;
+}
+
+footer a {
+    color: #83DB53;
+}
+
+footer {  
+    font-family: "Orbitron", "Tahoma", sans-serif;   
+    background-color: #3e3e3e;    
+    text-align: center;        
+    padding: 5px 0;  
+}
+
+#footer_info {     
+    color: #83DB53;
+    margin: 10px 0 10px 0;
+}
+
+#footer_update {     
+    font-size: .83em;
+    color: #fff;
+    margin-top: 0;    
+}

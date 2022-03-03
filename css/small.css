@@ -1,0 +1,88 @@
+/* set a max width for the content and the backgroung color for the screen */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(255, 249, 196);
+}
+/* set screen background color, center text, and put in grid (color was rgb(251, 192, 45))*/
+header {    
+    text-align: center;    
+    background-color: #634803;     
+    margin-top: 1em; 
+    line-height: 110px;   
+}
+/* put portrait in the right spot and a shadow border effect on the picture */
+img {    
+    margin-top: 13px;      
+    box-sizing: border-box; 
+    width: 80%;    
+}
+/* set the font family, size, color, and put in right spot (was #009688) */
+h1 {
+    font-family: "Londrina Solid", "Verdana", cursive;
+    font-size: 1.5em;
+    color: #85FFF3;
+    margin: 0;     
+}
+/* set the heading colors, size & font family */
+h2 {
+    font-family: 'Gideon Roman', Trebuchet MS, cursive;
+    font-size: 1em;
+    color: #1976D2;      
+}
+/* set the background color and grid layout for the body of the content*/
+main {
+    background-color: #E3F2FD;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;   
+}
+/* put the subtitle in the right spot */
+#body_headline {      
+    box-sizing: border-box;    
+    margin-bottom: 0;   
+}
+/* put a line under the sub title */
+#body_line { 
+    width: 90%;   
+    border-bottom: 1px solid black;    
+}
+/* put list in the right spot */
+#body_list {     
+    font-family: "Gideon Roman", "Trebuchet MS", cursive;
+    color: #1565C0;
+    box-sizing: border-box;    
+}
+/* change color and settings when you hover over links */
+a:hover {
+    background-color: #95B2B0;
+    color: #020664;
+    text-decoration: none;
+}
+/* change the color of the hyperlink (color was #A1887F) */
+a {
+    color: #55443F;
+}
+/* make active link highlighted */
+.active {
+    color: #B71C1C;
+}
+footer a {
+    color: #85FFF3;
+}
+footer {      
+    background-color: #634803;
+    text-align: center;        
+    padding: 5px 0;  
+}
+#footer_info {     
+    color: #85FFF3;
+    margin: 10px 0 10px 0;
+}
+#footer_update {     
+    font-size: .83em;
+    color: white;
+    margin-top: 0;    
+}
+
+

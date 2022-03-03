@@ -1,0 +1,102 @@
+/* set a max width for the content and the backgroung color for the screen*/
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(255, 249, 196);
+}
+/* set screen background color, center text, and put in grid (color was rgb(251, 192, 45)) */
+header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1em; 
+    align-items: center; 
+    justify-items: center;  
+    background-color: #634803;   
+    border-radius: .75em; 
+    margin-top: 1em; 
+}
+/* set the font family, size, color, and put in right spot (was #009688) */
+h1 {
+    font-family: "Londrina Solid", "Verdana", cursive;
+    font-size: 3.5em;
+    color: #85FFF3;
+    grid-column: 1/6;
+}
+/* set the heading colors, size & font family */
+h2 {
+    font-family: 'Gideon Roman', Trebuchet MS, cursive;
+    font-size: 2em;
+    color: #1976D2;
+}
+/* set the background color and grid layout for the body of the content*/
+main {
+    background-color: #E3F2FD;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);  
+}
+/* put portrait in the right spot and a shadow border effect on the picture */
+img { 
+    float:right;
+    margin-right: 13px;
+    margin-top: -125px;     
+    border: 1px solid #ccc; 
+    box-shadow: 5px 5px 5px #999;   
+    box-sizing: border-box;
+}
+/* put the subtitle in the right spot */
+#body_headline {
+    grid-column: 1/8; 
+    grid-row: 1;    
+    justify-self: center;    
+    box-sizing: border-box;    
+    margin-bottom: 0;   
+}
+/* put a line under the sub title */
+#body_line {
+    grid-column: 1/9;
+    grid-row: 2;
+    border-bottom: 1px solid black;    
+}
+/* put list in the right spot */
+#body_list {
+    grid-column: 1/8;
+    grid-row: 3; 
+    font-family: 'Gideon Roman', Trebuchet MS, cursive;
+    color: #1565C0;
+    box-sizing: border-box;    
+}
+/* change color and settings when you hover over links */
+a:hover {
+    background-color: #95B2B0;
+    color: #020664;
+    text-decoration: none;
+}
+/* change the color of the hyperlink (color was #A1887F) */
+a {
+    color: #55443F;
+}
+/* keep the color of the hyperlink same as footer info (color was #009688) */
+footer a {
+    color: #85FFF3;
+}
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer {      
+    background-color: #634803;    
+    border-radius: .75em;     
+    padding-top: 5px;
+    padding-bottom: 5px;      
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+#footer_info {     
+    color: #85FFF3;
+    margin-left: 90px;
+    margin-bottom: 2px;
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: white;
+    margin-left: 200px;
+    margin-top: 2px;
+}

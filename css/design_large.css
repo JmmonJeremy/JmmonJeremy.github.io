@@ -1,0 +1,11 @@
+@media only screen and (min-width: 69em) {
+    h1 {     
+        font-size: 2.5em;          
+    }
+    main {      
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #three {
+        grid-column: 3;
+    }   
+}
