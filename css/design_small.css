@@ -135,3 +135,14 @@ footer {
     color: #fff;
     margin-top: 0;    
 }
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}

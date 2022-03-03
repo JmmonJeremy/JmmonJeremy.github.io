@@ -9,5 +9,16 @@
     }  
     #three {
         grid-column: 1/3;
-    }   
+    } 
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    } 
 }
