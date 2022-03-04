@@ -1,5 +1,5 @@
-# Assignment Portal Direct Link:
+### Assignment Portal Direct Link: &nbsp; &emsp; &nbsp; Principles of Design Link:
 
-             (click on the picture)
+         (click on icon below)                   (click on icon below)                                                             
 
-[<img src="sources/Link.png" width="400">](https://jmmonjeremy.github.io/)
+&nbsp; &emsp;    &nbsp;[<img src="sources/Link.png" width="200">](https://jmmonjeremy.github.io/)
