@@ -77,12 +77,20 @@ footer {
 }
 #footer_info {     
     color: #85FFF3;
-    margin: 10px 0 10px 0;
+    margin-bottom: 0;
+    padding-top: 8px;
 }
 #footer_update {     
     font-size: .83em;
     color: white;
-    margin-top: 0;    
+    margin-top: 0; 
+    display: inline-block;   
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block; 
+    margin-bottom: 10px;
 }
 
 
