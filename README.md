@@ -1,4 +1,4 @@
-### Assignment Portal Direct Link: &nbsp;       &ensp;(2 x &nbsp;)        &nbsp; Principles of Design Link:
+### Assignment Portal Direct Link: &nbsp;      &emsp;(4 x &nbsp;)       &nbsp; Principles of Design Link:
 
          (click on the picture)                                                                 
 
