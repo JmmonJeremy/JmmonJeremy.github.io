@@ -1,18 +1,26 @@
 /* set a max width for the content and the backgroung color for the screen*/
 body {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #474747;   
+    margin: 0;
+    background-color: #474747;
 }
+/* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+#container{
+    position: relative;
+    min-height: 100vh;  
+}
+/* this part is to keep the content from getting cut off if it gets bigger than the page */
+#page {    
+    padding-bottom: 89.109px;   /* width of the footer */
+}
+/* end of part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
 header {
     color: #1A237E;
     background-color: #FF9E80;
-    display: flex;
-    /*flex-direction: column;*/
+    display: flex;  
     align-items: center;
     justify-content: center;
     gap: 0px;
-    padding: 20px  
+    padding: 20px;      
 }	
 header img {  
     box-sizing: border-box;
@@ -36,8 +44,7 @@ header h1 {
     text-align: center;  
     margin: 0;    
 }
-nav {
-   
+nav {   
     background-color: #1A237E;    
 }
 nav ul {   
@@ -71,8 +78,10 @@ nav li:first-child {
     display: block;
     color: #ffffff;
     line-height: 20px;
-    padding: .75em; 
-    border-bottom: 1px solid #FF9E80; 
+    padding: .75em;    
+}
+nav li:second-child {
+    border-top: 2px solid #FF9E80;
 }
 a:hover { 
     display:block;  
@@ -84,34 +93,49 @@ nav a {
     color: #ffff00;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Ranchers", "Verdana", cursive;   
-    /*display: block;    
-    line-height: 50px;
-    padding: .75em;
-    margin-top: 15px;*/    
+    font-family: "Ranchers", "Verdana", cursive;     
 }
-/*.active {    
-    color: #1A237E;
-    background-color: #FF9E80;   
-    padding: 15px;
-    border-radius: 2em;
-}*/
+.navigation a.ham::before {
+    content: "pop";
+  }
+.active {    
+    color: #1A237E;  
+}
 .active2 {
-    background-color: #FF9E80;   
-    /*padding: 15px;*/
+    background-color: #FF9E80;  
     padding: 2px;
     border-radius: 2em;
     width: 100px;   
-    margin: 0 auto;
+    margin: 0 auto;   
 }
-main { 
-    background-color: #e3f0ff;       
-    padding: 30px;
+#inner_pg {
+    background-color: #e3f0ff;
+    max-width: 960px;  
+    margin: 0 auto;
+    border-radius: 2em;
+    /*padding-bottom: 34px;*/  
 }
 /* (h2) = 24px */
-h2 {
+main h1, main h3 {
     font-family: "Ranchers", "Verdana", cursive;
-    letter-spacing: 5px;  
+    letter-spacing: 5px; 
+    text-align: center;        
+}
+main h1 {
+    margin-top: 0;
+    padding-top: 22px;
+    color: #ffffff;   
+}
+main h3 {
+    border-top: 2px dashed #868686;
+    border-bottom: 2px dashed #868686;
+    background-color: antiquewhite;
+    padding: 20px;
+    color: #868686;;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 1em;
+    font-size: 14px;
 }
 /* default font size = 16px */
 p {
@@ -127,7 +151,15 @@ footer a {
 footer {      
     background-color: #1A237E;
     text-align: center;        
-    padding: 5px 0;  
+    padding: 5px 0;
+    /* part 2 of 2 settings to put the footer at the bottom of the screen */
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/  
+    /* end of settings to put the footer at the bottom of the screen */ 
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 2em;   
 }
 /* put the to sentence in the right spot & color the font (color was #009688) */
 #footer_info {     

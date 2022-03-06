@@ -19,9 +19,9 @@
     nav ul {
         display: flex;
     }
-    nav li {
-        display: block;        
+    nav li {                
         flex: 1 1 auto;
+        display: block;        
         line-height: 50px;
         padding: .75em; 
         border-top: 0;
@@ -31,23 +31,41 @@
         display: none;
     }
     nav a {
+        margin-top: 8.5px;        
         line-height: 16px;
-        display: initial;
-        padding: 0;       
+        display: inline-block;
+        padding: 0;                           
+    }
+    nav li:second-child {
+        border-top: 0;       
     }
     #last_li {
         border-bottom: 0; 
-    }
-    
+    }    
     .active {    
         color: #1A237E;
         background-color: #FF9E80;   
         padding: 15px;
         border-radius: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     a:hover {
         padding: 15px;
         border-radius: 2em;
-    } 
-
+    }
+    main h3 {
+        font-size: 19px;
+    }
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }
 }

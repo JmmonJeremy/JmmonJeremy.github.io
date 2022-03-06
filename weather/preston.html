@@ -15,6 +15,8 @@
 </head>
 
 <body>
+    <div id="container">
+    <div id="page">
     <header>        
         <img src="/lesson2/sources/logo.svg" alt="Community Weather Chatter logo"> 
         <section id="web_title">
@@ -32,13 +34,14 @@
             <li id="menu"><a href="#" onclick="toggleMenu()" id="menu_a">
                 &#9776; &nbsp; &nbsp;Menu
             </a></li>
-            <li><div class="active2"><a href="https://jmmonjeremy.github.io/lesson2/index.html"
-                class="active">
+            <li><a href="https://jmmonjeremy.github.io/lesson2/index.html"
+               >
                 Home
-            </a></div></li>
-            <li><a href="https://jmmonjeremy.github.io/lesson2/typography.html">
-                Preston
             </a></li>
+            <li><div class="active2"><a href="https://jmmonjeremy.github.io/lesson2/typography.html"
+                class="active">
+                Preston
+            </a></div></li>
             <li><a href="https://jmmonjeremy.github.io/lesson2/target-audience.html">
                 Soda Springs
             </a></li>
@@ -53,31 +56,32 @@
                 Gallery
             </a></li>           
         </ul>
-    </nav>
+    </nav>    
     
     <main> 
         <h1>Preston Idaho</h1>
+        <div id="inner_pg">
         <section>
-            <h2>Hero w/weather summary</h2>           
+            <h3>Hero w/weather summary</h3>           
         </section>
         <section>
-            <h2>5 Day Forecast</h2>       
+            <h3>5 Day Forecast</h3>       
         </section>
-            <h1>article</h1>
+        <section></section>
+            <h3>Article</h3>    
         <section>
-            <h2>Hero w/weather summary</h2>           
+            <h3>Contact information</h3>       
         </section>
-        <section>
-            <h2>contact information</h2>       
-        </section>
-    </main>
-
+        </div>
+    </main>    
+   
+   
     <footer>                              
         <p id="footer_info">
-            &copy; <span id="current_year"></span> | Jeremy T. Suchanski | Oregon |
+            &copy; <span id="current_year"></span> | Jeremy T. Suchanski | Oregon |&nbsp;
             <a href="https://www.byui.edu/online" target="_blank">
                 BYUI Online Learning
-            </a>
+            </a>&nbsp;&nbsp;| <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span>
         </p>
         <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
             <img src="/lesson2/sources/portal1.svg" alt="icon for GitHub Repository Portal"> 
@@ -90,7 +94,9 @@
             <img src="/lesson2/sources/portal2.svg" alt="icon for Assignment Portal"> 
         </a>                             
     </footer>
-
+    </div>
+    </div> 
+    
     <script src="js/preston.js"></script>    
     
 </body>
