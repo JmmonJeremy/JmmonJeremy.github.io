@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        /*flex-direction: row;*/
+        gap: 35px;
+    }
+    header img {        
+        width: 180px;
+    }
+    header h1 {
+        font-size: 32px;        
+        letter-spacing: 14px;
+    } 
+    .motto {        
+        font-family: "Krona One", "Trebuchet MS", sans-serif; 
+        font-size: 25px;     
+        padding-top: 8px;
+    }    
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        display: block;        
+        flex: 1 1 auto;
+        line-height: 50px;
+        padding: .75em; 
+        border-top: 0;
+        border-bottom: 0;  
+    }
+    nav li:first-child {
+        display: none;
+    }
+    nav a {
+        line-height: 16px;
+        display: initial;
+        padding: 0;       
+    }
+    #last_li {
+        border-bottom: 0; 
+    }
+    
+    .active {    
+        color: #1A237E;
+        background-color: #FF9E80;   
+        padding: 15px;
+        border-radius: 2em;
+    }
+    a:hover {
+        padding: 15px;
+        border-radius: 2em;
+    } 
+
+}

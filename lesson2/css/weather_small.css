@@ -21,12 +21,13 @@ h1 {
     font-size: 20px;
     letter-spacing: 5px;     
 }
-nav {    
-    padding: 15px;
+nav { 
+    padding: 15px;    
     background-color: #1A237E;    
 }
 nav ul {   
-    text-align: center;   
+    text-align: center;
+    padding: 0;   
 }
 nav li {   
     list-style: none;   
@@ -37,11 +38,14 @@ a:hover {
 }
 /* default font size = 16px */
 nav a { 
+    display: block;
     font-size: 16px;
     font-family: "Ranchers", "Verdana", cursive;
     color: #ffff00;     
     text-decoration: none;
-    line-height: 50px;    
+    line-height: 50px;
+    padding: .75em;
+    margin-top: 15px;    
 }
 .active {
     color: #1A237E;

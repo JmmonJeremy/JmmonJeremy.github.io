@@ -17,12 +17,14 @@
         letter-spacing: 14px;
     }
 
-    nav {
+    nav {      
         grid-column: 1/6;
     }
     
     nav a {
         line-height: 16px;
+        display: initial;
+        padding: 0;       
     }
 
     nav ul {

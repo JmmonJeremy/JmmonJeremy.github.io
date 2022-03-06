@@ -1,0 +1,11 @@
+@media only screen and (min-width: 69em) {
+    header img {        
+        width: 232px;
+    }
+    header h1 {
+        font-size: 50px;        
+    }
+    .motto {  
+        font-size: 30px;    
+    }
+}

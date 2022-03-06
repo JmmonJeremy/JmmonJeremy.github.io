@@ -1,0 +1,153 @@
+/* set a max width for the content and the backgroung color for the screen*/
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #474747;   
+}
+header {
+    color: #1A237E;
+    background-color: #FF9E80;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 20px  
+}	
+header img {  
+    box-sizing: border-box;
+    width: 87px;
+}
+header h1 {   
+    text-align: center;    
+    font-family: "Ranchers", "Verdana", cursive;
+    font-size: 17px;      
+    margin: 0; 
+    letter-spacing: 2px;
+}
+#spacing {
+    /*letter-spacing: 5px;*/
+    letter-spacing: normal;
+}
+.motto {        
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; 
+    padding-top: 4px; 
+    text-align: center;  
+    margin: 0;    
+}
+nav {
+   
+    background-color: #1A237E;    
+}
+nav ul {   
+    text-align: center;
+    padding: 0;
+    margin: 0;  
+}
+nav li {   
+    display: none;   
+}
+nav li {   
+    list-style: none;   
+    line-height: 20px;
+    padding: .75em;   
+    border-top: 1px solid #FF9E80;
+    border-bottom: 1px solid #FF9E80; 
+}
+#menu_li {
+    background-color: #474747;   
+}
+#menu_a {
+    color: #ffffff;
+}
+#last_li {
+    border-bottom: 2px solid #FF9E80; 
+}
+.responsive li {
+    display: block;  
+}
+nav li:first-child {
+    display: block;
+    color: #ffffff;
+    line-height: 20px;
+    padding: .75em; 
+    border-bottom: 1px solid #FF9E80; 
+}
+a:hover { 
+    display:block;  
+    color: #ffffff;    
+    background-color: #FF9E80; 
+}
+/* default font size = 16px */
+nav a { 
+    color: #ffff00;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Ranchers", "Verdana", cursive;   
+    /*display: block;    
+    line-height: 50px;
+    padding: .75em;
+    margin-top: 15px;*/    
+}
+/*.active {    
+    color: #1A237E;
+    background-color: #FF9E80;   
+    padding: 15px;
+    border-radius: 2em;
+}*/
+.active2 {
+    background-color: #FF9E80;   
+    /*padding: 15px;*/
+    padding: 2px;
+    border-radius: 2em;
+    width: 100px;   
+    margin: 0 auto;
+}
+main { 
+    background-color: #e3f0ff;       
+    padding: 30px;
+}
+/* (h2) = 24px */
+h2 {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 5px;  
+}
+/* default font size = 16px */
+p {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 12px; 
+}
+footer a {
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #FF9E80;
+}
+
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer {      
+    background-color: #1A237E;
+    text-align: center;        
+    padding: 5px 0;  
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+#footer_info {     
+    color: #FF9E80;
+    margin: 10px 0 10px 0;
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: #ffff00;
+    margin-top: 0;     
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}
