@@ -7,4 +7,4 @@
 &nbsp; &emsp; &nbsp; &emsp;[<img src="sources/site_plan_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson2/index.html)
 
 ### &emsp; &nbsp; &emsp; Weather Website
-&nbsp; &emsp; &nbsp;[<img src="sources/assignment_portal_icon_link.png" width="200">](https://jmmonjeremy.github.io/)
+&nbsp; &emsp; &nbsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/)
