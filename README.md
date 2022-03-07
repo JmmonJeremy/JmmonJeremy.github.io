@@ -8,6 +8,6 @@
 
 ### &emsp; &nbsp; &emsp;Weather Website
 
-###### &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; (click on icon below)
+###### &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp;(click on icon below)
 
 &nbsp; &emsp; &nbsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
