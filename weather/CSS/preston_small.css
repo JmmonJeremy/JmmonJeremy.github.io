@@ -103,8 +103,8 @@ nav a {
 .menu_symbol {   
     font-size: 2rem;
 }
-.responsive #menu_word {   
-    margin-top: 3px;
+.responsive .menu_symbol {
+    margin-bottom: 8px;
 }
 #closed {
     display: flex;
