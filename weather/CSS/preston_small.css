@@ -102,6 +102,7 @@ nav a {
 }
 .menu_symbol {   
     font-size: 2rem;
+    margin-bottom: 3px;
 }
 .responsive .menu_symbol {
     margin-bottom: 8px;
