@@ -14,5 +14,17 @@
     }
     .day {    
         width: 150px;     
-    } 
+    }
+    #contact_info p {
+        font-size: 16px;       
+    }  
+    .social img{
+        width: 64px;
+    }
+    .social a {
+        margin-right: 46px;
+     }
+    .social a:hover {       
+        padding-top: 54px;       
+    }   
 }  
