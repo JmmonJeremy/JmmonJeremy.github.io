@@ -1,4 +1,4 @@
-// Current Year Code
+// *** Current Year Code
 // set variable to the new Date() class to make an object
 let date = new Date();
 // set variable to the getFullYear() child function
@@ -12,14 +12,14 @@ document.getElementById("cur_year").innerText = year;
 let modified = document.lastModified;
 // replace variable with the results from function call & replace modified in document
 document.getElementById("modified").innerText = "Last Updated: " + modified;
-
+// End *** Current Year Code ****************************************************************************************** */
 // Function to do hamburger menu
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive"); 
     document.getElementsByClassName("menu_a")[0].classList.toggle("responsive");     
 }
 
-// Date - get it in parts
+// *** Current Weekday, Day of the Month, & Month Code
 // Get the Weekday
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let d = new Date();
@@ -34,34 +34,99 @@ let month = ["January","February","March","April","May","June","July","August","
 let m = new Date();
 let mName = month[m.getMonth()];
 document.getElementById("cur_month").innerText = mName;
+// End *** Current Weekday, Day of the Month, & Month Code ************************************************************* */
 
-// Change menu when clicked
-/*function Switch() {
-    let open = "Close";
-    let closed = "&#9776; &nbsp; &nbsp;Menu"
-    let my_menu =  document.getElementById("menu_a").innerHTML;
-   
-    document.getElementById("menu_a").innerHTML = closed;
+// *** Banner Display on Fridays Code
+// Use variable "dayName" from newDate.getday() being converted to day written out above for if statement
+if (dayName === "Friday") {
+    //changes display to block from none in css
+    document.getElementById("pancakes").style.display = "block";
 }
-  /*  if(my_menu == "&#9776; &nbsp; &nbsp;Menu") {
-    document.getElementById("menu_a").innerHTML = open;
-    } else {
-        document.getElementById("menu_a").innerHTML = closed;
-    }
-} */
-//let button = "Push to Close Menu"
-//document.getElementById("menu_a").innerHTML = button;
-/*let current = document.querySelector("#menu_a");
-let selected = document.querySelector(".navigation");
-current.addEventListener('click',() => {    
-    function Switch();   
-});*/
-/*let closed = document.getElementsByClassName("navigation")[0];
-closed.addEventListener("click", function() {
-    if (closed.getAttribute("close") == closed.innerHTML) {
-        closed.innerHTML = closed.getAttribute("&#9776; &nbsp; &nbsp;Menu");
-    } else {
-        closed.setAttribute("&#9776; &nbsp; &nbsp;Menu", closed.innerHTML);
-        closed.innerHTML = closed.getAttribute("close")
-    }
-}, false)*/
+// End *** Banner Display on Fridays Code ****************************************************************************** */
+
+// ***Current 5 Day Forecast Code
+// #1 - If it is Sunday display this
+if (dayName === "Sunday") {
+    //changes display to block from none in css
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#tuesday").style.display = "block";
+    document.querySelector("#wednesday").style.display = "block";  
+    document.querySelector("#thursday").style.display = "block";
+}
+// #2 - If it is Monday display this
+if (dayName === "Monday") {
+    //changes display to block from none in css   
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#tuesday").style.display = "block";
+    document.querySelector("#wednesday").style.display = "block";  
+    document.querySelector("#thursday").style.display = "block";
+    document.querySelector("#friday").style.display = "block";
+}
+// #3 - If it is Tuesday display this
+if (dayName === "Tuesday") {
+    //changes display to block from none in css   
+    document.querySelector("#tuesday").style.display = "block";  
+    document.querySelector("#wednesday").style.display = "block";  
+    document.querySelector("#thursday").style.display = "block";
+    document.querySelector("#friday").style.display = "block";
+    document.querySelector("#saturday").style.display = "block";
+}
+// #4 - If it is Wednesday display this
+if (dayName === "Wednesday") {
+    //changes display to block from none in css
+    document.querySelector("#wednesday").style.display = "block";
+    document.querySelector("#thursday").style.display = "block";
+    document.querySelector("#friday").style.display = "block";
+    document.querySelector("#saturday").style.display = "block";  
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#sunday").style.order = 2;   
+}
+// #5 - If it is Thurssday display this
+if (dayName === "Thursday") {
+    //changes display to block from none in css   
+    document.querySelector("#thursday").style.display = "block";
+    document.querySelector("#friday").style.display = "block";
+    document.querySelector("#saturday").style.display = "block";
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#sunday").style.order = 2;
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#monday").style.order = 2;
+}
+// #5 - If it is Thurssday display this
+if (dayName === "Friday") {
+    //changes display to block from none in css   
+    document.querySelector("#thursday").style.display = "block";
+    document.querySelector("#friday").style.display = "block";
+    document.querySelector("#saturday").style.display = "block";
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#sunday").style.order = 2;
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#monday").style.order = 2;
+}
+// #6 - If it is Friday display this
+if (dayName === "Friday") {
+    //changes display to block from none in css   
+    document.querySelector("#friday").style.display = "block";
+    document.querySelector("#saturday").style.display = "block";
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#sunday").style.order = 2;
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#monday").style.order = 2;
+    document.querySelector("#tuesday").style.display = "block";
+    document.querySelector("#tuesday").style.order = 2;
+}
+// #7- If it is Saturday display this
+if (dayName === "Saturday") {
+    //changes display to block from none in css   
+    document.querySelector("#saturday").style.display = "block";
+    document.querySelector("#sunday").style.display = "block";
+    document.querySelector("#sunday").style.order = 2;
+    document.querySelector("#monday").style.display = "block";
+    document.querySelector("#monday").style.order = 2;
+    document.querySelector("#tuesday").style.display = "block";
+    document.querySelector("#tuesday").style.order = 2;
+    document.querySelector("#wednesday").style.display = "block";
+    document.querySelector("#wednesday").style.order = 2;
+}
+// End *** Current 5 Day Forecast Code ********************************************************************************* */

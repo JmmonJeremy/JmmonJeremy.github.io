@@ -1,4 +1,8 @@
+/* 32.5em is also 520px when basefont is 16px */
 @media only screen and (min-width: 32.5em) {
+    #pancakes {
+        font-size: 14px;
+    }
     header {
         /*flex-direction: row;*/
         gap: 35px;
@@ -57,6 +61,72 @@
     main h3 {
         font-size: 19px;
     }
+    #weather_summary {
+        top: 20px;
+        left: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .75em; 
+        padding: .5em;       
+    }
+    #weather_summary_title {
+        font-size: 26px;
+        letter-spacing: 5px; 
+    }
+    .w_category {       
+        font-size: 16px;
+         
+    }   
+    .w_description {       
+        font-size: 16px;    
+    }
+    #forecast {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;    
+    }
+    #forecast h2 {
+        flex: 0 1 100%;    
+    }
+    .day {    
+        width: 15%;
+        border: 1px solid #777;   
+        border-right: 1px solid #1A237E;
+        border-bottom: 1px solid #1A237E;
+        border-left: 1px solid #FF9E80;
+        border-top: 1px solid #FF9E80;
+        box-shadow: 0 0 30px #777;
+    }
+    #sunday, #monday, #tuesday, #wednesday, #thursday, #friday, #saturday {
+        display: none;
+    }
+    .day h2 {
+        background-color: #FF9E80;
+        color: #1A237E;
+        margin: 0;
+        padding: 10px;
+        border: 1px solid #777;
+        background: radial-gradient(farthest-corner at 40px 40px,#FF9E80, #1A237E);
+        border-right: 1px solid #1A237E;
+        border-bottom: 1px solid #1A237E;
+        border-left: 1px solid #FF9E80;
+        border-top: 1px solid #FF9E80;
+        box-shadow: 0 0 30px #777;
+    }
+    .day img {
+        display: block;    
+        margin: 20px auto;
+    }
+    .day p {
+      text-align: center;
+        margin-top: 0;
+    }
+    #st_p__img {   
+        float: right;
+    }
+    #map {
+        display: block;
+        width: 100%;
     #footer_update {
         display: inline-block;
     }

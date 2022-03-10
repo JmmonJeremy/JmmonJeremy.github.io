@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="weather"
+   viewBox="0 0 50.900003 50.900001"
+   version="1.0"
+   sodipodi:docname="w_some_rain.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   width="50.900002"
+   height="50.900002"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs335" />
+  <sodipodi:namedview
+     id="namedview333"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.875075"
+     inkscape:cx="26.712458"
+     inkscape:cy="29.05727"
+     inkscape:window-width="1600"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="weather" />
+  <metadata
+     id="metadata330">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:date>2011-02-26T13:49:52</dc:date>
+        <dc:description>Coloured icon with stylised sun partly covered by a cloud that is releasing raindrops. I tried to make it especially suited for lowest resolutions. It is designed to be easily recognised as/associated with the symbols for weather conditions found in the popular weather forecasts in newspapers (at least around here...), symbolising a weather condition like &quot;showers and sunny periods&quot;.</dc:description>
+        <dc:source>https://openclipart.org/detail/122887/showers-and-sunny-periods-by-pawnk</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>pawnk</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Cloud</rdf:li>
+            <rdf:li>Clouds</rdf:li>
+            <rdf:li>Sun</rdf:li>
+            <rdf:li>Weather</rdf:li>
+            <rdf:li>cleanup</rdf:li>
+            <rdf:li>cloudy</rdf:li>
+            <rdf:li>drops</rdf:li>
+            <rdf:li>light</rdf:li>
+            <rdf:li>rain</rdf:li>
+            <rdf:li>rainy</rdf:li>
+            <rdf:li>ray</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:2.64996"
+     d="m 11.915474,11.511066 c -3.7220775,-0.05392 -7.1841013,1.942106 -9.0603166,5.223184 -1.87636512,3.281233 -1.87636512,7.339307 0,10.620769 1.8763653,3.281233 5.3382391,5.277111 9.0603166,5.223567 h 27.117624 c 3.722003,0.05373 7.184102,-1.942181 9.060318,-5.223567 1.876364,-3.281233 1.876364,-7.339308 0,-10.620769 -1.876366,-3.281232 -5.338239,-5.27711 -9.060318,-5.223567 H 11.915474 Z"
+     id="path321" />
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:2.65489;stroke-linecap:round"
+     d="M 34.428686,12.532602 C 34.26771,6.3620781 29.299257,1.4054648 23.192312,1.4054648 c -6.208498,0 -11.236377,5.1126548 -11.236377,11.4258342 10e-7,2.765148 0.954199,5.312298 2.562271,7.290352"
+     id="path323" />
+  <path
+     id="drop"
+     style="fill:#5cbdf5;stroke:#000000;stroke-width:2.64996"
+     d="m 15.574974,39.185108 c -0.955718,2.796011 -3.593849,5.475987 -2.986055,8.628943 0.974942,2.440329 4.939538,2.229827 5.585553,-0.406358 1.135058,-3.296453 -0.310128,-6.783982 -1.967272,-9.597317 -0.210779,0.458143 -0.421559,0.916283 -0.632338,1.374464 z" />
+  <use
+     xlink:href="#drop"
+     transform="translate(10.598536,-1.7385244)"
+     id="use326"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+</svg>

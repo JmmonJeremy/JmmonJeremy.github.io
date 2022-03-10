@@ -17,6 +17,9 @@
 <body>
     <div id="container">
     <div id="page">
+    <aside id="pancakes">
+        <h4>Preston Pancakes in the Park! <span id="time_block">9:00 a.m.</span> Saturday at the city park pavilion.</h4>
+    </aside>
     <header>        
         <img src="/weather/images/logo.svg" alt="Community Weather Chatter logo"> 
         <section id="web_title">
@@ -63,16 +66,101 @@
     <main> 
         <h1>Preston Idaho</h1>
         <div id="inner_pg">
-        <section>
-            <h3>Hero w/weather summary</h3>           
+        <div class="hero_div">        
+            <img src="/weather/images/preston.jpg" alt="Picture of Preston, Idaho's fields, trees, mountains, and sky.">
+            <section id="weather_summary">                
+            <div id="weather_summary_title">Weather Summary</div>
+            <span class="w_category">Currently: </span><span class="w_description">Sunny</span>
+            <span class="w_category">High: </span><span class="w_description">41 &#176;F</span>
+            <span class="w_category">Wind Chill: </span><span class="w_description">37 &#176;F</span>
+            <span class="w_category">Humidity: </span><span class="w_description">80%</span>
+            <span class="w_category">Wind Speed: </span><span class="w_description">6 mph</span>         
+            </section>
+        </div>
+        <section id="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="day" id="sunday">
+                <h2>Sun</h2>
+                <img src="/weather/images/w_sunny.svg" alt="Icon of sunny weather">
+                <p id="temp">41 &#176;F</p>
+            </div> 
+            <div class="day" id="monday">
+                <h2>Mon</h2>
+                <img src="/weather/images/w_sunny&cloudy.svg" alt="Icon of sunny but cloudy weather">
+                <p id="temp">40 &#176;F</p>
+            </div>
+            <div class="day" id="tuesday">
+                <h2>Tue</h2>
+                <img src="/weather/images/w_sunny_cloudy&rainy.svg" alt="Icon of sunny but cloudy and raingy weather">
+                <p id="temp">38 &#176;F</p>
+            </div> 
+            <div class="day" id="wednesday">
+                <h2>Wed</h2>
+                <img src="/weather/images/w_some_rain.svg" alt="Icon of rain sprinkes weather">
+                <p id="temp">36 &#176;F</p>
+            </div> 
+            <div class="day" id="thursday">
+                <h2>Thu</h2>
+                <img src="/weather/images/w_rain.svg" alt="Icon of rain showers weather">
+                <p id="temp">39 &#176;F</p>
+            </div> 
+            <div class="day" id="friday">
+                <h2>Fri</h2>
+                <img src="/weather/images/w_rain2.svg" alt="Icon of rain downpour weather">
+                <p id="temp">41 &#176;F</p>
+            </div> 
+            <div class="day" id="saturday">
+                <h2>Sat</h2>
+                <img src="/weather/images/w_some_clouds.svg" alt="Icon of overcast weather">
+                <p id="temp">35 &#176;F</p>
+            <!--</div>-->                 
         </section>
-        <section>
-            <h3>5 Day Forecast</h3>       
-        </section>
-        <section></section>
-            <h3>Article</h3>    
-        <section>
-            <h3>Contact information</h3>       
+        <div id="article_border">
+        <section id="st_p_article">
+        <!--<img src="/weather/images/st_p_rainbow.jpg" 
+        alt="Image of a double rainbow in Preston Idaho representing St Patrick's Day">
+        <img src="/weather/images/st_p_dog_sml.jpg" alt="Picture of a white dog in a St Patrick's Day hat">-->
+            <img src="/weather/images/st_p_trio_sml.jpg" 
+            alt="A girl and two guys smiling and dressed up for St Patrick's Day"
+        id="st_p__img">
+            <h2 id="st_p__title">Epic St Patrick's Day Celebrations</h2>
+            <div id="st_p_by_line"><em>by Jeremy Troy Suchanski</em></div>
+            <p id="st_p_text">Here at Preston, Idaho we are known for our St Patrick's Day celebrations. Many groups start 
+                planning their activities a week after the celebrations end for the current year. Here in 
+                Preston we have beautiful rainbows. People love using the colors of the rainbow as theme 
+                colors for their St Patrick's Day decorations, as demonstrated by the accompanying photo. 
+                Of course, there is plenty of the traditional green color put into use as well. The party's 
+                are all a lot of fun and very tame and family centered at the same time. It's getting close 
+                to St Patrick's Day and keeping to our town's tradition the celebrations are lining up once 
+                again. This year there are ten major celebrations being planned, that we are aware of. Many 
+                folks have gone through a lot of trouble for the coming . . . 
+                <a href="https://jmmonjeremy.github.io/" id="st_p_article_link">continue to full article</a>                
+            </p>
+        </section> 
+        </div>  
+        <section id="resources">
+            <img src="/weather/images/preston_map3.jpg" alt="Map view of 51 N State St, Preston, ID 83263" id="map">
+            <div id="contact_info">
+                <p><b>The Weather Chatter Community</b></p>
+                <p><b>&#9906;</b> 51 N State St</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>&#9742; (971)576-4242</p>
+                <p><b>&#9993;</b> weatherchatter@wcc.com</p>
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+                      alt="Facebook icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ftwitter%20icon.png?v=1633369798869"
+                      alt="Twitter icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+                      alt="Youtube icon"></a>
+                  </div>
+            </div>
+
         </section>
         </div>
     </main>    
