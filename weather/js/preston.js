@@ -44,7 +44,8 @@ if (dayName === "Friday") {
 }
 // End *** Banner Display on Fridays Code ****************************************************************************** */
 
-// ***Current 5 Day Forecast Code
+// *** Current 5 Day Forecast Code + Coordinate Weather Summary to the Day of the Forecast
+let todays_temp;
 // #1 - If it is Sunday display this
 if (dayName === "Sunday") {
     //changes display to block from none in css
@@ -53,6 +54,10 @@ if (dayName === "Sunday") {
     document.querySelector("#tuesday").style.display = "block";
     document.querySelector("#wednesday").style.display = "block";  
     document.querySelector("#thursday").style.display = "block";
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("sun_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Sunny";
 }
 // #2 - If it is Monday display this
 if (dayName === "Monday") {
@@ -62,6 +67,10 @@ if (dayName === "Monday") {
     document.querySelector("#wednesday").style.display = "block";  
     document.querySelector("#thursday").style.display = "block";
     document.querySelector("#friday").style.display = "block";
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("mon_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Cloudy";
 }
 // #3 - If it is Tuesday display this
 if (dayName === "Tuesday") {
@@ -71,6 +80,10 @@ if (dayName === "Tuesday") {
     document.querySelector("#thursday").style.display = "block";
     document.querySelector("#friday").style.display = "block";
     document.querySelector("#saturday").style.display = "block";
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("tue_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Drizzling";
 }
 // #4 - If it is Wednesday display this
 if (dayName === "Wednesday") {
@@ -80,9 +93,13 @@ if (dayName === "Wednesday") {
     document.querySelector("#friday").style.display = "block";
     document.querySelector("#saturday").style.display = "block";  
     document.querySelector("#sunday").style.display = "block";
-    document.querySelector("#sunday").style.order = 2;   
+    document.querySelector("#sunday").style.order = 2;
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("wed_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp; 
+    document.getElementById("condition").innerHTML = "Sprinkling";
 }
-// #5 - If it is Thurssday display this
+// #5 - If it is Thursday display this
 if (dayName === "Thursday") {
     //changes display to block from none in css   
     document.querySelector("#thursday").style.display = "block";
@@ -92,17 +109,10 @@ if (dayName === "Thursday") {
     document.querySelector("#sunday").style.order = 2;
     document.querySelector("#monday").style.display = "block";
     document.querySelector("#monday").style.order = 2;
-}
-// #5 - If it is Thurssday display this
-if (dayName === "Friday") {
-    //changes display to block from none in css   
-    document.querySelector("#thursday").style.display = "block";
-    document.querySelector("#friday").style.display = "block";
-    document.querySelector("#saturday").style.display = "block";
-    document.querySelector("#sunday").style.display = "block";
-    document.querySelector("#sunday").style.order = 2;
-    document.querySelector("#monday").style.display = "block";
-    document.querySelector("#monday").style.order = 2;
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("thu_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Showers";
 }
 // #6 - If it is Friday display this
 if (dayName === "Friday") {
@@ -115,6 +125,10 @@ if (dayName === "Friday") {
     document.querySelector("#monday").style.order = 2;
     document.querySelector("#tuesday").style.display = "block";
     document.querySelector("#tuesday").style.order = 2;
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("fri_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Downpour";
 }
 // #7- If it is Saturday display this
 if (dayName === "Saturday") {
@@ -128,5 +142,18 @@ if (dayName === "Saturday") {
     document.querySelector("#tuesday").style.order = 2;
     document.querySelector("#wednesday").style.display = "block";
     document.querySelector("#wednesday").style.order = 2;
+    //sets "Currently" to days Temp setting
+    todays_temp= document.getElementById("fri_t").innerText;
+    document.querySelector("#temp").textContent = todays_temp;
+    document.getElementById("condition").innerHTML = "Overcast";
 }
 // End *** Current 5 Day Forecast Code ********************************************************************************* */
+
+// Wind Chill Code wind chill = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275ts^0.16
+let temp = document.querySelector("#temp").innerHTML;
+let wind_speed = document.getElementById("wind_speed").innerText;
+let wind_chill = "NA";
+if (temp <= 50 && wind_speed >= 3) {
+     wind_chill = 35.74 + 0.6215*temp - 35.75*wind_speed**0.16 + 0.4275*temp*wind_speed**0.16;    
+}
+document.querySelector("#wind_chill").textContent = Math.round(wind_chill);

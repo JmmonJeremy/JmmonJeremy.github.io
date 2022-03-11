@@ -58,19 +58,37 @@
         padding: 15px;
         border-radius: 2em;
     }
+    main h1, main h2 {      
+        letter-spacing: 5px; 
+    }
+    main h1 {
+        font-size: 32px;
+    }
+    main h2 {
+        font-size: 16px;        
+    } 
     main h3 {
         font-size: 19px;
+    }    
+    p {       
+        font-size: 16px; 
     }
+    .hero_div {
+        position: relative;
+    }  
     #weather_summary {
+        position: absolute;
         top: 20px;
         left: 20px;
-        grid-template-columns: 1fr 1fr;
+        opacity: 0.75; 
+        /*grid-template-columns: 1fr 1fr;*/
         grid-gap: .75em; 
         padding: .5em;       
     }
     #weather_summary_title {
         font-size: 26px;
         letter-spacing: 5px; 
+        margin-top: 0;
     }
     .w_category {       
         font-size: 16px;
@@ -121,6 +139,10 @@
       text-align: center;
         margin-top: 0;
     }
+    #article_border {
+        padding: 0 2em;
+        padding-top: 3em;
+    }
     #st_p__img {   
         float: right;
     }
@@ -139,7 +161,10 @@
     #contact_info p {
         font-size: 14px;
         margin-bottom: 0;            
-    }   
+    } 
+    #email_w {
+        font-size: 14px;
+    } 
     #one_line {
         display: flex;    
     }   
@@ -165,5 +190,5 @@
         display: inline;
         margin-right: 10px;
         vertical-align:middle; 
-    }
+    }        
 }
