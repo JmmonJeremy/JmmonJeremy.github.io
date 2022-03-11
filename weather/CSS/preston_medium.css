@@ -156,13 +156,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2em;
-        justify-items: center;
+        justify-items: end;
         align-items: center;       
         text-align: left;  
     } 
     #contact_info p {
         font-size: 14px;
-        margin-bottom: 0;            
+        margin-bottom: 0;                    
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: -1.6px;       
     } 
     #email_w {
         font-size: 14px;
