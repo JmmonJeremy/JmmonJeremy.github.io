@@ -298,7 +298,7 @@ footer {
     border-bottom-right-radius: 2em;  
 }
 /* put the to sentence in the right spot & color the font (color was #009688) */
-#footer_info {     
+.footer_info {     
     color: #FF9E80;
     margin: 10px 0 10px 0;
 }
@@ -307,6 +307,9 @@ footer {
     font-size: .83em;
     color: #ffff00;
     margin-top: 0;     
+}
+#byu_link {  
+    display: inline-block;
 }
 #portal1 {
     display: none;
