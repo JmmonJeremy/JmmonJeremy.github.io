@@ -2,8 +2,8 @@
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 // setting parameters for the Intersectional Observer
 let imageOptions = {
-threshold: 10, 
-rootMargin: "0px 0px 500px 0px"
+threshold: 1, 
+rootMargin: "0px 0px 0px 0px"
 };
 // get the information in "data-src" and put it into "src" then erase "data-src"
 const loadImages = (image) => {
