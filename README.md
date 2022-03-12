@@ -8,6 +8,7 @@
 
 ### &emsp; &nbsp; &emsp;Weather Website
 
-###### &nbsp; &emsp; &nbsp; &emsp; &emsp; (click on icon below)
+###### &nbsp; &emsp; &nbsp; &emsp; &emsp; (click on icon below) &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; (click on icon below)
 
 &nbsp; &emsp; &nbsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
+&nbsp; &emsp; &nbsp; &emsp; &nbsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html) 
