@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Media Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      img {
+      max-width: 100%;
+      }
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white;
+        overflow: hidden
+        
+      }
+      p, span {
+        font-family: Arial, Helvetica, sans-serif;     
+      }
+      p {
+        padding: 0 1em;
+      }
+      footer {
+        background-color: white;
+        color: 	#808080;
+        display: flex;      
+      } 
+      button {
+        display: inline-block;
+        color: #808080;
+        padding: .5em;
+        border: 1px solid #808080;
+        background-color: white;
+      }
+      .viewButton {               
+        margin: 0 0 1em .65em; 
+        border-radius: 3px 0 0 3px;
+      }
+      .editButton {              
+        margin: 0 0 1em 0; 
+        border-radius: 0 3px 3px 0;
+        border-left: none;
+      }
+      span {
+        margin-left: auto;
+        padding: .5em 1em;
+        font-size: 14px;
+        
+      }
+   
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" alt="random image of the correct size for this media card">
+      <p>
+      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. 
+      </p>
+    <footer>
+      <button class="viewButton">
+        View
+      </button>
+      <button class="editButton">
+        Edit
+      </button>      
+      <span>9 mins</span>
+          
+    </footer>
+    </article>
+    
+  </body>
+</html>

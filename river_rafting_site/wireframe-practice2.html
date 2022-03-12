@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Wireframe to HTML Practice</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-box">
+        <a href="wireframe-practice.html"><img src="https://placeimg.com/50/50/arch" alt="Architechture Logo"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="wireframe-practice.html">Home</a></li>
+          <li><a href="#">Building Link A</a></li>
+          <li><a href="#">Building Link B</a></li>
+          <li><a href="#">Building Link C</a></li>
+        </ul>
+      </nav>                                                                     
+    </header>
+    <main>    
+      <div class="product-scroller">
+        <div class="slide-container">
+          <span id="slide-pages-A"></span>
+          <span id="slide-pages-B"></span>
+          <span id="slide-pages-C"></span>
+            <div id="slide-page-A">            
+              <img src="https://placeimg.com/180/30/arch" alt="Design A Schematics">
+              <h1>
+                Design A
+              </h1>
+              <p>
+                This design is amazing and artzy to look at.
+              </p>
+            </div>
+            <div id="slide-page-B">            
+              <img src="https://placeimg.com/180/30/arch" alt="Design B Schematics">
+              <h1>
+                Design B
+              </h1>
+              <p>
+                This design is baffeling and beautiful to look at.
+              </p>
+            </div>
+            <div id="slide-page-C">
+              <img src="https://placeimg.com/180/30/arch" alt="Design C Schematics">
+              <h1>
+                Design C
+              </h1>
+              <p>
+                This design is chilling and creative to look at.
+              </p>
+            </div>
+        </div>
+        <div class="arrow-container">
+          <!-- This is one option I researched for a scroller:
+          <a href="#slide-pages-1" class="slide-button"></a>
+          <a href="#slide-pages-2" class="slide-button"></a>
+          <a href="#slide-pages-3" class="slide-button"></a>
+          -->
+          
+          <!-- This is a second option I found: -->
+          <button class="btn" onclick="prev">&#60;</button>          
+          <button class="btn" onclick="next">&#62;</button>
+          
+          <!-- A = a temporary solution to show movement by arrows-->
+          <a href="#slide-page-A">A</a>
+          <!-- B = a temporary solution to show movement by arrows-->
+          <a href="#slide-page-B">B</a>
+          <!-- Last Next and previous buttons -->
+          <!-- C = a temporary solution to show movement by arrows-->
+          <a href="#slide-page-C">C</a>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>          
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>      
+      </div>         
+      <section class="design-prototypes">
+        <table>
+          <thead>
+            <tr>
+                <th>                            
+                  <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 1">
+                </th>
+                <th>
+                  <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 2">
+                </th>
+                <th>
+                  <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 3">
+                </th>
+                <th>
+                  <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 4">
+                </th>
+              </tr>
+          </thead>
+          <tbody>            
+            <tr>
+              <td><h2>Tech Prototype 1</h2></td>
+              <td><h2>Tech Prototype 2</h2></td>
+              <td><h2>Tech Prototype 3</h2></td>
+              <td><h2>Tech Prototype 4</h2></td>                
+            </tr>
+            <tr>
+              <td>This is tech prototype 1 with its various aspects explained in more detail.</td>                 <td>This is tech prototype 2 with its various aspects explained in more detail.</td>
+              <td>This is tech prototype 3 with its various aspects explained in more detail.</td>  
+              <td>This is tech prototype 4 with its various aspects explained in more detail.</td>
+            </tr>
+            <tr>
+              <td>                           
+                <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 5">
+              </td>
+              <td>
+                <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 6">
+              </td>
+              <td>
+                <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 7">
+              </td>
+              <td>
+                <img src="https://placeimg.com/320/240/arch" alt="Tech Prototype 8">
+              </td>
+            </tr>
+            <tr>
+              <td><h2>Tech Prototype 5</h2></td>
+              <td><h2>Tech Prototype 6</h2></td>
+              <td><h2>Tech Prototype 7</h2></td>
+              <td><h2>Tech Prototype 8</h2></td>                
+            </tr>
+            <tr>
+              <td>This is tech prototype 5 with its various aspects explained in more detail.</td>                 <td>This is tech prototype 6 with its various aspects explained in more detail.</td>
+              <td>This is tech prototype 7 with its various aspects explained in more detail.</td>  
+              <td>This is tech prototype 8 with its various aspects explained in more detail.</td>
+            </tr>
+          </tbody>              
+        </table>
+      </section>      
+    </main>
+    <footer>
+      <h3>
+        Contanct Info
+      </h3>
+      <p> 123 Busy Ave<br>
+          Youbet, Texas 92564<br>
+          (999)123-4567        
+      </p>
+      <h3>
+        Copyright 
+      </h3>
+      <p>
+        This is the copyright infor<br>
+        PO Box 12432
+      </p>
+      <h3>
+        Social Icons
+      </h3>
+      <ul>
+        <li><a href="#">Facebook Page</a></li>
+        <li><a href="#">Twitter Page</a></li>
+        <li><a href="#">YouTube Page</a></li>
+      </ul>
+      <nav>
+        <h3>
+        Site Map
+        </h3>
+        <ul>
+          <li><a href="wirefram-practice.html">Home</a></li>
+          <li><a href="#">Building Link A</a></li>
+          <li><a href="#">Building Link B</a></li>
+          <li><a href="#">Building Link C</a></li>
+        </ul>
+      </nav>
+    
+    </footer>
+  
+  </body>
+</html>

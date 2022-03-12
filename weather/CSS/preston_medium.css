@@ -139,9 +139,12 @@
       text-align: center;
         margin-top: 0;
     }
-    #article_border {
+    /*#article_border {
         padding: 0 2em;
         padding-top: 3em;
+    }*/
+    #st_p_article {
+        padding: 3em 2em;
     }
     #st_p__img {   
         float: right;

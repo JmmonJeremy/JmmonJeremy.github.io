@@ -1,0 +1,178 @@
+<!-- Might use Kalam for a font -->
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Prosto+One&display=swap');
+<!-- Might use Cardo for a font -->
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Prosto+One&display=swap');
+
+margin-top: 1em; 
+margin: 1em 0 1em 0;
+border-top: 1em solid #374f5d;
+
+
+<form action="/my-handling-form-page" method="post">  
+  <details>                    
+    <summary>What roles do you have in life that are important to you?</summary>              
+    <p contenteditable="true" spellcheck="true">
+      Replace this text with your answer
+    </p>            
+  </details>
+
+  <div>
+    <label for="purpose-prompt-2">Why is each role you named important to you?</label>  
+    <input type="text" id="purpose-prompt-2" name="user_purpose-prompt-2">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-3">How would you define yourself?</label>              
+    <input type="text" id="purpose-prompt-3" name="user_purpose-prompt-3">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-4">How do you want to define yourself?</label>          
+    <input type="text" id="purpose-prompt-4" name="user_purpose-prompt-4">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-5">What does it mean to be true to yourself?</label>    
+    <input type="text" id="purpose-prompt-5" name="user_purpose-prompt-5">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-6">How do you want people that know you to describe you?</label>              
+    <input type="text" id="purpose-prompt-6" name="user_purpose-prompt-6">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-7">What brings you fulfillment in life and why?</label>  
+    <input type="text" id="purpose-prompt-7" name="user_purpose-prompt-7">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-8">How would you define success for yourself and why?</label>  
+    <input type="text" id="purpose-prompt-8" name="user_purpose-prompt-8">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-9">What things are most important to you and why?</label> 
+    <input type="text" id="purpose-prompt-9" name="user_purpose-prompt-9">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-10">What are you most passionate about and why?</label> 
+    <input type="text" id="purpose-prompt-10" name="user_purpose-prompt-10">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-prompt-11">What characteristics do you want to have and why?</label> 
+    <input type="text" id="purpose-prompt-11" name="user_purpose-prompt-11">            
+    <button class="dropbtn">&#9660;</button>                
+  </div>
+  <div>
+    <label for="purpose-definition">Write a clearly defined purpose for your life.</label> 
+    <input type="text" id="purpose-definition" name="user_purpose-definition" required>      
+    <button class="dropbtn">&#9660;</button>                
+  </div>            
+
+</form>        
+<h2 class="goals-headline-2">
+  Map Your Course
+</h2>
+<h4 id="planning-forms">          
+  Set Your Goals
+</h4>
+
+<form action="/my-handling-form-page" method="post">
+
+  <div class="dropdowns">
+    <ul>          
+      <li>
+        <label for="lifetime-goals">Lifetime</label>              
+        <input type="text" id="lifetime-goals" name="user_lifetime-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="ten-year-goals">Ten Year</label>  
+        <input type="text" id="ten-year-goals" name="user_ten-year-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="five-year-goals">Five Year</label>              
+        <input type="text" id="five-year-goals" name="user_five-year-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="two-year-goals">Two Year</label>    
+        <input type="text" id="two-year-goals" name="user_two-year-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="one-year-goals">One Year</label>              
+        <input type="text" id="one-year-goals" name="user_one-year-goals" required>            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="two-month-goals">Two Month</label>  
+        <input type="text" id="two-month-goals" name="user_two-month-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="one-month-goals">One Month</label>              
+        <input type="text" id="one-month-goals" name="user_one-month-goals" required>            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="two-week-goals">Two Week</label> 
+        <input type="text" id="two-week-goals" name="user_two-week-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="one-week-goals">One Week</label> 
+        <input type="text" id="one-week-goals" name="user_one-week-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="two-day-goals">Tomorrow</label> 
+        <input type="text" id="two-day-goals" name="user_two-day-goals">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="one-day-goals">Today</label> 
+        <input type="text" id="one-day-goals" name="user_one-day-goals" required> 
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+      <li>
+        <label for="projects">Projects</label>  
+        <input type="text" id="projects" name="user_projects">            
+        <button class="dropbtn">&#9660;</button>                
+      </li>
+    </ul>
+  </div>
+</form>  
+
+<span class="answers" role="textbox" contenteditable>    
+    Replace this text with your answer.
+</span>
+
+.answers {
+  width: 95%;
+}
+
+
+https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/
+
+<details>
+  <summary>Why is each role you named important to you?<button class="dropbtn">&#9660;</button></summary>  
+  <p contenteditable="true" spellcheck="true">
+    Replace this text with your answer.
+  </p>                            
+</details>
+
+summary button { 
+  float: right;
+}
+
+textarea {
+  width: 95%;
+  resize: vertical;
+  overflow: auto;
+}
+

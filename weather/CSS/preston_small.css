@@ -211,7 +211,7 @@ p {
     letter-spacing: 2px; /*2px;*/    
     color: #1A237E;
     grid-column: 1/3;
-    border-bottom: 1px solid #1A237E;    
+    border-bottom: 1px solid #1A237E;        
 }
 .w_category {
     color: #ffff00;
@@ -227,16 +227,19 @@ p {
     display: none;
     text-align: center;  
 }
-#article_border {
-    padding: 0 1.5px; /*0 2em;*/
-    padding-top: 15px;/*3em;*/
+/*#article_border {*/
+    /*padding: 1.5px; /*0 2em;*/
+    /*padding-top: 15px;/*3em;*/  
+/*} */ 
+#st_p_article {
+    padding: 15px 1.5px;
 }
 #st_p_title {
     text-align: left;    
 }
 #by_line {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
-    font-size: 13px;    
+    font-size: 13px;      
 }
 #st_p__img {   
     display: block;   
@@ -244,15 +247,17 @@ p {
 #st_p_article_link {
     font-size: 13px;
 }
+#st_p_text {
+    margin: 0;
+}
 #contact_resources {   
     display: block;
     text-align: center;  
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-top: 3em;
-    background-color: #FF9E80;  
+    padding: 1em;   
+    /*margin-right: 3em;
+    margin-left: 3em;*/
+    background-color: #FF9E80; 
+    /*border-radius: .5em;*/ 
 }
 #map {
     display: none;   
@@ -285,8 +290,9 @@ footer a {
 /* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
 footer {      
     background-color: #1A237E;
-    text-align: center;        
+    text-align: center;
     padding: 5px 0;
+    padding-top: 10px;   
     /* part 2 of 2 settings to put the footer at the bottom of the screen */
     /*position: absolute;
     bottom: 0;

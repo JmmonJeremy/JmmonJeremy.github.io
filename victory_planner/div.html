@@ -1,0 +1,130 @@
+
+
+<html>
+  
+    <head>
+        <style>
+    input[type=checkbox] {
+       position: absolute;
+       top: -9999px;
+       left: -9999px;
+    }
+    
+    #shown {
+        display: block;
+    }
+    #hidden {
+        display: none;
+    }
+    
+    #toggle:checked ~ #hidden{
+       display: block;
+    }
+    
+    #toggle:checked ~ #shown {
+       display: none;
+    }
+        </style>
+    </head>
+      
+    <body>
+    <input type="checkbox" id="toggle">
+    
+    <label id="shown" for="toggle">
+        What is stackoverflow?
+    </label>
+    <label id="hidden" for="toggle" >
+       A language-independent collaboratively edited question and answer site for programmers.
+    </label>
+    </body>
+      
+    </html>
+    
+    
+    <!-- Using classes instead of ids -->
+    
+    <html>
+      
+    <head>
+        <style>
+    input[type=checkbox] {
+       position: absolute;
+       top: -9999px;
+       left: -9999px;
+    }
+    
+    .show {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
+    
+    #click:checked ~ .hide {
+       display: block;
+    }
+    
+    #click:checked ~ .show {
+       display: none;
+    }
+          
+    #click1:checked ~ .hide {
+       display: block;
+    }
+    
+    #click1:checked ~ .show {
+       display: none;
+    }
+          
+    .check-off {
+    margin-bottom: 0;
+    margin-top: 0; 
+    }     
+          
+    .content {
+      width: 160px;  
+      display: inline block;
+      border-bottom: 1px dotted;
+      border-left: 1px dotted;
+      border-top: 1px solid #dce7eb;
+      border-right: 1px solid #dce7eb;
+      border-radius: 3px;
+      margin: auto;
+      margin-top: -25px;
+      text-align:center;
+      box-shadow: -10px 0 15px grey;
+      
+    }
+          
+    details {
+      padding-top: 3em;
+    }
+        </style>
+    </head>
+      
+    <body>
+      
+    
+    <details>
+      <summary>Question 1<div class="content"><input type="checkbox" id="click">
+        <label class="show" for="click">Awaiting Your Answer</label>
+        <label class="hide" for="click" >&#10004; Completed</label></div></summary> 
+      <label class="question" for="purpose-prompt-1">What roles do you have in life that are important to you?</label>
+      <textarea name="purpose-prompt-1" rows="4" cols="50" placeholder=
+              "Replace this text with your answer."></textarea>  
+    </details>
+      
+      
+    <details>
+      <summary>Question 1<div class="content"><input type="checkbox" id="click1">
+        <label class="show" for="click1">Awaiting Your Answer</label>
+        <label class="hide" for="click1" >&#10004; Completed</label></div></summary> 
+      <label class="question" for="purpose-prompt-1">What roles do you have in life that are important to you?</label>
+      <textarea name="purpose-prompt-1" rows="4" cols="50" placeholder=
+              "Replace this text with your answer."></textarea>  
+    </details>
+    
+    </body>
+      
+    </html>
+    
