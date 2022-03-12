@@ -11,3 +11,43 @@ article img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+a:hover {
+    background-color: #95B2B0;
+    color: #020664;
+    text-decoration: none;
+}
+a {
+    color: #55443F;
+}
+footer a {
+    color: #83DB53;
+}
+
+footer {  
+    font-family: "Orbitron", "Tahoma", sans-serif;   
+    background-color: #3e3e3e;    
+    text-align: center;        
+    padding: 5px 0;  
+}
+
+#footer_info {     
+    color: #83DB53;
+    margin: 10px 0 10px 0;
+}
+
+#footer_update {     
+    font-size: .83em;
+    color: #fff;
+    margin-top: 0;    
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}
