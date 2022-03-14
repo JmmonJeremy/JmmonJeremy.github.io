@@ -6,7 +6,7 @@
 &nbsp; &emsp; &nbsp; &emsp; &nbsp; [<img src="sources/design_principles_icon_link.png" width="200">](https://jmmonjeremy.github.io/design-principles.html) 
 &nbsp; &emsp; &nbsp; &emsp;[<img src="sources/site_plan_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson2/index.html)
 
-### Weather Site Preston Page: | &nbsp;Weather Site Gallery Page Link: &nbsp; |&emsp; Lazy Loading Websit Link:
+### &nbsp; Weather Site Preston Page: | &nbsp;Weather Site Gallery Page Link: &nbsp; |&emsp; Lazy Loading Websit Link:
 
 ###### &nbsp; &emsp; &nbsp; &emsp; &emsp; (click on icon below) &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; (click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below)    
 
