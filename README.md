@@ -8,7 +8,7 @@
 
 ### &nbsp; Weather Site Preston Page Link: &nbsp;| &nbsp;Weather Site Gallery Page Link: &nbsp; |&emsp; Lazy Loading Websit Link:
 
-###### &emsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;(click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below)    
+###### &emsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;(click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; (click on icon below)    
 
 &emsp; &emsp; &nbsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
 &emsp; &emsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;[<img src="sources/weather_gallery_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
