@@ -57,98 +57,35 @@
     a:hover {
         padding: 15px;
         border-radius: 2em;
-    }
-    main h1, main h2 {      
-        letter-spacing: 5px; 
-    }
+    }  
     main h1 {
         font-size: 32px;
+        letter-spacing: 5px; 
     }
-    main h2 {
-        font-size: 16px;        
-    } 
-    main h3 {
-        font-size: 19px;
-    }    
+    #inner_pg {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-gap: 1em;
+        margin: 20px 20px;
+        padding: 1em;         
+    }
+    main figure {
+        box-shadow: 0 0 10px #777;
+    }
+    main figcaption {
+        font-size: 12px;
+    }
+    .one_col {
+        display: none;
+    }
+    .two_col {
+        display: block;
+    }
     p {       
         font-size: 16px; 
     }
-    .hero_div {
-        position: relative;
-    }  
-    #weather_summary {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        opacity: 0.75; 
-        /*grid-template-columns: 1fr 1fr;*/
-        grid-gap: .75em; 
-        padding: .5em;       
-    }
-    #weather_summary_title {
-        font-size: 26px;
-        letter-spacing: 5px; 
-        margin-top: 0;
-    }
-    .w_category {       
-        font-size: 16px;
-         
-    }   
-    .w_description {       
-        font-size: 16px;    
-    }
-    #forecast {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1px;    
-    }
-    #forecast h2 {
-        flex: 0 1 100%;    
-    }
-    .day {    
-        width: 15%;
-        border: 1px solid #777;   
-        border-right: 1px solid #1A237E;
-        border-bottom: 1px solid #1A237E;
-        border-left: 1px solid #FF9E80;
-        border-top: 1px solid #FF9E80;
-        box-shadow: 0 0 30px #777;
-    }
-    #sunday, #monday, #tuesday, #wednesday, #thursday, #friday, #saturday {
-        display: none;
-    }
-    .day h2 {
-        background-color: #FF9E80;
-        color: #1A237E;
-        margin: 0;
-        padding: 10px;
-        border: 1px solid #777;
-        background: radial-gradient(farthest-corner at 40px 40px,#FF9E80, #1A237E);
-        border-right: 1px solid #1A237E;
-        border-bottom: 1px solid #1A237E;
-        border-left: 1px solid #FF9E80;
-        border-top: 1px solid #FF9E80;
-        box-shadow: 0 0 30px #777;
-    }
-    .day img {
-        display: block;    
-        margin: 20px auto;
-    }
-    .day p {
-      text-align: center;
-        margin-top: 0;
-    }
-    /*#article_border {
-        padding: 0 2em;
-        padding-top: 3em;
-    }*/
-    #st_p_article {
-        padding: 3em 2em;
-    }
-    #st_p__img {   
-        float: right;
-    }    
     #contact_resources {   
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -198,5 +135,5 @@
         display: inline;
         margin-right: 10px;
         vertical-align:middle; 
-    }        
+    }   
 }
