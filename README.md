@@ -1,4 +1,4 @@
-### Assignment Portal Direct Link: | &nbsp;Principles of Design Link: &nbsp; &emsp; &nbsp; |&emsp;  &emsp; &nbsp; Website Plan Link:
+###  &emsp; Assignment Portal Direct Link: | &nbsp;Principles of Design Link: &nbsp; &emsp; &nbsp; |&emsp;  &emsp; &nbsp; Website Plan Link:
 
 ###### &emsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; (click on icon below) &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; (click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; (click on icon below)                                                              
 
