@@ -1,6 +1,6 @@
-### Assignment Portal Direct Link: | &nbsp;Principles of Design Link: &nbsp; &emsp; &nbsp; |&emsp;  &emsp; &nbsp; &nbsp;Website Plan Link:
+### Assignment Portal Direct Link: | &nbsp;Principles of Design Link: &nbsp; &emsp; &nbsp; |&emsp;  &emsp; &nbsp; Website Plan Link:
 
-###### &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp;(click on icon below) &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; (click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below)                                                              
+###### &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp;(click on icon below) &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; (click on icon below) &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; (click on icon below)                                                              
 
 &nbsp; &emsp; &nbsp;[<img src="sources/assignment_portal_icon_link.png" width="200">](https://jmmonjeremy.github.io/)
 &nbsp; &emsp; &nbsp; &emsp; &nbsp; [<img src="sources/design_principles_icon_link.png" width="200">](https://jmmonjeremy.github.io/design-principles.html) 
