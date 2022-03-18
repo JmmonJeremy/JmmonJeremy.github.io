@@ -17,4 +17,4 @@
 ### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) 
-&emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
+&emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
