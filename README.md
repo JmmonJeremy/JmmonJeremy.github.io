@@ -14,7 +14,9 @@
 &emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/weather_gallery_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
 &emsp; &emsp; &emsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html)
 
-### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|
+### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|&nbsp; Form Completion Thanks Link
 
-###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) 
+###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) 
+
 &emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
+&emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/thanks_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html?name=Jeremy+Troy+Suchanski&email=JeremySuchanski%40hotmail.com&phone=5039894039&zip=97124&date=&storm=&severity=1&comments=)
