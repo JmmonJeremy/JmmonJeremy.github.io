@@ -57,17 +57,23 @@
         padding: 15px;
         border-radius: 2em;
     } 
-    /*----------- MAIN --------------*/ 
+    /*----------- MAIN --------------*/
+    #inner_pg {
+        padding: 2rem 3rem 0 3rem;         
+    }      
     main h1 {
+        margin-left: 3.5rem;        
         font-size: 32px;
         letter-spacing: 5px; 
     } 
     p {       
         font-size: 16px; 
     }
-    /*------------ FORM ---------------*/
+    /*------------ FORM ---------------*/   
     form input.submitBtn {
         margin: 0 0 0 2%;
+        font-size: 20px;
+        padding:.85rem 1.5rem;
     }
     #send2 {        
         margin-left: 2%;
@@ -147,5 +153,21 @@
         display: inline;
         margin-right: 10px;
         vertical-align:middle; 
+    }
+    /*----------- THANK YOU PAGE --------------*/
+    #thanks_title {     
+        font-size: 35px;        
+    }
+    #thanks { 
+        margin: 0 30px 3em 30px;      
+        padding: 2rem 2rem 1rem 2rem;       
+        font-size: 19px;      
+    }
+    #top_img {        
+        margin: 0 auto 2em auto;           
+    }
+    section#lower_images {
+        display: flex;
+        justify-content: space-evenly;    
     }   
 }

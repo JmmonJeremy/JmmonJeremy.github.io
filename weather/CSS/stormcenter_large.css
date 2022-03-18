@@ -33,5 +33,9 @@
      }
     .social a:hover {       
         padding-top: 54px;       
-    }   
+    }
+    /*----------- THANK YOU PAGE --------------*/
+    #thanks { 
+        margin: 0 auto 3em auto;
+    }        
 }
