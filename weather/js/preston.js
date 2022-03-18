@@ -13,11 +13,13 @@ let modified = document.lastModified;
 // replace variable with the results from function call & replace modified in document
 document.getElementById("modified").innerText = "Last Updated: " + modified;
 // End *** Current Year Code ****************************************************************************************** */
-// Function to do hamburger menu
+
+// *** Function to do Hamburger Menu 
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive"); 
     document.getElementsByClassName("menu_a")[0].classList.toggle("responsive");     
 }
+// End *** Function to do Hamburger Menu ****************************************************************************** */
 
 // *** Current Weekday, Day of the Month, & Month Code
 // Get the Weekday
@@ -149,7 +151,7 @@ if (dayName === "Saturday") {
 }
 // End *** Current 5 Day Forecast Code ********************************************************************************* */
 
-// Wind Chill Code wind chill = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275ts^0.16
+// *** Wind Chill Code (wind chill = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275ts^0.16)
 let temp = document.querySelector("#temp").innerHTML;
 let wind_speed = document.getElementById("wind_speed").innerText;
 let wind_chill = "NA";
@@ -157,3 +159,4 @@ if (temp <= 50 && wind_speed >= 3) {
      wind_chill = 35.74 + 0.6215*temp - 35.75*wind_speed**0.16 + 0.4275*temp*wind_speed**0.16;    
 }
 document.querySelector("#wind_chill").textContent = Math.round(wind_chill);
+// End *** Wind Chill Code ********************************************************************************************* */

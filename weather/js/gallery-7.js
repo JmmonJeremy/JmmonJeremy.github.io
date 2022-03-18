@@ -13,11 +13,13 @@ let modified = document.lastModified;
 // replace variable with the results from function call & replace modified in document
 document.getElementById("modified").innerText = "Last Updated: " + modified;
 // End *** Current Year Code ****************************************************************************************** */
-// Function to do hamburger menu
+
+// *** Function to do Hamburger Menu
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive"); 
     document.getElementsByClassName("menu_a")[0].classList.toggle("responsive");     
 }
+// End *** Function to do Hamburger Menu ****************************************************************************** */
 
 // *** Current Weekday, Day of the Month, & Month Code 
 // Get the Weekday
