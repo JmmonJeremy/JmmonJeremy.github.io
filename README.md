@@ -19,6 +19,6 @@
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) 
 
 &emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
-<div style="margin-top: -30px;">
+<div style="margin-top: -300px;">
 &emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/thanks_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html?name=Jeremy+Troy+Suchanski&email=JeremySuchanski%40hotmail.com&phone=5039894039&zip=97124&date=&storm=&severity=1&comments=)
 </div>
