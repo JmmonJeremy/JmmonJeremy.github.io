@@ -12,4 +12,9 @@
 
 &emsp; &emsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
 &emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/weather_gallery_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
-&emsp; &emsp; &emsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html) 
+&emsp; &emsp; &emsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html)
+
+### &nbsp; Storm Center Pg Link: &nbsp;|
+
+###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) 
+&emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
