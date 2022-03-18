@@ -18,6 +18,6 @@
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) 
 
-&emsp; &emsp;[<img src="sources/stormcenter_icon_link.svg" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
+&emsp; &emsp;[<img src="sources/stormcenter_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
 &emsp; &emsp; &emsp; &emsp; &nbsp; [<img src="sources/thanks_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html)
 
