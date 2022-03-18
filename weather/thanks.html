@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Storm Center Form Submission Thank You page from The Weather Chatter Community Website 
+    for Jeremy T. Suchanski in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>The Weather Chatter Storm Center Form Submission Thank You Page | Jeremy T. Suchanski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/stormcenter_small.css">       
+    <link rel="stylesheet" href="CSS/stormcenter_medium.css">
+    <link rel="stylesheet" href="CSS/stormcenter_large.css">  
+</head>
+
+<body>
+    <div id="container">
+    <div id="page">
+
+    <header>        
+        <img src="/weather/images/logo.svg" alt="Community Weather Chatter logo"> 
+        <section id="web_title">
+        <!--Split and used span to illiminate space caused by adding line spacing in css-->
+        <h1>The Weather Chatte<span id="spacing">r</span></h1>
+        <h1>Community</h1>
+       
+        <div class="motto">Connecting us with weather</div>
+        
+        </section>        
+    </header>
+
+    <nav>       
+        <ul class="navigation">
+            <li id="menu"><a href="#" onclick="toggleMenu(); Switch();" id="menu_a">
+                <span id="closed"><span class="menu_symbol">&#9776;&nbsp; &nbsp;</span>
+                MENU<span class="menu_symbol">&nbsp; &nbsp;&#9776;</span></span>
+                <span id="open"><span class="menu_symbol">&#8667;&nbsp; &nbsp;</span>
+                CLOSE<span class="menu_symbol">&nbsp; &nbsp;&#8666;</span></span>
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/index.html">
+                Home
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/weather/preston.html">
+                Preston
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/target-audience.html">
+                Soda Springs
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/color-scheme.html">
+                Fish Haven
+            </a></li>           
+            <li><div class="active2"><a href="https://jmmonjeremy.github.io/lesson2/typography.html"
+                class="active">
+                Storm Center
+            </a></div></li>
+            <li id="last_li"><a href=https://jmmonjeremy.github.io/weather/gallery-7.html>
+                Gallery
+            </a></li>           
+        </ul>
+    </nav>    
+    
+    <main>
+               
+        <h1 id="thanks_title">Thank You from . . . &nbsp;&nbsp;&nbsp;The Weather Chatter Community</h1>       
+
+        <div id="thanks">
+            <img id="top_img" src="/weather/images/thanks.jpg" alt="Thanks in a rainbow of colors">
+            <div class="line"></div>
+            Thank you for reporting this storm. We will quickly put this information to good use and 
+            respond to your report within a week.
+            <div class="line"></div>
+            <section id="lower_images">
+                <img id="umbrella1" src="/weather/images/umbrella1.svg" alt="Rainbow colored umbralla">
+                <img id="penguin" src="/weather/images/penguin_thanks.png" alt="A penguin with an umbrella saying thank you">        
+                <img id="umbrella2" src="/weather/images/umbrella2.svg" alt="Rainbow colored umbralla">
+            </section>
+        </div>
+    </main>    
+   
+    <footer>
+        <section id="contact_resources">
+            <!--<img src="/weather/images/preston_map3.jpg" alt="Map view of 51 N State St, Preston, ID 83263" id="map">-->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.464774055154!2d-111.87904448424088!3d42.09751585963302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ec77dbd8f5%3A0x862f42edd0ebc0ce!2s51%20N%20State%20St%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1647030188860!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy" id="map"></iframe>  
+            <div id="contact_info">
+                <p><b>The Weather Chatter Community</b></p>
+                <p><b>&#9906;</b> 51 N State St</p>
+                <p id="br">Preston, ID 83263</p>
+                <br>
+                <p>&#9742; (971)576-4242</p>
+                <p id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">weatherchatter@wcc.com</span></p>
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+                      alt="Facebook icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ftwitter%20icon.png?v=1633369798869"
+                      alt="Twitter icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+                      alt="Youtube icon"></a>
+                  </div>
+            </div>
+        </section>
+
+        <p class="footer_info">
+            &copy; <span id="current_year"></span> Weather Chatter Community |&nbsp; Jeremy T. Suchanski | Oregon |&nbsp;
+            <a href="https://www.byui.edu/online" target="_blank" id="byu_link">
+                BYUI Online Learning
+            </a>
+        </p>
+        <p class="footer_info">
+            - WDD 230 Project | <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span> -
+        </p>
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
+            <img src="/weather/images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <p id="footer_update" ><span id="modified"></span></p> 
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1_sml">
+            <img src="/weather/images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <a href="https://jmmonjeremy.github.io" id="portal2">
+            <img src="/weather/images/Portal1a.svg" alt="icon for Assignment Portal"> 
+        </a>                             
+    </footer>
+    </div>
+    </div> 
+    
+    <script src="js/stormcenter.js"></script>    
+    
+</body>
+</html>

@@ -1,0 +1,488 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*//* set a  backgroung color for the screen*/
+body {
+    margin: 0;
+    background-color: #474747;
+}
+/* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+#container{
+    position: relative;
+    min-height: 100vh;  
+}
+/* this part is to keep the content from getting cut off if it gets bigger than the page */
+#page {    
+    padding-bottom: 89.109px;   /* width of the footer */
+}
+/*----------- HEADER --------------*/
+header {
+    color: #1A237E;
+    background-color: #FF9E80;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 20px;      
+}	
+header img {  
+    box-sizing: border-box;
+    width: 87px;
+}
+header h1 {   
+    text-align: center;    
+    font-family: "Ranchers", "Verdana", cursive;
+    font-size: 17px;      
+    margin: 0; 
+    letter-spacing: 2px;
+}
+#spacing {
+    /*letter-spacing: 5px;*/
+    letter-spacing: normal;
+}
+.motto {        
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; 
+    padding-top: 4px; 
+    text-align: center;  
+    margin: 0;    
+}
+/*----------- NAVIGATION --------------*/
+nav {   
+    background-color: #1A237E;    
+}
+nav ul {   
+    text-align: center;
+    padding: 0;
+    margin: 0;  
+}
+nav li {   
+    display: none;   
+}
+nav li {   
+    list-style: none;   
+    line-height: 20px;
+    padding: .75em;   
+    border-top: 1px solid #FF9E80;
+    border-bottom: 1px solid #FF9E80; 
+}
+#menu_li {
+    background-color: #474747;   
+}
+#menu_a {
+    color: #ffffff;
+}
+#last_li {
+    border-bottom: 2px solid #FF9E80; 
+}
+.responsive li {
+    display: block;  
+}
+.responsive li:first-child {
+    border-bottom: 1px solid #FF9E80;
+}
+nav li:first-child {
+    display: block;
+    color: #ffffff;
+    line-height: 20px;
+    padding: .75em;
+    border-bottom: 2px solid #FF9E80;    
+}
+nav li:second-child {
+    border-top: 2px solid #FF9E80;
+}
+a:hover {     
+    color: #ffffff;    
+    background-color: #FF9E80; 
+    /*line-height: 2rem;*/
+}
+/* default font size = 16px */
+nav a { 
+    display: block;
+    color: #ffff00;
+    text-decoration: none;
+    font-size: 16px;/*2rem;*/
+    font-family: "Ranchers", "Verdana", cursive;     
+}
+.menu_symbol {   
+    font-size: 2rem;
+    margin-bottom: 3px;
+}
+.responsive .menu_symbol {
+    margin-bottom: 8px;
+}
+#closed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#open {
+    display: none;
+}
+.responsive #closed {
+    display: none;
+}
+.responsive #open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {    
+    color: #1A237E; 
+    /*line-height: 2rem;*/  
+}
+.active2 {    
+    background-color: #FF9E80;  
+    padding: 2px;
+    border-radius: 2em;
+    width: 100px;   
+    margin: 0 auto;   
+}
+/*----------- MAIN --------------*//* set a max width for the content and the backgroung color for the page*/
+#title_wrap {
+    max-width: 960px;  
+    margin: 0 auto;  
+}
+main h1 {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 2px;   
+    margin-top: 0;
+    margin-left: 3.5rem;
+    padding-top: 3rem;/*22px;*/
+    color: #e3f0ff; 
+    text-align: left;
+    font-size: 20px; 
+}
+#inner_pg {
+    background-color: #1A237E; /*#e3f0ff;*/
+    max-width: 960px;  
+    margin: 0 auto;     
+    padding-left: 3rem;
+    padding-right: 3rem;    
+    padding-top: 2rem;
+    border: 6px solid #e3f0ff; 
+    border-radius: 10px;
+    margin-bottom: 6rem;  
+}
+/* default font size = 16px */
+p {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 12px;/*16px;*/ 
+}
+/*------------ FORM ---------------*/
+form {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    /*margin: 0 3em 6em 3em;*/  
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #ffff00;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #ffff00;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #ffff00;
+    padding: 2px;
+    font-size: .8rem;
+}
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #e3f0ff; 
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #ffff00; 
+    text-decoration: double underline;  
+    text-underline-offset: 1px;
+}
+input[type="range"] {
+    /*accent-color: #FF9E80;*/
+    border-radius: 0.5rem;
+    box-shadow: 0 0 30px #ffff00; 
+    -webkit-appearance: none;
+    appearance: none;   
+    background: transparent; 
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color:  #ffff00;      
+    border-radius: 0.5rem;
+    height: 0.25rem;       
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+     appearance: none; 
+     margin-top: -.7rem; /* Centers thumb on the track */
+     background-color: #FF9E80;
+     height: 1.5rem;
+     width: 1.5rem;
+     border: 5px groove #ffff00;
+     border-radius: 1em;
+}
+#slash_marks {
+   display: none;  
+}
+#num_grid {
+    display: none;    
+}
+#severity {
+    width: 99%;
+    max-width: 19.85rem;        
+}
+#range_top_padding {
+    padding-bottom: .75rem;
+}
+#range_btm_padding {
+    padding-top: .75rem;
+}
+#range_output {
+    display: block;
+    width: 2.2rem;   
+    margin-left: 3rem;
+    margin-top: -1.8rem;    
+    color: #1A237E;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: #FF9E80;         
+    padding: .3rem .6rem;
+    border-radius: 1rem;
+    outline: 2px solid #ffff00;
+    box-shadow:3px -4px 30px #ffff00;
+}
+input[type="radio"] {
+	accent-color: #FF9E80;    
+}
+input[type=radio]:checked + span {
+    font-weight: bold;
+    color: #FF9E80;
+}
+input[type="checkbox"] {
+    accent-color: #FF9E80; 
+}
+form input.submitBtn {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    border: 2px solid #ffff00;
+    background-color: #FF9E80;
+    font-weight: 900;
+    font-size: 20px;
+    color: #1A237E; 
+    border-radius: 1rem;
+    padding:.85rem 1.5rem;
+    margin: 0 0 0 1%;/*2.75%;*/
+    width: 93%;
+    max-width: 19.85rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+#top_line {     
+    width: 95%;
+    max-width: 19.85rem;
+    border-top: 2px solid #ffff00;
+    margin: 0 0 1rem 2.75%;    
+}
+#send1 { 
+    margin: 0;
+    padding-top: 1.95rem;
+    padding-bottom: 1.95rem;
+    display: inline;    
+    border-left: 2px solid #ffff00;   
+    border-radius: 1rem; 
+}
+#send2 { 
+    margin: 0;
+    margin-left: 1%;
+    padding-top: 1.95rem;
+    padding-bottom: 1.95rem;
+    display: inline;    
+    border-right: 2px solid #ffff00;   
+    border-radius: 1rem; 
+}
+#bottom_line {     
+    width: 95%;
+    max-width: 19.85rem;
+    border-top: 2px solid #ffff00;
+    margin: 1.4rem 0 2rem 2.75%;    
+}
+#clicked {
+    margin-top: -3.1rem; /* base of -1.3 for correct postition then */ 
+} 
+#clicked.show_list {
+    margin-top: 0;
+}                       /* then match #choose_type margin-top to offset */
+#choose_type {        
+    font-family: monospace;
+    font-size: 1rem;
+    margin-top: 1.8rem; /* offset with #clicked margin-top */   
+    margin-left: 1rem;    
+    display: inline-block;
+    color: #555;
+}
+#choose_type.show_list {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: none;
+}
+#choose_type_symbol {  
+    display: none
+}
+#label_section {  
+    display: block;  
+    width: 93%;
+    max-width: 19.85rem;   
+}
+/*input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}*/
+/*----------- FOOTER --------------*/
+#contact_resources {   
+    display: block;
+    text-align: center;  
+    padding: 1em;   
+    /*margin-right: 3em;
+    margin-left: 3em;*/
+    background-color: #FF9E80; 
+    /*border-radius: .5em;*/ 
+}
+#map {
+    display: none;   
+}
+#contact_info p {
+    font-size: 13px;
+    margin-bottom: -12px;
+}
+#email_w {
+    font-size: 8px;
+}
+#one_line {
+    display: block;    
+}
+.social img{
+    width: 64px;
+}
+.social a:hover {
+    padding-right: 3px;
+    padding-left: 3px;        
+    padding-top: 54px;
+    padding-bottom: 0;
+    border-radius: 0;
+    background-color: #ffff00;        
+}
+footer a {
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #FF9E80;
+}
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer {      
+    background-color: #1A237E;
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 10px;   
+    /* part 2 of 2 settings to put the footer at the bottom of the screen */
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/  
+    /* end of settings to put the footer at the bottom of the screen */ 
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;  
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+.footer_info {     
+    color: #FF9E80;
+    margin: 10px 0 10px 0;
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: #ffff00;
+    margin-top: 0;     
+}
+#byu_link {  
+    display: inline-block;
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}
+/*----------- THANK YOU PAGE --------------*/
+#thanks_title {
+    max-width: 960px;  
+    margin: 0 auto;
+    font-size: 35px;   
+    text-align: center;
+    margin-bottom: 3rem;  
+}
+#thanks {
+    max-width: 960px;  
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e3f0ff;
+    border: 3px solid #1A237E;
+    border-radius: 1em;    
+    outline: 2px solid #ffff00;
+    box-shadow:3px -4px 30px #ffff00;
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#top_img {
+    display: block;
+    margin: 0 auto 2em auto;   
+    border-radius: 1rem;
+    box-shadow: 0 0 50px #000;    
+}
+section#lower_images {
+    display: flex;
+    justify-content: space-evenly;    
+}
+section#lower_images img {   
+    width: 200px;    
+}
+#umbrella1 {     
+    transform: scalex(-1)
+}
+.line {
+    display: inline-block;
+    margin: 2em auto 2em auto; 
+    width: 870px;
+    border: 5px solid;
+    border-radius: 1rem;
+}
