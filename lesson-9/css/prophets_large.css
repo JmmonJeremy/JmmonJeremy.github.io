@@ -1,0 +1,24 @@
+/* 69em is also 1104px when basefont is 16px */
+@media only screen and (min-width: 69em) {
+    .cards {        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section {
+        padding: 2rem 4rem;
+        height: 550px;        
+        max-width: 340px;
+    }
+    section:nth-of-type(17) {
+        grid-column: 2/4;
+    }
+    h1 {
+        font-size: 3rem;
+        width: 500px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+    footer {       
+        padding: 2rem;
+        font-size: 2rem;
+    }  
+}

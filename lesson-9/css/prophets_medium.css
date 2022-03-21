@@ -1,0 +1,36 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        justify-items: center;     
+    }
+    section {
+        padding: 2rem 2rem 2rem 1.25rem;
+        max-width: 346px;
+        height: 570px;
+       
+    }
+    section:hover {
+        box-shadow: 0 0 50px #333;
+        transition: all 0.4s linear;
+        transform: scale(1.1);
+    }
+    section:nth-of-type(17) {
+        grid-column: 1/3;
+    }
+    img {
+        width: 100%;
+    } 
+    h1 {
+        font-size: 3rem;
+        width: 430px;
+        padding: 1rem;
+        margin: 2rem auto 1rem auto;
+    }
+    footer {        
+        padding: 2rem;
+        font-size: 1.75rem;
+    }  
+}
