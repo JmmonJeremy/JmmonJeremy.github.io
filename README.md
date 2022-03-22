@@ -18,7 +18,7 @@
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)
 
-&emsp; &emsp;[<img src="sources/stormcenter_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
+&emsp; &emsp;[<img src="sources/weather_stormcenter_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
 &emsp; &emsp; &emsp; &emsp; &nbsp; [<img src="sources/weather_thanks_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html)
 &nbsp;&emsp; &emsp; &emsp; &nbsp; [<img src="sources/JSON_fetch_prophets_icon_link.jpg" width="200">](https://jmmonjeremy.github.io//lesson-9/prophets.html)
 
