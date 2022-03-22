@@ -1,13 +1,10 @@
 /* 32.5em is also 520px when basefont is 16px */
 @media only screen and (min-width: 32.5em) {
-    #pancakes {
-        font-size: 14px;
-    }
+/*-------------------------------- HEADER ---------------------------------*/
     header {
         /*flex-direction: row;*/
         gap: 35px;
-    }
-    
+    }    
     header img {        
         width: 180px;
     }
@@ -19,7 +16,8 @@
         font-family: "Krona One", "Trebuchet MS", sans-serif; 
         font-size: 25px;     
         padding-top: 8px;
-    }    
+    }
+/*-------------------------------- HEAD NAV -------------------------------*/      
     nav ul {
         display: flex;
     }
@@ -57,7 +55,8 @@
     a:hover {
         padding: 15px;
         border-radius: 2em;
-    }  
+    }
+/*--------------------------------- MAIN ----------------------------------*/  
     main h1 {
         font-size: 32px;
         letter-spacing: 5px; 
@@ -86,6 +85,7 @@
     p {       
         font-size: 16px; 
     }
+/*-------------------------------- FOOTER ---------------------------------*/
     #contact_resources {   
         display: grid;
         grid-template-columns: 1fr 1fr;

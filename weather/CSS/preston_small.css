@@ -1,18 +1,4 @@
-/* set a max width for the content and the backgroung color for the screen*/
-body {
-    margin: 0;
-    background-color: #474747;
-}
-/* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
-#container{
-    position: relative;
-    min-height: 100vh;  
-}
-/* this part is to keep the content from getting cut off if it gets bigger than the page */
-#page {    
-    padding-bottom: 89.109px;   /* width of the footer */
-}
-/* end of part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+/*-------------------------------- ALERT ----------------------------------*/
 aside {   
     background-color: #ffff00;
     border-bottom: 5px solid #1A237E; 
@@ -29,6 +15,23 @@ aside {
 #time_block {
     display: inline-block;
 }
+/*------------------------------ WHOLE PAGE -------------------------------*/
+/* set a max width for the content and the backgroung color for the screen*/
+body {
+    margin: 0;
+    background-color: #474747;
+}
+/* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+#container{
+    position: relative;
+    min-height: 100vh;  
+}
+/* this part is to keep the content from getting cut off if it gets bigger than the page */
+#page {    
+    padding-bottom: 89.109px;   /* width of the footer */
+}
+/* end of part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+/*-------------------------------- HEADER ---------------------------------*/
 header {
     color: #1A237E;
     background-color: #FF9E80;
@@ -49,8 +52,7 @@ header h1 {
     margin: 0; 
     letter-spacing: 2px;
 }
-#spacing {
-    /*letter-spacing: 5px;*/
+#spacing {    
     letter-spacing: normal;
 }
 .motto {        
@@ -60,6 +62,7 @@ header h1 {
     text-align: center;  
     margin: 0;    
 }
+/*-------------------------------- HEAD NAV -------------------------------*/ 
 nav {   
     background-color: #1A237E;    
 }
@@ -105,15 +108,14 @@ nav li:second-child {
 }
 a:hover {     
     color: #ffffff;    
-    background-color: #FF9E80; 
-    /*line-height: 2rem;*/
+    background-color: #FF9E80;    
 }
 /* default font size = 16px */
 nav a { 
     display: block;
     color: #ffff00;
     text-decoration: none;
-    font-size: 16px;/*2rem;*/
+    font-size: 16px;
     font-family: "Ranchers", "Verdana", cursive;     
 }
 .menu_symbol {   
@@ -140,8 +142,7 @@ nav a {
     justify-content: center;
 }
 .active {    
-    color: #1A237E; 
-    /*line-height: 2rem;*/  
+    color: #1A237E;     
 }
 .active2 {    
     background-color: #FF9E80;  
@@ -150,12 +151,11 @@ nav a {
     width: 100px;   
     margin: 0 auto;   
 }
+/*--------------------------------- MAIN ----------------------------------*/
 #inner_pg {
     background-color: #e3f0ff;
     max-width: 960px;  
-    margin: 0 auto;
-    /*border-radius: 2em;*************************************************I don't think I need this/    
-    /*padding-bottom: 34px;*/  
+    margin: 0 auto;     
 }
 /* (h2) = 24px */
 main h1, main h2 {
@@ -177,9 +177,6 @@ p {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
     font-size: 12px;/*16px;*/ 
 }
-/*.hero_div {
-    position: relative;
-}*/
 #hero_img_box {
     width: 100%;
     margin: 0;
@@ -227,10 +224,6 @@ p {
     display: none;
     text-align: center;  
 }
-/*#article_border {*/
-    /*padding: 1.5px; /*0 2em;*/
-    /*padding-top: 15px;/*3em;*/  
-/*} */ 
 #st_p_article {
     padding: 15px 1.5px;
 }
@@ -250,14 +243,12 @@ p {
 #st_p_text {
     margin: 0;
 }
+/*-------------------------------- FOOTER ---------------------------------*/    
 #contact_resources {   
     display: block;
     text-align: center;  
-    padding: 1em;   
-    /*margin-right: 3em;
-    margin-left: 3em;*/
-    background-color: #FF9E80; 
-    /*border-radius: .5em;*/ 
+    padding: 1em;    
+    background-color: #FF9E80;   
 }
 #map {
     display: none;   
@@ -292,12 +283,7 @@ footer {
     background-color: #1A237E;
     text-align: center;
     padding: 5px 0;
-    padding-top: 10px;   
-    /* part 2 of 2 settings to put the footer at the bottom of the screen */
-    /*position: absolute;
-    bottom: 0;
-    width: 100%;*/  
-    /* end of settings to put the footer at the bottom of the screen */ 
+    padding-top: 10px;  
     max-width: 960px;
     margin: 0 auto;
     border-bottom-left-radius: 2em;

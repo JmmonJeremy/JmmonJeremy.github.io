@@ -1,6 +1,6 @@
 /* 60em is also 960px when basefont is 16px */
 @media only screen and (min-width: 60em) {
-/*-------------------------------- HEADER ---------------------------------*/   
+/*-------------------------------- HEADER ---------------------------------*/
     header img {        
         width: 232px;
     }
@@ -10,7 +10,7 @@
     .motto {  
         font-size: 30px;    
     }
-/*--------------------------------- MAIN ----------------------------------*/
+/*-------------------------------- MAIN -----------------------------------*/
     #inner_pg {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -18,20 +18,7 @@
         justify-items: center;
         grid-gap: 1em;              
     }
-    /* hover effect */
-    main figure:hover {
-        box-shadow: 0 0 50px #333;
-    }
-    main figcaption {
-        font-size: 14px;
-    }
-    .two_col {
-        display: none;
-    }
-    .three_col {
-        display: block;
-    }
-/*-------------------------------- FOOTER ---------------------------------*/   
+/*-------------------------------- FOOTER ---------------------------------*/
     #contact_info p {
         font-size: 16px;       
     } 

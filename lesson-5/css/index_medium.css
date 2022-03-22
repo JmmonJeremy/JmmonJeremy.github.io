@@ -18,7 +18,7 @@
         font-size: 25px;     
         padding-top: 8px;
     }
-/*-------------------------------- HEAD NAV -------------------------------*/   
+/*-------------------------------- HEAD NAV -------------------------------*/    
     nav ul {
         display: flex;
     }
@@ -48,60 +48,31 @@
     .active {    
         color: #1A237E;
         background-color: #FF9E80;   
-        /*padding: 15px;*/
+        padding: 15px;
         border-radius: 2em;
         margin-top: 0;
-        margin-bottom: 0;      
+        margin-bottom: 0;
     }
     a:hover {
         padding: 15px;
         border-radius: 2em;
-    } 
-/*-------------------------------- MAIN -----------------------------------*/
-    #inner_pg {
-        padding: 2rem 3rem 0 3rem;         
-    }      
+    }
+/*--------------------------------- MAIN ----------------------------------*/  
     main h1 {
-        margin-left: 3.5rem;        
         font-size: 32px;
         letter-spacing: 5px; 
-    } 
+    }
+    #inner_pg {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-gap: 1em;
+        margin: 20px 20px;
+        padding: 1em;         
+    }   
     p {       
         font-size: 16px; 
-    }
-/*-------------------------------- FORM -----------------------------------*/
-    form input.submitBtn {
-        margin: 0 0 0 2%;
-        font-size: 20px;
-        padding:.85rem 1.5rem;
-    }
-    #send2 {        
-        margin-left: 2%;
-    }    
-    #choose_type_symbol {
-        margin-left: 45%;
-        display: inline;
-    }
-    #choose_type_symbol.show_list {
-        margin-left: 0;
-        display: none;
-    }    
-    #slash_marks {
-       display: block;
-       margin-bottom: 1px;
-    }
-    #num_grid {
-        display: block;
-        margin-left: -2px;  
-    }   
-    #range_container {
-        position: relative;
-    }
-    #range_output {
-        display:initial;        
-        margin-left: -2.6rem;
-        margin-top: -2rem;
-        position: absolute;       
     }
 /*-------------------------------- FOOTER ---------------------------------*/
     #contact_resources {   
@@ -153,21 +124,5 @@
         display: inline;
         margin-right: 10px;
         vertical-align:middle; 
-    }
-/*---------------------------- THANK YOU PAGE -----------------------------*/
-    #thanks_title {     
-        font-size: 35px;        
-    }
-    #thanks { 
-        margin: 0 30px 3em 30px;      
-        padding: 2rem 2rem 1rem 2rem;       
-        font-size: 19px;      
-    }
-    #top_img {        
-        margin: 0 auto 2em auto;           
-    }
-    section#lower_images {
-        display: flex;
-        justify-content: space-evenly;    
     }   
 }
