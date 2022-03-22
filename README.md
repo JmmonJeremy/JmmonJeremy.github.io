@@ -14,7 +14,7 @@
 &emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/weather_gallery_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
 &emsp; &emsp; &emsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html)
 
-### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|&nbsp; Form Completion Thanks Link
+### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|&nbsp; Form Completion Thanks Link: &nbsp;|&nbsp; &emsp; JSON & fetch Link:
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)
 
