@@ -10,8 +10,8 @@
            
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)    
 
-&emsp; &emsp;[<img src="sources/preston_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
-&emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/weather_gallery_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
+&emsp; &emsp;[<img src="sources/weather_preston_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/preston.html)
+&emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/weather_gallery_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/gallery-7.html) 
 &emsp; &emsp; &emsp; [<img src="sources/lazyloading_icon_link.jpg" width="200">](https://jmmonjeremy.github.io/lesson-4/lazyload.html)
 
 ### &nbsp; &emsp; &nbsp;Storm Center Pg Link: &nbsp; &emsp; &nbsp;|&nbsp; Form Completion Thanks Link: &nbsp;| &emsp; JSON & fetch Link:
@@ -19,11 +19,11 @@
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)
 
 &emsp; &emsp;[<img src="sources/stormcenter_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/stormcenter.html)
-&emsp; &emsp; &emsp; &emsp; &nbsp; [<img src="sources/thanks_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html)
+&emsp; &emsp; &emsp; &emsp; &nbsp; [<img src="sources/weather_thanks_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/weather/thanks.html)
 &nbsp;&emsp; &emsp; &emsp; &nbsp; [<img src="sources/JSON_fetch_prophets_icon_link.jpg" width="200">](https://jmmonjeremy.github.io//lesson-9/prophets.html)
 
 ### &nbsp; Weather Site Home Pg Link: &nbsp;| &nbsp;
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)
-&emsp; &emsp;[<img src="sources/the_weather_chatter_communinty_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-5/index.html)
+&emsp; &emsp;[<img src="sources/weather_home_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-5/index.html)
 
