@@ -18,7 +18,9 @@
         margin: 2rem auto;
     }
     footer {       
-        padding: 2rem;
+        padding: 2rem;       
+    } 
+    #footer_info {
         font-size: 2rem;
-    }  
+    }   
 }

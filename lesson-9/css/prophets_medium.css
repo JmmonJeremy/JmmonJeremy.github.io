@@ -30,7 +30,38 @@
         margin: 2rem auto 1rem auto;
     }
     footer {        
-        padding: 2rem;
+        padding: 2rem;      
+    } 
+    #footer_info {
         font-size: 1.75rem;
+        display: inline-block;
     }  
+    #portal1_sml{
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle;        
+    } 
+    #portal1 img {
+        width: 60px;
+        border: 0;
+        box-shadow: 0 0 0; 
+    }
+    #portal1 img:hover {
+        background-color: #912626;
+        padding: .25rem;
+        box-sizing: border-box; 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 5rem;   
+        transform: scale(1.2);
+    }
+    #portal2 img { 
+        margin-top: 0;       
+        margin-left: 10px;
+           
+    }        
 }
