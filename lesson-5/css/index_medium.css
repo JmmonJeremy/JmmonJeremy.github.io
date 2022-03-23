@@ -1,5 +1,9 @@
 /* 32.5em is also 520px when basefont is 16px */
 @media only screen and (min-width: 32.5em) {
+/*------------------------------ WHOLE PAGE ---------------------------*/
+    #container{       
+        margin-left: 0;    
+    }
 /*-------------------------------- HEADER ---------------------------------*/
     header {
         /*flex-direction: row;*/
@@ -39,9 +43,9 @@
         display: inline-block;
         padding: 0;                           
     }
-    nav li:second-child {
+    /*nav li:second-child {
         border-top: 0;       
-    }
+    }*/
     #last_li {
         border-bottom: 0; 
     }    
@@ -58,22 +62,92 @@
         border-radius: 2em;
     }
 /*--------------------------------- MAIN ----------------------------------*/  
-    main h1 {
+  main h1 {
         font-size: 32px;
         letter-spacing: 5px; 
-    }
-    #inner_pg {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-items: center;
-        grid-gap: 1em;
-        margin: 20px 20px;
-        padding: 1em;         
     }   
+    main h2 {       
+        letter-spacing: 5px;
+        font-size: 24px;         
+    } 
+    main h3 {
+        font-size: 19px;
+        letter-spacing: 3px;
+    } 
+    #weather_news {
+        display: flex;
+        justify-content: space-evenly;    
+        margin-top: 5rem;
+    }
+    section#rain_article {
+        margin: 3rem 1.75rem .75rem 1.75rem;       
+        padding: 2rem;   
+    }
+    section#rain_article img {
+        width: 400px;
+    } 
+    section#rain_article p {
+        font-size: 16px;
+    }    
+    section.news_item img:hover {
+        box-shadow: 0 0 50px #333;       
+        transition: all 0.4s linear;
+        transform: scale(1.1);
+    } 
+    section.news_item h5.read_more {      
+        padding: 1rem; 
+    }     
+    #seperator1 {
+        display: none;
+    }
+    #seperator2 {
+        display: none;
+    }  
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem .5rem;             
+    }
+    main section.townCard {
+        padding: 2rem .2rem; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;                  
+    }
+    main section.townCard:nth-child(even) {
+        flex-direction: row-reverse;
+    }           
     p {       
         font-size: 16px; 
     }
+    .townFacts {
+        width: 350px;
+        margin-top: 1.5rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    main img.townPhoto {        
+        margin-bottom: 0;
+        border-radius: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    main section.townCard img {
+        max-width: 400px; 
+    }
+    .tabletLine {
+        height: 16px;
+        border-top: 3.75px solid #1A237E;
+        box-shadow: 0 -18px 10px #747474;
+        border-bottom: 3.75px solid #1A237E;
+        box-shadow: 0 0 20px #000;
+        border-radius: .35rem;
+        margin-top: 1.5rem;
+    } 
+    .townLine {
+        display: none;
+    } 
 /*-------------------------------- FOOTER ---------------------------------*/
     #contact_resources {   
         display: grid;
@@ -113,7 +187,13 @@
     }
     .social a:hover {       
         padding-top: 32px;       
-    }   
+    } 
+    footer a {       
+        font-size: 16px;
+    }
+    .footer_info {       
+        font-size: 16px;   
+    }  
     #footer_update {
         display: inline-block;
     }

@@ -135,17 +135,20 @@
     }
     .day img {
         display: block;    
-        margin: 20px auto;
+        margin: 20px auto;        
     }
     .day p {
-      text-align: center;
+        text-align: center;
         margin-top: 0;
     }
     #st_p_article {
         padding: 3em 2em;
+        text-align:justify;       
     }
     #st_p__img {   
         float: right;
+        margin-left: 1.75rem;
+        padding-bottom: .1rem;        
     }
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   

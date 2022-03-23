@@ -228,11 +228,12 @@ p {
     padding: 15px 1.5px;
 }
 #st_p_title {
-    text-align: left;    
+    text-align: left;        
 }
-#by_line {
+#st_p_by_line {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
-    font-size: 13px;      
+    font-size: 13px;
+    margin-bottom: .45rem;     
 }
 #st_p__img {   
     display: block;   

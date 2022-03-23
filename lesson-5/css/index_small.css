@@ -3,10 +3,17 @@ body {
     margin: 0;
     background-color: #474747;
 }
+h1, h2, h3 {
+    font-family: "Ranchers", "Verdana", cursive;
+}
+h5 {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+}
 /* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
 #container{
     position: relative;
-    min-height: 100vh;  
+    min-height: 100vh;
+    margin-left: .55rem;    
 }
 /* this part is to keep the content from getting cut off if it gets bigger than the page */
 #page {    
@@ -20,15 +27,14 @@ header {
     align-items: center;
     justify-content: center;
     gap: 0px;
-    padding: 20px;      
+    padding: 20px;          
 }	
 header img {  
     box-sizing: border-box;
     width: 87px;
 }
 header h1 {   
-    text-align: center;    
-    font-family: "Ranchers", "Verdana", cursive;
+    text-align: center;     
     font-size: 17px;      
     margin: 0; 
     letter-spacing: 2px;
@@ -85,9 +91,9 @@ nav li:first-child {
     padding: .75em;
     border-bottom: 2px solid #FF9E80;    
 }
-nav li:second-child {
+/*nav li:second-child {
     border-top: 2px solid #FF9E80;
-}
+}*/
 a:hover {     
     color: #ffffff;    
     background-color: #FF9E80; 
@@ -136,13 +142,14 @@ nav a {
     margin: 0 auto;   
 }
 /*------------------------------- MAIN --------------------------------*/
+
 #inner_pg {
-    display:block;
-    background-color: #e3f0ff;    
-    margin: 15px 5px;        
+    box-sizing: border-box;
+    background-color: #e3f0ff;
+    max-width: 960px;  
+    margin: 0 auto;    
 }
-main h1 {
-    font-family: "Ranchers", "Verdana", cursive;
+main h1 {   
     letter-spacing: 2px;   
     margin-top: 0;
     padding-top: 22px;
@@ -150,10 +157,161 @@ main h1 {
     text-align: center;
     font-size: 20px; 
 }
-
+main h2 {
+    font-size: 16px;
+}
+main 
+img#rain_unifier {
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #ffff00;  
+    box-shadow: 0 0 50px #FF9E80;  
+}
+section#rain_article {   
+    margin: 3rem .5rem .75rem .5rem;
+    box-shadow: 0 0 50px #FF9E80;
+    padding: .5rem;   
+} 
+section#rain_article img {
+    width: 100%;
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: .75rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;   
+}
+#rain_by_line {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 13px;
+    margin-bottom: .45rem;             
+}
+section#rain_article h2 {
+    margin-top: 0;
+} 
+section#rain_article p {
+    margin: 0;
+    padding: 0; text-align:justify;
+    font-size: 13px;       
+}
+#weather_news {
+    display: block;   
+    margin-top: 5rem;    
+}
+section.news_item {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+section.news_item img {
+    border-radius: 1rem;
+    border: 3px solid #FF9E80;
+    box-shadow: 0 0 50px #FF9E80;
+}
+section.news_item p {
+    font-size: 12px;
+}
+section.news_item h5.read_more {
+    width: 7rem;
+    margin: 2rem auto 0 auto;
+    color:#1A237E;
+    background-color: #FF9E80;
+    text-shadow:1px 1px 10px #ffff00, 1px 1px 10px #ffff00; ;
+    border-radius: 1rem;
+    padding: .5rem;
+    border: 10px outset #fff;
+    outline: 1px solid; 
+    box-shadow: 0 0 50px #FF9E80; 
+}
+section.news_item a {
+    text-decoration: none;
+}
+section.news_item h5:hover {
+    background-color:#ffff00;
+    box-shadow: 0 0 50px #ffff00;
+    transition: all 0.4s linear;
+    transform: scale(1.1);   
+}
+#seperator1 {
+    height: 12px;
+    box-sizing: border-box;
+    margin-top: 3.5rem;
+    width: 100%;
+    border-bottom: .1rem solid #FF9E80;
+    box-shadow: 0 0 50px #FF9E80;
+}
+#seperator2 {
+    height: 12px;
+    box-sizing: border-box;
+    margin-top: 3.5rem;
+    width: 100%;
+    border-bottom: .1rem solid #FF9E80;
+    box-shadow: 0 0 50px #FF9E80;
+}
+#seperator3 {
+    height: 12px;
+    box-sizing: border-box;
+    margin-top: 3.5rem;
+    width: 100%;
+    border-bottom: .1rem solid #FF9E80;
+    box-shadow: 0 0 50px #FF9E80;
+}
+.towns {
+    clear: right;
+    display: block;
+    padding: .1rem .4rem;
+    padding-top: 2rem;  
+}
+main section.townCard {
+    box-sizing: border-box;
+    text-align: center;    
+    background-color: #ffff00;   
+    padding: 2rem .4rem;
+    border: 10px groove #fff;
+    outline: 1px solid;    
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;    
+    box-shadow: 0 0 50px #FF9E80;
+}
+main h2.townName {
+    font-size: 2.25rem;
+    margin: 0;
+    color: #1A237E;
+    text-shadow:1px 1px 10px #8b8b8b, 1px 1px 10px #747474;
+    text-decoration: double underline;
+    border-top: 3.75px solid #1A237E;
+    box-shadow: 0 -18px 10px #747474;   
+}
+main section.townCard p {
+    font-size: 16px;
+}
+main p.townMotto {            
+    border-bottom: 3.75px solid #1A237E;
+    box-shadow: 0 18px 10px #747474;            
+}
+main p.founded {
+   margin-top: 2rem;
+}   
+.townLine {
+    height: 16px;
+    border-top: 3.75px solid #1A237E;
+    box-shadow: 0 -18px 10px #747474;
+    border-bottom: 3.75px solid #1A237E;
+    box-shadow: 0 0 20px #000;
+    border-radius: .35rem;
+}
+main img.townPhoto {
+    box-sizing: border-box;
+    width: 100%;    
+    border: 1px solid #fff;   
+    border-left: 5px solid  #8b8b8b;
+    border-right: 5px solid  #8b8b8b; 
+    box-shadow: 0 8px 10px #747474; 
+    border-top: 0; 
+    margin-bottom: 2rem;     
+}
 p {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
-    font-size: 12px;/*16px;*/ 
 }
 /*-------------------------------- FOOTER ---------------------------------*/
 #contact_resources {   
@@ -169,11 +327,11 @@ p {
     display: none;   
 }
 #contact_info p {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: -12px;
 }
 #email_w {
-    font-size: 8px;
+    font-size: 7px;
 }
 #one_line {
     display: block;    
@@ -192,6 +350,7 @@ p {
 footer a {
     font-family: "Ranchers", "Verdana", cursive;
     color: #FF9E80;
+    font-size: 20px;
 }
 /* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
 footer {      
@@ -204,15 +363,16 @@ footer {
     bottom: 0;
     width: 100%;*/  
     /* end of settings to put the footer at the bottom of the screen */ 
-    /*max-width: 960px;*/
+    max-width: 960px;
     margin: 0 auto;
     border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;  
+    border-bottom-right-radius: 2em;     
 }
 /* put the to sentence in the right spot & color the font (color was #009688) */
 .footer_info {     
     color: #FF9E80;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0; 
+    font-size: 14px;   
 }
 /* put the bottom last update info in the right spot and color the font */
 #footer_update {     

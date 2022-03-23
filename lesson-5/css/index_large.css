@@ -11,14 +11,52 @@
         font-size: 30px;    
     }
 /*-------------------------------- MAIN -----------------------------------*/
-    #inner_pg {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
+    /*main h1 {
+        font-size: 3rem;
+        width: 500px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }*/ 
+    .towns {        
+        display: grid;        
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
         justify-items: center;
-        grid-gap: 1em;              
+        grid-gap: 1rem;                
     }
+    main section.townCard {       
+        display: block;
+                    
+    } 
+    main section.townCard:hover {
+        box-shadow: 0 0 50px #333;
+        transition: all 0.4s linear;
+        transform: scale(1.1);
+    }      
+    main p.townMotto {      
+        height: 40px;
+    } 
+    .townFacts {
+        width: 100%;
+        margin-bottom: 0;
+    } 
+    .tabletLine {       
+        margin-top: 0;
+    }   
+    main img.townPhoto { 
+        border-radius: 0;       
+        margin-bottom: 2rem;     
+    }
+    main section.townCard img {
+        max-width: 100%; 
+    }  
+    .townLine {
+        display: block;
+    }    
 /*-------------------------------- FOOTER ---------------------------------*/
+    #footer_info {
+        font-size: 2rem;
+    }
     #contact_info p {
         font-size: 16px;       
     } 

@@ -38,70 +38,70 @@ let mName = month[m.getMonth()];
 document.getElementById("cur_month").innerText = mName;
 // End *** Current Weekday, Day of the Month, & Month Code ************************************************************ */
 
-// *** LazyLoad Images From "src" When on Screen Code
-// get all the images with data-src attribute
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-// get the information in "data-src" and put it into "src" then erase "data-src"
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {
-    image.removeAttribute('data-src');
-  };
-};
-// first check to see if "intersectionObserver" is supported
-if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
-        }
-      });
-    });
-    // loop through each image and check status and load if necessary
-    imagesToLoad.forEach((img) => {
-      observer.observe(img);
-    });
-  } 
-  // just load all images if "intersectionObserver" is not supported
-  else {
-    imagesToLoad.forEach((img) => {
-      loadImages(img);
-    });
-  }
-// End *** LazyLoad Images From "src" When on Screen Code *********************************************************** */
+// *** Generic function to Get Town Info
+buildHTML = (objectList, city, id) => {
+  const towns = objectList // instead of (jsonObject["towns"];)
+  towns.forEach(place => { //  instead of ( for (let i = 0; i < towns.length; i++ ) {} )        
+    if (place.name == city) { 
+      // Create an Element and assign a variable to it         
+      let town = document.createElement("section");
+      let townFacts = document.createElement("div");     
+      let h2 = document.createElement("h2");
+      let pMotto = document.createElement("p");
+      let pFounded = document.createElement("p");
+      let pPopulation = document.createElement("p");
+      let pRainfall = document.createElement("p");
+      let tabletLine = document.createElement("div");
+      let line = document.createElement("div");     
+      let img = document.createElement("img");           
+      // Assign input into the Element        
+      h2.textContent = place.name // instead of (towns[i].name;)
+      pMotto.innerHTML = place.motto // instead of (towns[i].motto;)
+      pFounded.innerText = "Year Founded: " + place.yearFounded // instead of (towns[i].yearFounded;)
+      pPopulation.innerHTML = "Population: " + place.currentPopulation // instead of (towns[i].currentPopulation;)
+      pRainfall.innerText = "Annual Rain Fall: " + place.averageRainfall // instead of (towns[i].averageRainfall;)
+      //line.textContent = "place.photo" // instead of (towns[i].photo;)
+      img.setAttribute("src", "/lesson-5/images/" + place.photo);
+      img.setAttribute("alt", "Image of " + place.name);     
+      // Give class names to Elements
+      townFacts.id = id;
+      townFacts.className = "townFacts";
+      town.className = "townCard";    
+      h2.className = "townName";
+      pMotto.className = "townMotto";
+      pFounded.className = "founded";
+      pPopulation.className = "population";
+      pRainfall.className = "rainfall";
+      tabletLine.className = "tabletLine";
+      line.className = "townLine";     
+      img.className = "townPhoto";
+      // Add the HTML & content to the web page     
+      document.querySelector("div.towns").appendChild(town);
+      town.appendChild(townFacts);
+      townFacts.appendChild(h2);      
+      townFacts.appendChild(pMotto);
+      townFacts.appendChild(pFounded);
+      townFacts.appendChild(pPopulation);
+      townFacts.appendChild(pRainfall);
+      townFacts.appendChild(tabletLine);    
+      town.appendChild(img);
+      town.appendChild(line);           
+    }
+  });
+}
+// End *** Generic function to Get Town Info ************************************************************************** */
 
-// *** LazyLoad Images From "sources - srcset" When on Screen Code
-// get all the images with data-srcset attribute
-let smallerImagesToLoad = document.querySelectorAll("source[data-srcset]")
-// get the information in "data-srcset" and put it into "srcset" then erase "data-srcset"
-const loadSmallerImages = (image) => {
-  image.setAttribute('srcset', image.getAttribute('data-srcset'));
-  image.onload = () => {
-    image.removeAttribute('data-srcset');
-  };
-};
-// first check to see if "intersectionObserver" is supported
-if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadSmallerImages(item.target);
-          observer.unobserve(item.target);
-        }
+// *** Get the Town Info Using fetch 
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (jsonObject) {
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        buildHTML(jsonObject["towns"], "Fish Haven", "townFacts1F");
+        buildHTML(jsonObject["towns"], "Preston", "townFacts2P");
+        buildHTML(jsonObject["towns"], "Soda Springs", "townFacts3S");
       });
-    });
-    // loop through each image and check status and load if necessary
-    smallerImagesToLoad.forEach((source) => {
-      observer.observe(source);
-    });
-  } 
-  // just load all images if "intersectionObserver" is not supported
-  else {
-    smallerImagesToLoad.forEach((source) => {
-      loadSmallerImages(source);
-    });
-  }
-// End *** LazyLoad Images From "sources - srcset" When on Screen Code ************************************** ******* */
-
+// End *** Get the Town Info Using fetch ****************************************************************************** */
  
