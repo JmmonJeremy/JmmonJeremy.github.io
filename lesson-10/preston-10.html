@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Preston Idaho page from The Weather Chatter Community Website 
+    for Jeremy T. Suchanski in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>The weather Chatter Commuity Preston Page | Jeremy T. Suchanski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/preston-10_small.css">       
+    <link rel="stylesheet" href="css/preston-10_medium.css">
+    <link rel="stylesheet" href="css/preston-10_large.css">  
+</head>
+
+<body>
+    <div id="container">
+    <div id="page">
+    <aside id="pancakes">
+        <h4>Preston Pancakes in the Park! <span id="time_block">9:00 a.m.</span> Saturday at the city park pavilion.</h4>
+    </aside>
+    <header>        
+        <img src="/weather/images/logo.png" alt="Community Weather Chatter logo"> 
+        <section id="web_title">
+        <!--Split and used span to illiminate space caused by adding line spacing in css-->
+        <h1>The Weather Chatte<span id="spacing">r</span></h1>
+        <h1>Community</h1>
+       
+        <div class="motto">Connecting us with weather</div>
+        
+        </section>        
+    </header>
+
+    <nav>       
+        <ul class="navigation">
+            <li id="menu"><a href="#" onclick="toggleMenu(); Switch();" id="menu_a">
+                <span id="closed"><span class="menu_symbol">&#9776;&nbsp; &nbsp;</span>
+                MENU<span class="menu_symbol">&nbsp; &nbsp;&#9776;</span></span>
+                <span id="open"><span class="menu_symbol">&#8667;&nbsp; &nbsp;</span>
+                CLOSE<span class="menu_symbol">&nbsp; &nbsp;&#8666;</span></span>
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-5/index.html">
+                Home
+            </a></li>
+            <li><div class="active2"><a href="https://jmmonjeremy.github.io/weather/preston.html"
+                class="active">
+                Preston
+            </a></div></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/target-audience.html">
+                Soda Springs
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/color-scheme.html">
+                Fish Haven
+            </a></li>           
+            <li><a href="https://jmmonjeremy.github.io/weather/stormcenter.html">
+                Storm Center
+            </a></li>
+            <li id="last_li"><a href=https://jmmonjeremy.github.io/weather/gallery-7.html>
+                Gallery
+            </a></li>           
+        </ul>
+    </nav>    
+    
+    <main>         
+        <h1>Preston Idaho</h1>
+
+        <div id="inner_pg">
+
+        <div class="hero_div">
+            <!--<figure id="hero_img_box">       
+            <img src="/weather/images/preston.jpg" alt="Picture of Preston, Idaho's fields, trees, mountains, and sky.">-->
+            <picture class="assigned_img">
+                <source media="(max-width: 300px)" srcset="/weather/images/my_preston300.jpg">
+                <source media="(max-width: 500px)" srcset="/weather/images/my_preston500.jpg">
+                <source media="(max-width: 700px)" srcset="/weather/images/my_preston700.jpg">
+                <img src="/weather/images/my_preston.jpg" alt="Picture of Preston, Idaho's fields, trees, mountains, and sky.">
+            </picture>
+            <!--</figure>-->
+            <section id="weather_summary">                              
+            <div id="weather_summary_title">Weather Summary</div>
+            <span class="w_category">Currently: </span><span class="w_description" id="condition">Sunny</span>
+            <span class="w_category">High: </span><span class="w_description"><span id="temp">41</span> &#176;F</span>
+            <span class="w_category">Wind Chill: </span><span class="w_description" id="NA"><span id="wind_chill">37</span> &#176;F</span>
+            <span class="w_category">Humidity: </span><span class="w_description"><span id="humidity">80</span>%</span>
+            <span class="w_category">Wind Speed: </span><span class="w_description"><span id="wind_speed">6</span> mph</span>         
+            </section>
+        </div>
+
+        <section id="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="day" id="sunday">
+                <h2>Sun</h2>
+                <img id="sun_ti" src="/weather/images/w_sunny.svg" alt="Icon of sunny weather">
+                <p><span id="sun_t">41</span> &#176;F</p>
+            </div> 
+            <div class="day" id="monday">
+                <h2>Mon</h2>
+                <img id="mon_ti" src="/weather/images/w_sunny&cloudy.svg" alt="Icon of sunny but cloudy weather">
+                <p><span id="mon_t">40</span> &#176;F</p>
+            </div>
+            <div class="day" id="tuesday">
+                <h2>Tue</h2>
+                <img id="tue_ti" src="/weather/images/w_sunny_cloudy&rainy.svg" alt="Icon of sunny but cloudy and rainy weather">
+                <p><span id="tue_t">38</span> &#176;F</p>
+            </div> 
+            <div class="day" id="wednesday">
+                <h2>Wed</h2>
+                <img id="wed_ti" src="/weather/images/w_some_rain.svg" alt="Icon of rain sprinkes weather">
+                <p><span id="wed_t">36</span> &#176;F</p>
+            </div> 
+            <div class="day" id="thursday">
+                <h2>Thu</h2>
+                <img id="thu_ti" src="/weather/images/w_rain.svg" alt="Icon of rain showers weather">
+                <p><span id="thu_t">39</span> &#176;F</p>
+            </div> 
+            <div class="day" id="friday">
+                <h2>Fri</h2>
+                <img id="fri_ti" src="/weather/images/w_rain2.svg" alt="Icon of rain downpour weather">
+                <p><span id="fri_t">41</span> &#176;F</p>
+            </div> 
+            <div class="day" id="saturday">
+                <h2>Sat</h2>
+                <img id="sat_ti" src="/weather/images/w_some_clouds.svg" alt="Icon of overcast weather">
+                <p><span id="sat_t">35</span> &#176;F</p>
+            </div>                 
+        </section> 
+
+        <section id="st_p_article">       
+        <picture  id="st_p__img">
+            <source media="(max-width: 260px)" srcset="/weather/images/st_p_trio180.jpg">            
+            <img src="/weather/images/st_p_trio_sml.jpg" 
+            alt="A girl and two guys smiling and dressed up for St Patrick's Day">
+        </picture>
+            <h2 id="st_p__title">Epic St Patrick's Day Celebrations</h2>
+            <div id="st_p_by_line"><em>by &nbsp;Jeremy Troy Suchanski</em></div>
+            <p id="st_p_text">Here at Preston, Idaho we are known for our St Patrick's Day celebrations. Many groups start 
+                planning their activities a week after the celebrations end for the current year. Here in 
+                Preston, we have beautiful rainbows. People love using the colors of the rainbow as theme 
+                colors for their St Patrick's Day decorations, as demonstrated by the accompanying photo. 
+                Of course, there is plenty of the traditional green color put into use as well. The parties 
+                are all a lot of fun and very tame and family centered at the same time. It's getting close 
+                to St Patrick's Day and keeping to our town's tradition the celebrations are lining up once 
+                again. This year there are ten major celebrations being planned, that we are aware of. Many 
+                folks have gone through a lot of trouble for the coming . . . 
+                <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" 
+                id="st_p_article_link" target="_blank">continue to full article</a>                
+            </p>
+        </section>         
+        
+        </div>
+    </main>    
+   
+    <footer>
+        <section id="contact_resources">
+            <!--<img src="/weather/images/preston_map3.jpg" alt="Map view of 51 N State St, Preston, ID 83263" id="map">-->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.464774055154!2d-111.87904448424088!3d42.09751585963302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ec77dbd8f5%3A0x862f42edd0ebc0ce!2s51%20N%20State%20St%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1647030188860!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy" id="map"></iframe>  
+            <div id="contact_info">
+                <p><b>The Weather Chatter Community</b></p>
+                <p><b>&#9906;</b> 51 N State St</p>
+                <p id="br">Preston, ID 83263</p>
+                <br>
+                <p>&#9742; (971)576-4242</p>
+                <p id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">weatherchatter@wcc.com</span></p>
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+                      alt="Facebook icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ftwitter%20icon.png?v=1633369798869"
+                      alt="Twitter icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                      src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+                      alt="Youtube icon"></a>
+                  </div>
+            </div>
+        </section>
+
+        <p class="footer_info">
+            &copy; <span id="current_year"></span> Weather Chatter Community |&nbsp; Jeremy T. Suchanski | Oregon |&nbsp;
+            <a href="https://www.byui.edu/online" target="_blank" id="byu_link">
+                BYUI Online Learning
+            </a>
+        </p>
+        <p class="footer_info">
+            - WDD 230 Project | <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span>&nbsp 
+            <a href="https://openweathermap.org" target="_blank" id="weather_scr_link">
+                OpenWeatherSource
+            </a>&nbsp -
+        </p>
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
+            <img src="/lesson-9/images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <p id="footer_update" ><span id="modified"></span></p> 
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1_sml">
+            <img src="/lesson-9/images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <a href="https://jmmonjeremy.github.io" id="portal2">
+            <img src="/lesson-9/images/Portal1a.svg" alt="icon for Assignment Portal"> 
+        </a>                             
+    </footer>
+    </div>
+    </div> 
+    
+    <script src="js/preston-10.js"></script>    
+    
+</body>
+</html>
