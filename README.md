@@ -24,8 +24,8 @@
 
 ### &nbsp; &nbsp; Weather Site Home Pg Link: &nbsp;| &nbsp; #2 Weather Site Preston Link: &nbsp;|&nbsp; Peer Review 1st Pg Link:
 
-###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)&emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) 
+###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)&emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp;(click on icon below) 
 
 &emsp; &emsp;[<img src="sources/weather_home_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-5/index.html)
 &emsp; &emsp; &emsp; &emsp; &emsp;[<img src="sources/2nd_weather_preston_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-10/preston-10.html)
-&nbsp;&emsp; &emsp; &emsp; &nbsp; [<img src="sources/weather_home_pg_lesson11_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-11/index.html)
+&nbsp;&emsp; &emsp; &emsp; &nbsp;[<img src="sources/weather_home_pg_lesson11_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-11/index.html)
