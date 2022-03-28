@@ -39,7 +39,7 @@
         display: inline-block;
         padding: 0;                           
     }
-    nav li:second-child {
+    nav li:nth-child(2) {
         border-top: 0;       
     }
     #last_li {
