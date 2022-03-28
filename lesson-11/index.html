@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Home page from The Weather Chatter Community Website 
+    for Jeremy T. Suchanski in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>The weather Chatter Commuity Weather Home Page | Jeremy T. Suchanski</title>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index_small.css">       
+    <link rel="stylesheet" href="css/index_medium.css">
+    <link rel="stylesheet" href="css/index_large.css">  
+</head>
+
+<body>
+    <div id="container">
+    <div id="page">
+   
+    <header>        
+        <img src="images/logo.png" alt="Community Weather Chatter logo"> 
+        <section id="web_title">
+        <!--Split and used span to illiminate space caused by adding line spacing in css-->
+        <h1>The Weather Chatte<span id="spacing">r</span></h1>
+        <h1>Community</h1>
+       
+        <div class="motto">Connecting us with weather</div>
+        
+        </section>        
+    </header>
+
+    <nav>       
+        <ul class="navigation">
+            <li id="menu"><a href="#" onclick="toggleMenu(); Switch();" id="menu_a">
+                <span id="closed"><span class="menu_symbol">&#9776;&nbsp; &nbsp;</span>
+                MENU<span class="menu_symbol">&nbsp; &nbsp;&#9776;</span></span>
+                <span id="open"><span class="menu_symbol">&#8667;&nbsp; &nbsp;</span>
+                CLOSE<span class="menu_symbol">&nbsp; &nbsp;&#8666;</span></span>
+            </a></li>
+            <li id="last_li"><div class="active2"><a href="https://jmmonjeremy.github.io/lesson-11/index.html"
+                class="active">
+                Home
+            </a></div></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-11/preston.html">
+                Preston
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/target-audience.html">
+                Soda Springs
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson2/color-scheme.html">
+                Fish Haven
+            </a></li>           
+            <li><a href="https://jmmonjeremy.github.io/lesson-11/stormcenter.html">
+                Storm Center
+            </a></li>
+            <li><a href=https://jmmonjeremy.github.io/lesson-11/gallery.html>
+                Gallery
+            </a></li>           
+        </ul>
+    </nav>    
+    
+    <main>         
+        <h1>Bringing Our Community Together</h1>
+        <div id="inner_pg">
+            <img id ="rain_unifier" src="images/rain_unifier1.jpg" alt="Man standing in the pouring rain with his arms
+            stretched out to catch the rain">
+            <section id="rain_article">
+                <img src="images/rain_dancing.jpg" alt="People dancing in a large cement pipe">
+                <h2>Recreational Creativity</h2>
+                <div id="rain_by_line"><em>by &nbsp;Jeremy Troy Suchanski</em></div>
+                <p> It may seem strange, but the rain is bringing people together in our region of 
+                    Idaho. People have gotten very creative with the wet weather around 
+                    here. Many fishermen love to go out on the lake to fish in the rain. All of the 
+                    avid fishermen tell us that fishing in the rain is amazing because the rain brings 
+                    all of the big fish out. Additionally, our region has started a tradition of having 
+                    outdoor dances in the rain. The area has created outdoor heating units that are 
+                    safe to run in the rain and pump out enough heat that it becomes a sort of outdoor 
+                    sauna. Steam is everywhere and people are having fun. What a fun and crazy tradition 
+                    we have begun thanks to all of the creativity people have shown. They won't let a 
+                    wet day end their outdoor activities. Finally, one of the most popular of all the 
+                    outdoor activities in the rain around here is a nice and muddy soccer event. You will 
+                    find people slipping and sliding around in the mud and having a blast. In this region 
+                    of Idaho, we know how to make every moment count and . . . 
+                    <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" 
+                    id="st_p_article_link" target="_blank">continue to full article</a>                
+                </p>                
+            </section>
+                <div id="weather_news">
+                    <section class="news_item" id="news_font">
+                        <img src="images/flooding2.jpg" alt="A lake overflowing its boundaries with flooding">
+                        <h3>Flooding</h3>
+                        <h5>Rain overfills Bear Lake</h5>
+                        <p>We'll keep you in the loop!</p>
+                        <p>Click link to find out more.</p>
+                        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" 
+                        target="_blank">
+                        <h5 class="read_more">Read More</h5>
+                        </a>
+                    </section> 
+                    <div id="seperator1"></div>          
+                    <section class="news_item">
+                        <img src="images/lightning_strikes2.jpg" alt="A picture of  a huge lightning strike on a lake">
+                        <h3>Lightning</h3>
+                        <h5>Foster Reservoir gets hit</h5>
+                        <p>We'll keep you in the loop!</p>
+                        <p>Click link to find out more.</p>
+                        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" 
+                        target="_blank">
+                        <h5 class="read_more">Read More</h5>
+                        </a>
+                    </section>
+                    <div id="seperator2"></div>
+                    <section class="news_item">
+                        <img src="images/geyser2.jpg" alt="A geyser erupting and spraying a mist of water 
+                        straight up into the air">
+                        <h3>Geysers</h3>
+                        <h5>Record high for Geyser</h5>
+                        <p>We'll keep you in the loop!</p>
+                        <p>Click link to find out more.</p>
+                        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" 
+                        target="_blank">
+                        <h5 class="read_more">Read More</h5>
+                        </a>
+                    </section>
+                </div>
+                <div id="seperator3"></div>
+            <div class="towns">        
+                <!--Filled with three sections on Fish Haven, Preston, and Soda Springs-->
+            </div>     
+        </div>
+    </main>    
+   
+    <footer>
+        <section id="contact_resources">
+            <!--<img src="/weather/images/preston_map3.jpg" alt="Map view of 51 N State St, Preston, ID 83263" id="map">-->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.464774055154!2d-111.87904448424088!3d42.09751585963302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ec77dbd8f5%3A0x862f42edd0ebc0ce!2s51%20N%20State%20St%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1647030188860!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy" id="map"></iframe>  
+            <div id="contact_info">
+                <p><b>The Weather Chatter Community</b></p>
+                <p><b>&#9906;</b> 51 N State St</p>
+                <p id="br">Preston, ID 83263</p>
+                <br>
+                <p>&#9742; (971)576-4242</p>
+                <p id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">weatherchatter@wcc.com</span></p>
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                      src="images/facebook_logo.png"
+                      alt="Facebook icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                      src="images/twitter_logo.png"
+                      alt="Twitter icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                      src="images/youtube_logo.png"
+                      alt="Youtube icon"></a>
+                  </div>
+            </div>
+        </section>
+
+        <p class="footer_info">
+            &copy; <span id="current_year"></span> Weather Chatter Community |&nbsp; Jeremy T. Suchanski | Oregon |&nbsp;
+            <a href="https://www.byui.edu/online" target="_blank" id="byu_link">
+                BYUI Online Learning
+            </a>
+        </p>
+        <p class="footer_info">
+            - WDD 230 Project | <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span> |
+            <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/a9de4d023" target="_blank">
+                Wireframe #1
+            </a> &nbsp;
+            <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/aa617a8b2" target="_blank">
+                Wireframe #2
+            </a> &nbsp;
+            <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/a63486c3a" target="_blank">
+                Wireframe #3
+            </a> &nbsp;-
+        </p>
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
+            <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <p id="footer_update" ><span id="modified"></span></p> 
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1_sml">
+            <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <a href="https://jmmonjeremy.github.io" id="portal2">
+            <img src="images/Portal1a.svg" alt="icon for Assignment Portal"> 
+        </a>                             
+    </footer>
+    </div>
+    </div>      
+    
+</body>
+</html>

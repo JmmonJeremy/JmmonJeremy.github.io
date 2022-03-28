@@ -1,0 +1,317 @@
+/*-------------------------------- ALERT ----------------------------------*/
+aside {   
+    background-color: #ffff00;
+    border-bottom: 5px solid #1A237E; 
+    border-top: 5px solid #1A237E;
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10.5px;   
+    text-align: center;
+    color: #1A237E;
+    padding: 0 1.3em;
+}
+#pancakes {
+    display: none;
+}
+#time_block {
+    display: inline-block;
+}
+/*------------------------------ WHOLE PAGE -------------------------------*/
+/* set a max width for the content and the backgroung color for the screen*/
+body {
+    margin: 0;
+    background-color: #474747;
+}
+/* part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+#container{
+    position: relative;
+    min-height: 100vh;  
+}
+/* this part is to keep the content from getting cut off if it gets bigger than the page */
+#page {    
+    padding-bottom: 89.109px;   /* width of the footer */
+}
+/* end of part 1 of 2 settings to put the footer at the bottom of the screen & color the inside of the body */
+/*-------------------------------- HEADER ---------------------------------*/
+header {
+    color: #1A237E;
+    background-color: #FF9E80;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 20px;      
+}	
+header img {  
+    box-sizing: border-box;
+    width: 87px;
+}
+header h1 {   
+    text-align: center;    
+    font-family: "Ranchers", "Verdana", cursive;
+    font-size: 17px;      
+    margin: 0; 
+    letter-spacing: 2px;
+}
+#spacing {    
+    letter-spacing: normal;
+}
+.motto {        
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; 
+    padding-top: 4px; 
+    text-align: center;  
+    margin: 0;    
+}
+/*-------------------------------- HEAD NAV -------------------------------*/ 
+nav {   
+    background-color: #1A237E;    
+}
+nav ul {   
+    text-align: center;
+    padding: 0;
+    margin: 0;  
+}
+nav li {   
+    display: none;   
+}
+nav li {   
+    list-style: none;   
+    line-height: 20px;
+    padding: .75em;   
+    border-top: 1px solid #FF9E80;
+    border-bottom: 1px solid #FF9E80; 
+}
+#menu_li {
+    background-color: #474747;   
+}
+#menu_a {
+    color: #ffffff;
+}
+#last_li {
+    border-bottom: 2px solid #FF9E80; 
+}
+.responsive li {
+    display: block;  
+}
+.responsive li:first-child {
+    border-bottom: 1px solid #FF9E80;
+}
+nav li:first-child {
+    display: block;
+    color: #ffffff;
+    line-height: 20px;
+    padding: .75em;
+    border-bottom: 2px solid #FF9E80;    
+}
+nav li:second-child {
+    border-top: 2px solid #FF9E80;
+}
+a:hover {     
+    color: #ffffff;    
+    background-color: #FF9E80;    
+}
+/* default font size = 16px */
+nav a { 
+    display: block;
+    color: #ffff00;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Ranchers", "Verdana", cursive;     
+}
+.menu_symbol {   
+    font-size: 2rem;
+    margin-bottom: 3px;
+}
+.responsive .menu_symbol {
+    margin-bottom: 8px;
+}
+#closed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#open {
+    display: none;
+}
+.responsive #closed {
+    display: none;
+}
+.responsive #open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {    
+    color: #1A237E;     
+}
+.active2 {    
+    background-color: #FF9E80;  
+    padding: 2px;
+    border-radius: 2em;
+    width: 100px;   
+    margin: 0 auto;   
+}
+/*--------------------------------- MAIN ----------------------------------*/
+#inner_pg {
+    background-color: #e3f0ff;
+    max-width: 960px;  
+    margin: 0 auto;     
+}
+/* (h2) = 24px */
+main h1, main h2 {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 2px;            
+}
+main h1 {
+    margin-top: 0;
+    padding-top: 22px;
+    color: #e3f0ff; 
+    text-align: center;
+    font-size: 20px; 
+}
+main h2 {
+    font-size: 16px;    
+}
+/* default font size = 16px */
+p {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 12px;/*16px;*/ 
+}
+#hero_img_box {
+    width: 100%;
+    margin: 0;
+}
+.hero_div img {
+    width: 100%;
+}
+#weather_summary {
+    /*position: absolute;
+    top: 10px;
+    left: 10px;*/
+    background: radial-gradient(farthest-corner at 40px 40px,#FF9E80, #1A237E);
+    border-right: 1px solid #1A237E;
+    border-bottom: 1px solid #1A237E;
+    border-left: 1px solid #FF9E80;
+    border-top: 1px solid #FF9E80;
+    box-shadow: 0 0 30px #777;
+    /*opacity: 0.75;*/    
+    padding: .25em; /*.25em;*/
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;/*70px;*/
+    grid-gap: .15em;/*.15em;*/ 
+    margin-top: -4px;
+}
+#weather_summary_title {
+    font-size: 16px; /*16px;*/
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 2px; /*2px;*/    
+    color: #1A237E;
+    grid-column: 1/3;
+    border-bottom: 1px solid #1A237E;        
+}
+.w_category {
+    color: #ffff00;
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; /*16px*/
+    justify-self: end;  
+}   
+.w_description {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; /*16px*/  
+}
+#forecast {
+    display: none;
+    text-align: center;  
+}
+#st_p_article {
+    padding: 15px 1.5px;
+}
+#st_p_title {
+    text-align: left;        
+}
+#st_p_by_line {
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 13px;
+    margin-bottom: .45rem;     
+}
+#st_p__img {   
+    display: block;   
+}
+#st_p_article_link {
+    font-size: 13px;
+}
+#st_p_text {
+    margin: 0;
+}
+/*-------------------------------- FOOTER ---------------------------------*/    
+#contact_resources {   
+    display: block;
+    text-align: center;  
+    padding: 1em;    
+    background-color: #FF9E80;   
+}
+#map {
+    display: none;   
+}
+#contact_info p {
+    font-size: 13px;
+    margin-bottom: -12px;
+}
+#email_w {
+    font-size: 8px;
+}
+#one_line {
+    display: block;    
+}
+.social img{
+    width: 64px;
+}
+.social a:hover {
+    padding-right: 3px;
+    padding-left: 3px;        
+    padding-top: 54px;
+    padding-bottom: 0;
+    border-radius: 0;
+    background-color: #ffff00;        
+}
+footer a {
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #FF9E80;
+}
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer {      
+    background-color: #1A237E;
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 10px;  
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;  
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+.footer_info {     
+    color: #FF9E80;
+    margin: 10px 0 10px 0;
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: #ffff00;
+    margin-top: 0;     
+}
+#byu_link {  
+    display: inline-block;
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}

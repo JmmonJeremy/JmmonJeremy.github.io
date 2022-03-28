@@ -1,0 +1,139 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+/*-------------------------------- HEADER ---------------------------------*/
+    header {
+        /*flex-direction: row;*/
+        gap: 35px;
+    }    
+    header img {        
+        width: 180px;
+    }
+    header h1 {
+        font-size: 32px;        
+        letter-spacing: 14px;
+    } 
+    .motto {        
+        font-family: "Krona One", "Trebuchet MS", sans-serif; 
+        font-size: 25px;     
+        padding-top: 8px;
+    }
+/*-------------------------------- HEAD NAV -------------------------------*/      
+    nav ul {
+        display: flex;
+    }
+    nav li {                
+        flex: 1 1 auto;
+        display: block;        
+        line-height: 50px;
+        padding: .75em; 
+        border-top: 0;
+        border-bottom: 0;  
+    }
+    nav li:first-child {
+        display: none;
+    }
+    nav a {
+        margin-top: 8.5px;        
+        line-height: 16px;
+        display: inline-block;
+        padding: 0;                           
+    }
+    nav li:second-child {
+        border-top: 0;       
+    }
+    #last_li {
+        border-bottom: 0; 
+    }    
+    .active {    
+        color: #1A237E;
+        background-color: #FF9E80;   
+        padding: 15px;
+        border-radius: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    a:hover {
+        padding: 15px;
+        border-radius: 2em;
+    }
+/*--------------------------------- MAIN ----------------------------------*/  
+    main h1 {
+        font-size: 32px;
+        letter-spacing: 5px; 
+    }
+    #inner_pg {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-gap: 1em;
+        margin: 20px 20px;
+        padding: 1em;         
+    }
+    main figure {
+        box-shadow: 0 0 10px #777;
+    }
+    main figcaption {
+        font-size: 12px;
+    }
+    .one_col {
+        display: none;
+    }
+    .two_col {
+        display: block;
+    }
+    p {       
+        font-size: 16px; 
+    }
+/*-------------------------------- FOOTER ---------------------------------*/
+    #contact_resources {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        justify-items: end;
+        align-items: center;       
+        text-align: left;  
+    }
+    #map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;              
+    } 
+    #contact_info p {
+        font-size: 14px;
+        margin-bottom: 0;                    
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: -1.6px;       
+    } 
+    #email_w {
+        font-size: 14px;
+    } 
+    #one_line {
+        display: flex;    
+    }   
+    .social a {
+       margin-right: 60px;
+    }
+    .social a:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .social img{
+        width: 42px;               
+    }
+    .social a:hover {       
+        padding-top: 32px;       
+    }   
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }   
+}

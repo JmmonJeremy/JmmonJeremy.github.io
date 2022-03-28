@@ -1,0 +1,208 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+/*------------------------------ WHOLE PAGE ---------------------------*/
+    #container{       
+        margin-left: 0;    
+    }
+/*-------------------------------- HEADER ---------------------------------*/
+    header {
+        /*flex-direction: row;*/
+        gap: 35px;
+    }
+    
+    header img {        
+        width: 180px;
+    }
+    header h1 {
+        font-size: 32px;        
+        letter-spacing: 14px;
+    } 
+    .motto {        
+        font-family: "Krona One", "Trebuchet MS", sans-serif; 
+        font-size: 25px;     
+        padding-top: 8px;
+    }
+/*-------------------------------- HEAD NAV -------------------------------*/    
+    nav ul {
+        display: flex;
+    }
+    nav li {                
+        flex: 1 1 auto;
+        display: block;        
+        line-height: 50px;
+        padding: .75em; 
+        border-top: 0;
+        border-bottom: 0;  
+    }
+    nav li:first-child {
+        display: none;
+    }
+    nav a {
+        margin-top: 8.5px;        
+        line-height: 16px;
+        display: inline-block;
+        padding: 0;                           
+    }
+    /*nav li:second-child {
+        border-top: 0;       
+    }*/
+    #last_li {
+        border-bottom: 0; 
+    }    
+    .active {    
+        color: #1A237E;
+        background-color: #FF9E80;   
+        padding: 15px;
+        border-radius: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    a:hover {
+        padding: 15px;
+        border-radius: 2em;
+    }
+/*--------------------------------- MAIN ----------------------------------*/  
+  main h1 {
+        font-size: 32px;
+        letter-spacing: 5px; 
+    }   
+    main h2 {       
+        letter-spacing: 5px;
+        font-size: 24px;         
+    } 
+    main h3 {
+        font-size: 19px;
+        letter-spacing: 3px;
+    } 
+    #weather_news {
+        display: flex;
+        justify-content: space-evenly;    
+        margin-top: 5rem;
+    }
+    section#rain_article {
+        margin: 3rem 1.75rem .75rem 1.75rem;       
+        padding: 2rem;   
+    }
+    section#rain_article img {
+        width: 400px;
+    } 
+    section#rain_article p {
+        font-size: 16px;
+    }    
+    section.news_item img:hover {
+        box-shadow: 0 0 50px #333;       
+        transition: all 0.4s linear;
+        transform: scale(1.1);
+    } 
+    section.news_item h5.read_more {      
+        padding: 1rem; 
+    }     
+    #seperator1 {
+        display: none;
+    }
+    #seperator2 {
+        display: none;
+    }  
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem .5rem;             
+    }
+    main section.townCard {
+        padding: 2rem .2rem; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;                  
+    }
+    main section.townCard:nth-child(even) {
+        flex-direction: row-reverse;
+    }           
+    p {       
+        font-size: 16px; 
+    }
+    .townFacts {
+        width: 350px;
+        margin-top: 1.5rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    main img.townPhoto {        
+        margin-bottom: 0;
+        border-radius: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    main section.townCard img {
+        max-width: 400px; 
+    }
+    .tabletLine {
+        height: 16px;
+        border-top: 3.75px solid #1A237E;
+        box-shadow: 0 -18px 10px #747474;
+        border-bottom: 3.75px solid #1A237E;
+        box-shadow: 0 0 20px #000;
+        border-radius: .35rem;
+        margin-top: 1.5rem;
+    } 
+    .townLine {
+        display: none;
+    } 
+/*-------------------------------- FOOTER ---------------------------------*/
+    #contact_resources {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        justify-items: end;
+        align-items: center;       
+        text-align: left;  
+    }
+    #map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;              
+    } 
+    #contact_info p {
+        font-size: 14px;
+        margin-bottom: 0;                    
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: -1.6px;       
+    } 
+    #email_w {
+        font-size: 14px;
+    } 
+    #one_line {
+        display: flex;    
+    }   
+    .social a {
+       margin-right: 60px;
+    }
+    .social a:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .social img{
+        width: 42px;               
+    }
+    .social a:hover {       
+        padding-top: 32px;       
+    } 
+    footer a {       
+        font-size: 16px;
+    }
+    .footer_info {       
+        font-size: 16px;   
+    }  
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }   
+}
