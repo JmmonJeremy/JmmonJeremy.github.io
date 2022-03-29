@@ -26,6 +26,9 @@ header img {
     box-sizing: border-box;
     width: 87px;
 }
+header a:hover {       
+    background-color:#1A237E;        
+}
 header h1 {   
     text-align: center;    
     font-family: "Ranchers", "Verdana", cursive;
