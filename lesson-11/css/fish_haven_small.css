@@ -148,7 +148,7 @@ nav a {
     background-color: #FF9E80;  
     padding: 2px;
     border-radius: 2em;
-    width: 100px;   
+    width: 120px;   
     margin: 0 auto;   
 }
 /*--------------------------------- MAIN ----------------------------------*/
@@ -248,7 +248,7 @@ p {
 #st_p_text {
     margin: 0;
 }
-#eventsContainer {      
+#eventsContainer {       
     box-sizing: border-box;
     margin: 1rem .2rem 0 .2rem;
     padding: 2rem;    

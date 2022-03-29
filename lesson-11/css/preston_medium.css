@@ -120,12 +120,11 @@
     /*#sunday, #monday, #tuesday, #wednesday, #thursday, #friday, #saturday {
         display: none;
     }*/
-    .day h2 {
-        background-color: #FF9E80;
+    .day h2 {       
         color: #1A237E;
+        text-shadow:1px 1px 10px #ffff00, 1px 1px 10px #ffff00;
         margin: 0;
-        padding: 10px;
-        border: 1px solid #777;
+        padding: 10px;       
         background: radial-gradient(farthest-corner at 40px 40px,#FF9E80, #1A237E);
         border-right: 1px solid #1A237E;
         border-bottom: 1px solid #1A237E;
@@ -150,6 +149,13 @@
         float: right;
         margin-left: 1.75rem;
         padding-bottom: .1rem;        
+    }
+    #eventsContainer {
+        width: 78%;
+        margin: 1rem auto 0 auto;  
+    }
+    #eventsContainer h2 {            
+        font-size: 28px;            
     }
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   

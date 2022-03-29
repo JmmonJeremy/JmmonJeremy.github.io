@@ -47,7 +47,7 @@ if (dayName === "Friday") {
 // End *** Banner Display on Fridays Code ****************************************************************************** */
 
 // *** API JSON Weather Request for Weather Update
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Preston,5604473&appid=d8504fb6db3692f9637d82ee139508e9&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Soda+Springs,5607916&appid=d8504fb6db3692f9637d82ee139508e9&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -72,7 +72,7 @@ fetch(apiURL)
 // *** Code for Five Day Forecast
 let forecastDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=Preston,5604473&appid=d8504fb6db3692f9637d82ee139508e9&units=imperial"
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=Soda+Springs,5607916&appid=d8504fb6db3692f9637d82ee139508e9&units=imperial"
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -110,7 +110,7 @@ fetch(requestURL)
         let cities = jsonObject["towns"];
           // Filter list down to the 5 day forecast
           let townInfo = cities.filter(city => {
-            return city.name.includes("Preston")                
+            return city.name.includes("Soda Springs")                
           });          
           console.table(townInfo);
           let eventsContainer = document.querySelector("#eventsContainer");

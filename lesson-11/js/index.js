@@ -98,7 +98,7 @@ fetch(requestURL)
         return response.json();
       })
       .then(function (jsonObject) {
-        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        //console.table(jsonObject);  // temporary checking for valid response and data parsing
         buildHTML(jsonObject["towns"], "Fish Haven", "townFacts1F");
         buildHTML(jsonObject["towns"], "Preston", "townFacts2P");
         buildHTML(jsonObject["towns"], "Soda Springs", "townFacts3S");
