@@ -9,7 +9,7 @@ aside {
     color: #1A237E;
     padding: 0 1.3em;
 }
-#pancakes {
+#alert {
     display: none;
 }
 #time_block {
@@ -46,7 +46,7 @@ header img {
     width: 87px;
 }
 header a:hover {       
-    background-color:#1A237E;        
+    transform: scale(1.01);         
 }
 header h1 {   
     text-align: center;    
@@ -109,7 +109,7 @@ nav li:first-child {
 nav li:nth-child(2) {
     border-top: 2px solid #FF9E80;
 }
-a:hover {     
+nav a:hover {     
     color: #ffffff;    
     background-color: #FF9E80;    
 }
@@ -231,24 +231,24 @@ p {
     display: none;
     text-align: center;  
 }
-#st_p_article {
+#city_article {
     padding: 15px 1.5px;
 }
-#st_p_title {
+#city_title {
     text-align: left;        
 }
-#st_p_by_line {
+#city_by_line {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
     font-size: 13px;
     margin-bottom: .45rem;     
 }
-#st_p__img {   
+#city__img {   
     display: block;   
 }
-#st_p_article_link {
+#city_article_link {
     font-size: 13px;
 }
-#st_p_text {
+#city_text {
     margin: 0;
 }
 #eventsContainer {      
@@ -346,4 +346,24 @@ footer {
 #portal2 {
     margin-left: 10px;
     vertical-align: middle; 
+}
+#portal1_sml img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 5rem;   
+    transform: scale(1.2);
+}
+#portal2 img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 1rem;   
+    transform: scale(1.2);
 }

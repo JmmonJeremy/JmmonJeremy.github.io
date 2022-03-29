@@ -35,7 +35,7 @@ header img {
     width: 87px;
 }
 header a:hover {       
-    background-color:#1A237E;        
+    transform: scale(1.01);        
 }
 header h1 {   
     text-align: center;    
@@ -98,7 +98,7 @@ nav li:first-child {
 nav li:nth-child(2) {
     border-top: 2px solid #FF9E80;
 }
-a:hover {     
+nav a:hover {     
     color: #ffffff;    
     background-color: #FF9E80;  
 }
@@ -426,6 +426,26 @@ footer {
 #portal2 {
     margin-left: 10px;
     vertical-align: middle; 
+}
+#portal1_sml img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 5rem;   
+    transform: scale(1.2);
+}
+#portal2 img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 1rem;   
+    transform: scale(1.2);
 }
 /*---------------------------- THANK YOU PAGE -----------------------------*/
 #thanks_title {

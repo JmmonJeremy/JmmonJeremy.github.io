@@ -57,7 +57,7 @@
         margin-top: 0;
         margin-bottom: 0;
     }
-    a:hover {
+    nav a:hover {
         padding: 15px;
         border-radius: 2em;
     }
@@ -204,5 +204,15 @@
         display: inline;
         margin-right: 10px;
         vertical-align:middle; 
-    }   
+    }
+    #portal1 img:hover {
+        background-color: #912626;
+        padding: .25rem;
+        box-sizing: border-box; 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 5rem;   
+        transform: scale(1.2);
+    }        
 }
