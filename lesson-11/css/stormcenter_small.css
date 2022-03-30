@@ -95,9 +95,6 @@ nav li:first-child {
     padding: .75em;
     border-bottom: 2px solid #FF9E80;    
 }
-nav li:nth-child(2) {
-    border-top: 2px solid #FF9E80;
-}
 nav a:hover {     
     color: #ffffff;    
     background-color: #FF9E80;  
