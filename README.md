@@ -1,4 +1,4 @@
-### &nbsp; Assignment Portal Direct Link: &nbsp; |&emsp; Principles of Design Link:&emsp; |&nbsp; &emsp; Website Plan Link:
+### &nbsp; Assignment Portal Direct Link: &nbsp;|&emsp; Principles of Design Link:&emsp; |&nbsp; &emsp; Website Plan Link:
 
 ###### &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; (click on icon below) &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; (click on icon below) &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; &nbsp; (click on icon below)                                                              
 
@@ -6,7 +6,7 @@
 &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp;[<img src="sources/design_principles_icon_link.png" width="200">](https://jmmonjeremy.github.io/design-principles.html) 
 &nbsp; &nbsp; &emsp; &emsp; [<img src="sources/site_plan_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson2/index.html)
         
-### &nbsp; #1 Weather Site Preston Link: &nbsp;| &nbsp;Weather Site Gallery Pg Link: &nbsp;|&nbsp; &emsp; Lazy Loading Link:
+### &nbsp; #1 Weather Site Preston Link: &nbsp; | &nbsp;Weather Site Gallery Pg Link: &nbsp;|&nbsp; &emsp; Lazy Loading Link:
            
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; (click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)    
 
