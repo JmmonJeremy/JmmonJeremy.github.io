@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="520mm"
+   height="320mm"
+   viewBox="0 0 520 320"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="D:\Users\Owner\Desktop\WDD 230 Web Frontend Development I\Web Assignments Working Folder\JmmonJeremy.github.io-1\weather\images\gallery_placeholder1.png"
+   inkscape:export-xdpi="25.3776"
+   inkscape:export-ydpi="25.3776"
+   sodipodi:docname="placeholder.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32026164"
+     inkscape:cx="1085.0503"
+     inkscape:cy="602.63226"
+     inkscape:window-width="1600"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     objecttolerance="1" />
+  <defs
+     id="defs2">
+    <rect
+       x="3.122447"
+       y="359.0814"
+       width="1967.1416"
+       height="505.83641"
+       id="rect84100" />
+    <rect
+       x="56.204045"
+       y="290.38757"
+       width="1870.3457"
+       height="640.10163"
+       id="rect5305" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.282171,-27.130573)">
+    <rect
+       style="fill:#999999;stroke:#000000;stroke-width:0.453942"
+       id="rect53"
+       width="519.54608"
+       height="319.54605"
+       x="19.509142"
+       y="27.357544"
+       inkscape:export-filename="D:\Users\Owner\Desktop\WDD 230 Web Frontend Development I\Web Assignments Working Folder\JmmonJeremy.github.io-1\weather\images\gallery_placeholder1.png"
+       inkscape:export-xdpi="25.3776"
+       inkscape:export-ydpi="25.3776" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.24968"
+       id="rect106640"
+       width="599.37683"
+       height="10.903062"
+       x="36.947815"
+       y="11.365412"
+       transform="matrix(0.85630224,0.51647505,-0.51993779,0.85420413,0,0)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.24968"
+       id="rect106640-2"
+       width="599.37683"
+       height="10.903062"
+       x="-440.31183"
+       y="298.9624"
+       transform="matrix(-0.85630224,0.51647505,0.51993779,0.85420413,0,0)" />
+    <g
+       id="g111463"
+       style="stroke:none"
+       transform="translate(3.3045897,-0.82614743)">
+      <rect
+         style="fill:#999999;stroke:none;stroke-width:0.305142"
+         id="rect106350"
+         width="486.57803"
+         height="67.032585"
+         x="34.990376"
+         y="155.05739" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,29.19594,58.524176)"
+         id="text84098"
+         style="font-size:253.333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect84100);fill:#ffffff;stroke:none"><tspan
+           x="3.1230469"
+           y="583.22235"
+           id="tspan112466">PLACEHOLDER</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+/* 69em is also 1104px when basefont is 16px */
+@media only screen and (min-width: 69em) {
+    /*-------------------------------- ALERT ----------------------------------*/
+        #alert {
+            font-size: 18px;
+        }
+    /*-------------------------------- HEADER ---------------------------------*/
+        header img {        
+            width: 232px;
+        }
+        header h1 {
+            font-size: 50px;        
+        }
+        .motto {  
+            font-size: 30px;    
+        }
+    /*--------------------------------- MAIN ----------------------------------*/
+     
+    /*-------------------------------- FOOTER ---------------------------------*/
+        #contact_info p {
+            font-size: 16px;       
+        } 
+        #contact_info p:nth-of-type(1) {
+            letter-spacing: 0;      
+        } 
+        #email_w {
+            font-size: 17px;
+            letter-spacing: 1.5px;
+        }
+        .social img{
+            width: 64px;
+        }
+        .social a {
+            margin-right: 76px;
+         }
+        .social a:hover {       
+            padding-top: 54px;       
+        }   
+    }  

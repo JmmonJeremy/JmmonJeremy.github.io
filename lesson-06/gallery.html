@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Weather Gallery page from The Weather Chatter Community Website 
+    for Jeremy T. Suchanski in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>The weather Chatter Commuity Weather Gallery Page | Jeremy T. Suchanski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery_small.css">       
+    <link rel="stylesheet" href="css/gallery_medium.css">
+    <link rel="stylesheet" href="css/gallery_large.css">  
+</head>
+
+<body>
+    <div id="container">
+    <div id="page">
+   
+    <header>        
+        <a href="https://jmmonjeremy.github.io/lesson-6/index.html">
+            <img src="images/logo.png" alt="Community Weather Chatter logo">
+        </a> 
+        <section id="web_title">
+        <!--Split and used span to illiminate space caused by adding line spacing in css-->
+        <h1>The Weather Chatte<span id="spacing">r</span></h1>
+        <h1>Community</h1>
+       
+        <div class="motto">Connecting us with weather</div>
+        
+        </section>        
+    </header>
+
+    <nav>       
+        <ul class="navigation">
+            <li id="menu"><a href="#" onclick="toggleMenu(); Switch();" id="menu_a">
+                <span id="closed"><span class="menu_symbol">&#9776;&nbsp; &nbsp;</span>
+                MENU<span class="menu_symbol">&nbsp; &nbsp;&#9776;</span></span>
+                <span id="open"><span class="menu_symbol">&#8667;&nbsp; &nbsp;</span>
+                CLOSE<span class="menu_symbol">&nbsp; &nbsp;&#8666;</span></span>
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-6/index.html">
+                Home
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-6/preston.html">
+                Preston
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-6/soda_springs.html">
+                Soda Springs
+            </a></li>
+            <li><a href="https://jmmonjeremy.github.io/lesson-6/fish_haven.html">
+                Fish Haven
+            </a></li>           
+            <li><a href="https://jmmonjeremy.github.io/lesson-6/stormcenter.html">
+                Storm Center
+            </a></li>
+            <li id="last_li"><div class="active2"><a href=https://jmmonjeremy.github.io/lesson-6/gallery.html
+                class="active">
+                Gallery
+            </a></div></li>           
+        </ul>
+    </nav>    
+    
+    <main>         
+        <h1>Weather Gallery</h1>
+
+        <div id="inner_pg">
+<!--#1Pic--><figure>    <!--#1 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rainbow520.jpg" 
+                    alt="Image of a double rainbow in the sky">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rainbow520.jpg" 
+                    alt="Image of a double rainbow in the sky">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rainbow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rainbow520.jpg" 
+                    alt="Image of a double rainbow in the sky">
+                </picture>               
+               
+                <figcaption>Double rainbow south of Franklin</figcaption>
+            </figure>
+
+<!--#2Pic--><figure>    <!--#2 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sun&lightning520.jpg" 
+                    alt="Image of lightning striking alongside the sun in a red sky">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sun&lightning520.jpg" 
+                    alt="Image of lightning striking alongside the sun in a red sky">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sun&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sun&lightning520.jpg" 
+                    alt="Image of lightning striking alongside the sun in a red sky">
+                </picture>               
+               
+                <figcaption>Lightning and sun over Greenville</figcaption>
+            </figure>
+
+<!--#3Pic--><figure>    <!--#3 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/cold_front520.jpg" 
+                    alt="Image of a cloud cold front in the sky">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/cold_front520.jpg" 
+                    alt="Image of a cloud cold front in the sky">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/cold_front420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/cold_front520.jpg" 
+                    alt="Image of a cloud cold front in the sky">
+                </picture>               
+               
+                <figcaption>Cold front over Springfield</figcaption>
+            </figure>
+
+<!--#4Pic--><figure>    <!--#4 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/tornado&lightning520.jpg" 
+                    alt="Image of a tornado and lightning striking in Clark County">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/tornado&lightning520.jpg" 
+                    alt="Image of a tornado and lightning striking in Clark County">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/tornado&lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/tornado&lightning520.jpg" 
+                    alt="Image of a tornado and lightning striking in Clark County">
+                </picture>               
+               
+                <figcaption>Tornado and lightning in Clark County</figcaption>
+            </figure>
+
+<!--#5Pic--><figure>    <!--#5 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow_in_park520.jpg" 
+                    alt="Image of snow covering trees, a park bench, and the ground">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow_in_park520.jpg" 
+                    alt="Image of snow covering trees, a park bench, and the ground">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow_in_park420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow_in_park520.jpg" 
+                    alt="Image of snow covering trees, a park bench, and the ground">
+                </picture>               
+               
+                <figcaption>Franklin Park covered in fresh snow</figcaption>
+            </figure>
+
+<!--#6Pic--><figure>    <!--#6 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/lightning520.jpg" 
+                    alt="Image of six lightning strikes at once in the sky">
+                </picture>
+              
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/lightning520.jpg" 
+                    alt="Image of six lightning strikes at once in the sky">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/lightning420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/lightning520.jpg" 
+                    alt="Image of six lightning strikes at once in the sky">
+                </picture>               
+               
+                <figcaption>Six lightning strikes in Greenville</figcaption>
+            </figure>
+           
+<!--#7Pic--><figure>    <!--#7 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/downpour520.jpg" 
+                    alt="Image of a downpour in Octagon Springs Park">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/downpour520.jpg" 
+                    alt="Image of a downpour in Octagon Springs Park">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/downpour420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/downpour520.jpg" 
+                    alt="Image of a downpour in Octagon Springs Park">
+                </picture>               
+            
+                <figcaption>Downpour drenching Octagon Springs Park</figcaption>
+            </figure>
+
+<!--#8Pic--><figure>    <!--#8 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rain520.jpg" 
+                    alt="Image of a bird on a fence with rain drizzling around it">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rain520.jpg" 
+                    alt="Image of a bird on a fence with rain drizzling around it">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/rain520.jpg" 
+                    alt="Image of a bird on a fence with rain drizzling around it">
+                </picture>               
+            
+                <figcaption>Rain in Caribon-Targhee National Forest</figcaption>
+            </figure>
+
+<!--#9Pic--><figure>    <!--#9 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/streetlight&rain520.jpg" 
+                    alt="Image of rain coming down with a streetlight in the background">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/streetlight&rain520.jpg" 
+                    alt="Image of rain coming down with a streetlight in the background">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/streetlight&rain420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/streetlight&rain520.jpg" 
+                    alt="Image of rain coming down with a streetlight in the background">
+                </picture>               
+    
+                <figcaption>Rain coming down on Preston's streets</figcaption>
+            </figure>
+
+<!--10Pic--><figure>    <!--#10 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunset&snow520.jpg" 
+                    alt="Image of trees covered in a snow that are red tinged from a sunset with a blue and yellow sky">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunset&snow520.jpg" 
+                    alt="Image of trees covered in a snow that are red tinged from a sunset with a blue and yellow sky">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunset&snow420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunset&snow520.jpg" 
+                    alt="Image of trees covered in a snow that are red tinged from a sunset with a blue and yellow sky">
+                </picture>               
+            
+                <figcaption>Sunset over snow cover in Caribon County</figcaption>
+            </figure>
+
+<!--11Pic--><figure>    <!--#11 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunrise520.jpg" 
+                    alt="Image of a sunrise through pink tinged clouds over a line of a parks treetops">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunrise520.jpg" 
+                    alt="Image of a sunrise through pink tinged clouds over a line of a parks treetops">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/sunrise420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/sunrise520.jpg" 
+                    alt="Image of a sunrise through pink tinged clouds over a line of a parks treetops">
+                </picture>               
+            
+                <figcaption>Sunrise over the trees in Geyser Park</figcaption>
+            </figure>
+
+<!--12Pic--><figure>    <!--#12 Picture-->
+                <picture class="one_col">
+                    <source media="(max-width: 220px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall220.jpg">
+                    <source media="(max-width: 320px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall320.jpg">
+                    <source media="(max-width: 420px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow&waterfall520.jpg" 
+                    alt="Image of a small waterfall surrounded by snow">
+                </picture>
+            
+                <picture class="two_col">                    
+                    <source media="(max-width: 640px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall320.jpg">
+                    <source media="(max-width: 840px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow&waterfall520.jpg" 
+                    alt="Image of a small waterfall surrounded by snow">
+                </picture>
+
+                <picture class="three_col">                 
+                    <source media="(max-width: 1260px)" srcset="images/gallery_placeholder.svg" 
+                    data-srcset="images/snow&waterfall420.jpg">
+                    <img src="images/gallery_placeholder.svg" data-src="images/snow&waterfall520.jpg" 
+                    alt="Image of a small waterfall surrounded by snow">
+                </picture>               
+            
+                <figcaption>Snow surrounding waterfall on Bear River</figcaption>
+            </figure>           
+
+        </div>
+    </main>    
+   
+    <footer>
+        <section id="contact_resources">
+            <!--<img src="/weather/images/preston_map3.jpg" alt="Map view of 51 N State St, Preston, ID 83263" id="map">-->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.464774055154!2d-111.87904448424088!3d42.09751585963302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ec77dbd8f5%3A0x862f42edd0ebc0ce!2s51%20N%20State%20St%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1647030188860!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy" id="map"></iframe>  
+            <div id="contact_info">
+                <p><b>The Weather Chatter Community</b></p>
+                <p><b>&#9906;</b> 51 N State St</p>
+                <p id="br">Preston, ID 83263</p>
+                <br>
+                <p>&#9742; (971)576-4242</p>
+                <p id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">weatherchatter@wcc.com</span></p>
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                      src="images/facebook_logo.png"
+                      alt="Facebook icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                      src="images/twitter_logo.png"
+                      alt="Twitter icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                      src="images/youtube_logo.png"
+                      alt="Youtube icon"></a>
+                  </div>
+            </div>
+        </section>
+
+        <p class="footer_info">
+            &copy; <span id="current_year"></span> Weather Chatter Community |&nbsp; Jeremy T. Suchanski | Oregon |&nbsp;
+            <a href="https://www.byui.edu/online" target="_blank" id="byu_link">
+                BYUI Online Learning
+            </a>
+        </p>
+        <p class="footer_info">
+            - WDD 230 Project | <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span> -
+        </p>
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
+            <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <p id="footer_update" ><span id="modified"></span></p> 
+        <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1_sml">
+            <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+        </a>                                                   
+        <a href="https://jmmonjeremy.github.io" id="portal2">
+            <img src="images/Portal1a.svg" alt="icon for Assignment Portal"> 
+        </a>                             
+    </footer>
+    </div>
+    </div> 
+    
+    <script src="js/gallery.js"></script>    
+    
+</body>
+</html>

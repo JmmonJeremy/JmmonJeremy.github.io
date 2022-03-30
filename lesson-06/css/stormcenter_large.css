@@ -1,0 +1,42 @@
+/* 60em is also 960px when basefont is 16px */
+@media only screen and (min-width: 60em) {
+/*-------------------------------- HEADER ---------------------------------*/
+    header img {        
+        width: 232px;
+    }
+    header h1 {
+        font-size: 50px;        
+    }
+    .motto {  
+        font-size: 30px;    
+    }
+/*-------------------------------- MAIN -----------------------------------*/    
+/*-------------------------------- FORM -----------------------------------*/
+    form label.sbs {
+        padding: .4rem 0;
+    }
+/*-------------------------------- FOOTER ---------------------------------*/
+    #contact_info p {
+        font-size: 16px;       
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: 0;      
+    } 
+    #email_w {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+    .social img{
+        width: 64px;
+    }
+    .social a {
+        margin-right: 76px;
+     }
+    .social a:hover {       
+        padding-top: 54px;       
+    }
+/*---------------------------- THANK YOU PAGE -----------------------------*/
+    #thanks { 
+        margin: 0 auto 3em auto;
+    }        
+}

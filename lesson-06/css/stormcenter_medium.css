@@ -1,0 +1,180 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+/*-------------------------------- HEADER ---------------------------------*/
+    header {
+        /*flex-direction: row;*/
+        gap: 35px;
+    }
+    
+    header img {        
+        width: 180px;
+    }
+    header h1 {
+        font-size: 32px;        
+        letter-spacing: 14px;
+    } 
+    .motto {        
+        font-family: "Krona One", "Trebuchet MS", sans-serif; 
+        font-size: 25px;     
+        padding-top: 8px;
+    }
+/*-------------------------------- HEAD NAV -------------------------------*/   
+    nav ul {
+        display: flex;
+    }
+    nav li {                
+        flex: 1 1 auto;
+        display: block;        
+        line-height: 50px;
+        padding: .75em; 
+        border-top: 0;
+        border-bottom: 0;  
+    }
+    nav li:first-child {
+        display: none;
+    }
+    nav a {
+        margin-top: 8.5px;        
+        line-height: 16px;
+        display: inline-block;
+        padding: 0;                           
+    }  
+    #last_li {
+        border-bottom: 0; 
+    }    
+    .active {    
+        color: #1A237E;
+        background-color: #FF9E80;   
+        /*padding: 15px;*/
+        border-radius: 2em;
+        margin-top: 0;
+        margin-bottom: 0;      
+    }
+    nav a:hover {
+        padding: 15px;
+        border-radius: 2em;
+    } 
+/*-------------------------------- MAIN -----------------------------------*/
+    #inner_pg {
+        padding: 2rem 3rem 0 3rem;         
+    }      
+    main h1 {
+        margin-left: 3.5rem;        
+        font-size: 32px;
+        letter-spacing: 5px; 
+    } 
+    p {       
+        font-size: 16px; 
+    }
+/*-------------------------------- FORM -----------------------------------*/
+    form input.submitBtn {
+        margin: 0 0 0 2%;
+        font-size: 20px;
+        padding:.85rem 1.5rem;
+    }
+    #send2 {        
+        margin-left: 2%;
+    }    
+    #choose_type_symbol {
+        margin-left: 45%;
+        display: inline;
+    }
+    #choose_type_symbol.show_list {
+        margin-left: 0;
+        display: none;
+    }    
+    #slash_marks {
+       display: block;
+       margin-bottom: 1px;
+    }
+    #num_grid {
+        display: block;
+        margin-left: -2px;  
+    }   
+    #range_container {
+        position: relative;
+    }
+    #range_output {
+        display:initial;        
+        margin-left: -2.6rem;
+        margin-top: -2rem;
+        position: absolute;       
+    }
+/*-------------------------------- FOOTER ---------------------------------*/
+    #contact_resources {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        justify-items: end;
+        align-items: center;       
+        text-align: left;  
+    }
+    #map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;              
+    } 
+    #contact_info p {
+        font-size: 14px;
+        margin-bottom: 0;                    
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: -1.6px;       
+    } 
+    #email_w {
+        font-size: 14px;
+    } 
+    #one_line {
+        display: flex;    
+    }   
+    .social a {
+       margin-right: 60px;
+    }
+    .social a:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .social img{
+        width: 42px;               
+    }
+    .social a:hover {       
+        padding-top: 32px;       
+    }   
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }
+    #portal1 img:hover {
+        background-color: #912626;
+        padding: .25rem;
+        box-sizing: border-box; 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 5rem;   
+        transform: scale(1.2);
+    }     
+/*---------------------------- THANK YOU PAGE -----------------------------*/
+    #thanks_title {     
+        font-size: 35px;        
+    }
+    #thanks { 
+        margin: 0 30px 3em 30px;      
+        padding: 2rem 2rem 1rem 2rem;       
+        font-size: 19px;      
+    }
+    #top_img {        
+        margin: 0 auto 2em auto;           
+    }
+    section#lower_images {
+        display: flex;
+        justify-content: space-evenly;    
+    }   
+}
