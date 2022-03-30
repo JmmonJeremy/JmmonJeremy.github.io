@@ -106,16 +106,16 @@ fetch(requestURL)
         return response.json();
       })
       .then(function (jsonObject) {
-        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        //console.table(jsonObject);  // temporary checking for valid response and data parsing
         let cities = jsonObject["towns"];
           // Filter list down to the 5 day forecast
           let townInfo = cities.filter(city => {
             return city.name.includes("Soda Springs")                
           });          
-          console.table(townInfo);
+          //console.table(townInfo);
           let eventsContainer = document.querySelector("#eventsContainer");
           let eventList = townInfo[0].events;
-          console.log(eventList);
+          //console.log(eventList);
           eventList.forEach(event => {
             let townEvent = document.createElement("p");
             townEvent.innerHTML = event;
