@@ -28,4 +28,4 @@
 
 &emsp; &emsp;[<img src="sources/weather_home_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-5/index.html)
 &emsp; &emsp; &emsp; &emsp; &emsp;[<img src="sources/2nd_weather_preston_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-10/preston-10.html)
-&nbsp;&emsp; &emsp; &emsp; &nbsp;[<img src="sources/weather_home_pg_lesson11_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-11/index.html)
+&nbsp;&emsp; &emsp; &emsp; &nbsp;[<img src="sources/weather_soda_springs_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-11/soda_springs.html)
