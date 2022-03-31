@@ -229,10 +229,8 @@ p {
     text-align: center;  
 }
 #city_article {
-    padding: 15px 1.5px;
-}
-#city_title {
-    text-align: left;        
+    padding: 4rem 1.5px 3rem 1.5px;
+    text-align: center;
 }
 #city_by_line {
     font-family: "Krona One", "Trebuchet MS", sans-serif;
@@ -247,6 +245,7 @@ p {
 }
 #city_text {
     margin: 0;
+    line-height: 2;
 }
 #eventsContainer {       
     box-sizing: border-box;

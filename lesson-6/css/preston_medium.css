@@ -139,13 +139,16 @@
         margin-top: 0;
     }
     #city_article {
-        padding: 3em 2em;
-        text-align:justify;       
-    }
-    #city__img {   
+        padding: 6em 2em 5rem 2rem;
+        text-align: left;           
+    }    
+    #city_img {   
         float: right;
         margin-left: 1.75rem;
         padding-bottom: .1rem;        
+    }
+    #city_text {
+        text-align: justify; 
     }
     #eventsContainer {
         width: 78%;
