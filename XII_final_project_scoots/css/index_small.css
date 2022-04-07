@@ -36,14 +36,16 @@ header div #logo img {
     height: 100%;       
 }
 /*--------------------------- WEATHER SUMMARY -----------------------------*/
-#weather_summary {
+#weather_summary {  
+    display: grid;
+    margin-right: 4%;     
+    padding: .5em; 
     max-height: 165px;
     max-width: 300px;  
     background: #ad2222; 
     box-shadow: 0 0 30px #777;    
     padding: .25em; 
-    color: #fff;
-    display: grid;
+    color: #fff;    
     grid-template-columns: 1fr 1fr;
     grid-gap: .15em;
     border: 10px groove #000;
@@ -51,7 +53,6 @@ header div #logo img {
     border-radius: 2.5rem; 
     margin-top: -5px; 
     position: relative; 
-    display:none;      
 }
 #weather_summary_title {    
     line-height: 25px; 
@@ -149,6 +150,23 @@ nav ul #menu {
 } 
 .responsive li {
     display: block;
+}
+.responsive li:first-child {
+    border-bottom: 1px solid #FF9E80;
+}
+.responsive .menu_symbol {
+    margin-bottom: 8px;
+}
+.responsive #closed {
+    display: none;
+}
+.responsive #open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu_a {
+    color: #ffffff;
 }
 #open {
     display: none;
