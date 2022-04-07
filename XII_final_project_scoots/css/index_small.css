@@ -33,22 +33,7 @@ header div #logo img {
 }
 /*--------------------------- WEATHER SUMMARY -----------------------------*/
 #weather_summary {  
-    display: grid;
-    margin-right: 4%;     
-    padding: .5em; 
-    max-height: 165px;
-    max-width: 300px;  
-    background: #ad2222; 
-    box-shadow: 0 0 30px #777;    
-    padding: .25em; 
-    color: #fff;    
-    grid-template-columns: 1fr 1fr;
-    grid-gap: .15em;
-    border: 10px groove #000;
-    outline: 1px solid;    
-    border-radius: 2.5rem; 
-    margin-top: -5px; 
-    position: relative; 
+    display: none;
 }
 #weather_summary_title {    
     line-height: 25px; 
