@@ -335,10 +335,10 @@ iframe {
     font-size: 16px;
     margin-bottom: -12px;
 }
-#email_w {
+#email_w, #email_w2 {
     font-size: 7px;
 }
-#one_line {
+#one_line, #one_line2 {
     display: block;    
 }
 .social img{
