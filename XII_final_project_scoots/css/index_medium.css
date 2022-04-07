@@ -1,0 +1,264 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+
+/*-------------------------------- HEADER ---------------------------------*/
+header #header_content {
+    padding-bottom: 78px;  
+}
+/*--------------------------- WEATHER SUMMARY -----------------------------*/
+#weather_summary { 
+    margin-right: 4%;     
+    padding: .5em;       
+}
+#weather_summary_title {
+    font-size: 26px;
+    letter-spacing: 5px; 
+    margin-top: 0;
+}
+.w_category {       
+    font-size: 12px;
+     
+}   
+.w_description {       
+    font-size: 12px;    
+}
+header div.motto {    
+        font-size: 25px;    
+    }
+/*-------------------------------- HEAD NAV -------------------------------*/
+header div #floating_nav_bar {   
+        position: fixed; /* Set the navbar to fixed position */   
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        max-width: 800px;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+    nav ul li {
+        display: block;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-top: none;
+        border-radius: 0 0 .5rem .5rem;
+        margin: auto auto;
+        width: 18%;       
+    }    
+    nav ul #menu {
+        display: none;
+    }
+    nav ul #home {
+        min-width: 56px
+    }
+    nav ul #rentals {
+        min-width: 68px
+    }
+    nav ul #reservations {
+        min-width: 110px;
+    }
+    nav ul #tours {
+        min-width: 50px;
+    }
+    nav ul #contact {
+        min-width: 96px;
+    }
+    nav ul li a {
+        padding: .5rem 0;    
+    }  
+    nav ul li.active {
+        border-radius: 0 0 .5rem .5rem;       
+        background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 10px no-repeat;
+        --t: 70%;     
+        background-color: #ad2222;     
+    }   
+    /*------------------------------- MAIN --------------------------------*/
+    main #main_content {
+        grid-template-rows: 2fr;
+        background-color: rgba(252, 252, 252, .75);    
+    }
+    /*--------------- HERO IMG, WELCOME, & CALL TO ACTION -----------------*/
+    main section .hero {
+        grid-row: 1/3;
+        grid-column: 1/2;
+        z-index: 0;
+        grid-template-columns: 1fr .1fr 1fr;
+        grid-template-rows: auto 1.5fr auto;
+    }
+    main picture.home_hero_frame {
+        grid-column: 1/4;
+        grid-row: 1/4;
+    }
+    main div .hero_text {
+        grid-column: 1/3;
+        grid-row: 1;
+        align-self: center;
+    }
+    main div .hero_text h1 {
+        font-size: 4.5rem;
+        margin-bottom: 0;       
+    }
+    main div .hero_text h2 {
+        font-size: 2.8rem;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    main div .hero_action {
+        grid-column: 3/4;
+        grid-row: 2;
+        box-shadow: -3px 3px 6px white;
+        margin-bottom: 9rem;
+    }
+    /*------------------------- WEATHER FORECAST ---------------------------*/
+    #forecast {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+        margin-bottom: 100px;    
+    }
+    #forecast h2 {
+        flex: 0 1 100%;            
+    }
+    .day {    
+        width: 15%;
+        border: 1px solid #777;   
+        border-right: 1px solid #1A237E;
+        border-bottom: 1px solid #1A237E;
+        border-left: 1px solid  #ad2222; 
+        border-top: 1px solid  #ad2222; 
+        box-shadow: 0 0 30px #777;
+    }   
+    .day h2 {       
+        color: #004775;
+        text-shadow:1px 1px 10px #ffff00, 1px 1px 10px #ffff00;
+        margin: 0;
+        padding: 10px;       
+        background: radial-gradient(farthest-corner at 40px 40px,#ad2222, #C7E973);
+        border-right: 1px solid #1A237E;
+        border-bottom: 1px solid #1A237E;
+        border-left: 1px solid  #ad2222; 
+        border-top: 1px solid  #ad2222; 
+        box-shadow: 0 0 30px #777;      
+    }
+    .day img {
+        display: block;    
+        margin: 20px auto;
+        width: 80px;        
+    }
+    .day p {
+        text-align: center;
+        margin-top: 0;
+        font-size: 2rem;
+        font-weight: 900;
+        color: #fff;
+        text-shadow:1px 1px 10px #FF9E80, -1px -1px 10px #FF9E80;
+    }
+    /*------------------------- VEHICLE INTRODUCTIONS ---------------------------*/
+    .subject_title {       
+        font-size: 50px;
+    }
+    #vehicle_intro {                 
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;       
+    }
+    figcaption {
+        font-family: "Permanent Marker", "Verdana", cursive;
+        font-size: 5rem;
+        text-align: center;        
+    }
+    figure div {
+        font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center; 
+    }    
+    #atv_img {
+        margin: -2rem;
+    }
+    #atv, #atv_img {       
+         width: 350px;     
+     }
+    #jeep,  #jeep_img {    
+        width: 600px;           
+    }  
+    #scooter {
+        max-height:350px;
+        margin-top: -50px;
+       
+        margin-bottom: 20px;
+     } 
+     #scooter, #scooter_img {
+        width: 450px;
+     }
+     #scooter_img {
+      padding-top: 2.5rem;
+    }
+      /*-------------------------------- FOOTER ---------------------------------*/    
+      #contact_resources {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        justify-items: end;
+        align-items: center;       
+        text-align: left;  
+    }
+    #map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;              
+    } 
+    #contact_info p {
+        font-size: 14px;
+        margin-bottom: 0;                    
+    } 
+    #contact_info p:nth-of-type(1) {
+        letter-spacing: -1.6px;       
+    } 
+    #email_w {
+        font-size: 14px;
+    } 
+    #one_line {
+        display: flex;    
+    }   
+    .social a {
+       margin-right: 60px;
+    }
+    .social a:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .social img{
+        width: 42px;               
+    }
+    .social a:hover {       
+        padding-top: 32px;       
+    }   
+    #footer_update {
+        display: inline-block;
+    }
+    #portal1_sml {
+        display: none;
+    }
+    #portal1 {
+        display: inline;
+        margin-right: 10px;
+        vertical-align:middle; 
+    }
+    #portal1 img:hover {
+        background-color: #912626;
+        padding: .25rem;
+        box-sizing: border-box; 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 5rem;   
+        transform: scale(1.2);
+    }        
+}
+}

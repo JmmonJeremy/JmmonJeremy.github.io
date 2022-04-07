@@ -1,0 +1,399 @@
+/*------------------------------ WHOLE PAGE ---------------------------*/
+body {
+	background-image: url("/XII_final_project_scoots/images/web_background2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+    background-color: none;
+}
+#content {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: rgba(249, 198, 41, .55);
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;   
+}
+/*-------------------------------- HEADER ---------------------------------*/
+header #header_content {
+    background: linear-gradient(0deg, rgba(49, 110, 244, .66) 10%, rgba(50, 231, 200, .66)  100%); 
+    padding-top: 1rem;  
+} 
+section#weather_summary { 
+   display:none;      
+}
+#top_section {
+    display: flex;
+    justify-content: space-between
+}
+header div #logo { 
+    
+    max-width: 730px;     
+    max-height: 200px;     
+}
+header div #logo img { 
+    width: 100%;  
+    height: 100%;       
+}
+/*--------------------------- WEATHER SUMMARY -----------------------------*/
+#weather_summary {
+    max-height: 165px;
+    max-width: 300px;  
+    background: #ad2222; 
+    box-shadow: 0 0 30px #777;    
+    padding: .25em; 
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .15em;
+    border: 10px groove #000;
+    outline: 1px solid;    
+    border-radius: 2.5rem; 
+    margin-top: -5px; 
+    position: relative; 
+    display:none;      
+}
+#weather_summary_title {    
+    line-height: 25px; 
+    font-size: 16px; 
+    font-family: "Ranchers", "Verdana", cursive;     
+    color: #1A237E;
+    text-shadow:1px 1px 10px #FF9E80, 1px 1px 10px #FF9E80;
+    grid-column: 1/3;
+    border-bottom: 1px solid #1A237E;      
+}
+#current_w_icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 75px;
+}
+#condition {
+    grid-column: 2;
+}
+#condition, #current_w_icon {    
+    align-self: center;
+}
+.w_category {   
+    text-shadow:1px 1px 10px #1A237E, 1px 1px 10px #1A237E;
+    font-family: "Krona One", "Trebuchet MS", sans-serif;
+    font-size: 10px; 
+    justify-self: end; 
+    margin-right: .25rem; 
+    grid-column: 1;
+    z-index: 1;
+}   
+.w_description {
+    color: #ffff00; 
+    font-family: "Krona One", "Trebuchet MS", sans-serif; 
+    font-size: 10px; /*16px*/
+    text-shadow:1px 1px 10px #1A237E, 1px 1px 10px #1A237E; 
+    margin-right: .5rem;
+    z-index: 1; 
+}
+header div.motto {        
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;    
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;       
+}
+/*-------------------------------- HEAD NAV -------------------------------*/ 
+header div #floating_nav_bar {
+    max-width: 860px;
+    z-index: 10;  
+}
+header div #nav_curtain {   
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-color: #004775;
+    height: 25px;    
+}
+nav {
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    box-shadow: 0 0 30px #333;
+    background-color: #2C7DA0;
+    padding-bottom: 1rem;
+}
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul li {
+    display: none;
+    background-color: #61A5C2;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px #333;    
+  }   
+nav ul li a {
+    display: block;
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif; 
+    font-weight: 900;
+    text-decoration: none;
+    padding: .75rem;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(90deg, transparent, #e97373, transparent) top / var(--d, 0) 50px no-repeat;
+    transition: 0.5s;     
+}  
+nav ul li a:active {
+    background-color: rgb(46, 94, 255);
+}  
+nav ul li.nav_list:hover {
+    background-color: #004775;
+    --d: 85%;
+}  
+nav ul #menu {
+    display: block;
+} 
+.responsive li {
+    display: block;
+}
+#open {
+    display: none;
+}
+/*------------------------------- MAIN --------------------------------*/
+main {
+    background-color: rgb(46, 94, 255, .55);
+}
+main #main_content {
+    margin-top:  10rem;
+	display: grid;
+	grid-template-columns: 1fr;    
+	margin: 0 2% 0 2%;
+	background-color: rgba(252, 252, 252, .75);    
+}
+h1, h2 {
+    font-family: "Permanent Marker", "Verdana", cursive;
+}
+/*--------------- HERO IMG, WELCOME, & CALL TO ACTION -----------------*/
+main .hero {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr;  
+    align-items: center; 
+    z-index: 1;   
+}  
+main picture.home_hero_frame { 
+    grid-column: 1;   
+    grid-row: 1/3;
+    z-index: -1;
+}  
+main picture.home_hero_frame img {      
+    width: 100%;    
+}  
+main div .hero_text {    
+    grid-column: 1;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    color: #fff;
+    text-shadow: 3px 3px 5px black;
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+}  
+main div .hero_text h1 {
+    margin-top: 8rem;
+    grid-column: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+}  
+main div .hero_text h2 {
+    grid-column: 1;
+    font-size: 1.6rem;
+    margin-top: -4px;
+    margin-bottom: 0;
+}  
+main div .hero_action {   
+    grid-column: 1;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: end; /*added */
+    background: #004775;
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    margin-bottom: 8rem; 
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 50px no-repeat;      
+    background-color: #ad2222;  
+    border: 10px outset #fff;
+    outline: 1px solid;    
+    border-radius: 1rem;        
+}  
+main div .hero_action:hover {    
+    --t: 70%; 
+    background-color: #0062a3;  
+}  
+main div .hero_action a {
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1rem;   
+    margin: 0;   
+}
+main div .hero_action a:hover {
+    color: #fff;
+}
+/*------------------------- WEATHER FORECAST ---------------------------*/
+#forecast {
+    display: none;
+    text-align: center;  
+}
+/*------------------------- VEHICLE INTRODUCTIONS ---------------------------*/
+.subject_title {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    background-color: #ad2222;  
+    border: 10px outset #fff;
+    outline: 1px solid;    
+    border-radius: 1rem;    
+}
+.subject_title a:hover {
+    background-color: #004775;
+} 
+figcaption {
+    font-family: "Permanent Marker", "Verdana", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ad2222;
+    text-shadow: 3px 3px 5px black;
+    text-shadow:1px 1px 10px #fff, -1px -1px 10px #fff;    
+}
+figure div {
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center; 
+    color: #fff;
+    text-shadow: 3px 3px 5px black;
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+}
+#scooter_img {
+    padding-top: 2rem;
+}
+#jeep_img {
+    padding-top: 2rem;
+}
+#vehicle_intro {
+    display: flex; 
+    flex-wrap: wrap;    
+}
+#atv, #atv_img {       
+     width: 100%;
+     order: -1;
+    }
+#jeep, #jeep_img {
+   /* margin-top: 8rem;*/
+    order: 1;
+    width: 100%;
+    }
+#scooter, #scooter_img {       
+    width: 100%;
+    }
+a.link_wrapper img:hover, .subject_title:hover {
+    transition: all 0.85s linear;
+    transform: scale(1.15);      
+}
+.click_push {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+/*-------------------------------- FOOTER ---------------------------------*/
+iframe {
+    border: 5px solid #ffff00;
+}
+#contact_resources {   
+    display: block;
+    text-align: center;  
+    padding: 1em; 
+    color: #ffff00;   
+}
+#map {
+    display: none;   
+}
+#contact_info p {
+    font-size: 16px;
+    margin-bottom: -12px;
+}
+#email_w {
+    font-size: 7px;
+}
+#one_line {
+    display: block;    
+}
+.social img{
+    width: 64px;
+}
+.social a:hover {
+    padding-right: 3px;
+    padding-left: 3px;        
+    padding-top: 54px;
+    padding-bottom: 0;
+    border-radius: 0;
+    background-color: #ffff00;        
+}
+footer a {
+    font-family: "Ranchers", "Verdana", cursive;
+    color: #ffff00; 
+    font-size: 20px;
+}
+/* set footer background color, center text, and round edges (color was rgb(251, 192, 45)) */
+footer { 
+    background: linear-gradient(0deg,  rgba(51, 51, 51, .4) 10%, rgba(255, 255, 0, .494),rgba(139, 174, 252, 0.66) 100%);     
+    background-color: rgba(51, 51, 51, 0.712);
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 10px;   
+    width: 100%;
+    margin: 0 auto;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;     
+}
+/* put the to sentence in the right spot & color the font (color was #009688) */
+.footer_info {     
+    color: #ffff00; 
+    margin: 10px 0 10px 0; 
+    font-size: 14px;   
+}
+/* put the bottom last update info in the right spot and color the font */
+#footer_update {     
+    font-size: .83em;
+    color: #ffff00;
+    margin-top: 0;     
+}
+#byu_link {  
+    display: inline-block;
+}
+#portal1 {
+    display: none;
+}
+#portal1_sml {   
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+#portal2 {
+    margin-left: 10px;
+    vertical-align: middle; 
+}
+#portal1_sml img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 5rem;   
+    transform: scale(1.2);
+}
+#portal2 img:hover {
+    background-color: #912626;
+    padding: .25rem;
+    box-sizing: border-box; 
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 1rem;   
+    transform: scale(1.2);
+}

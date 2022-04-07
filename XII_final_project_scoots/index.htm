@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Home page Scoots Website for Jeremy T. Suchanski 
+    in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Scoots Home Page | Jeremy T. Suchanski</title>
+    <script src="js/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">   
+    <link rel="stylesheet" href="css/index_small.css">       
+    <link rel="stylesheet" href="css/index_medium.css">
+    <link rel="stylesheet" href="css/index_large.css">  
+</head>
+<body>
+    <div id="content">   
+        <!--HEADER WITH LOGO, MOTO & NAV-->
+        <header>
+            <div id="header_content">
+                <div id="top_section">
+                    <div id="logo">
+                        <a href="index.html"><img src="images/scoots_logo.svg" alt="scoots logo"></a>
+                    </div>
+                    
+                    <section id="weather_summary">                              
+                        <div id="weather_summary_title">Current Weather</div>
+                        <img id="current_w_icon" src="images/w_sunny.svg" alt="Icon of sunny weather">
+                        <span class="w_description" id="condition">Sunny</span>
+                        <span class="w_category">Temp: </span><span class="w_description" id="temp">85 &#176;F</span>
+                        <span class="w_category">Humidity: </span><span class = "w_description" id="humidity">80%</span>
+                        <span class="w_category">Wind: </span><span class="w_description" id="wind_speed">5 mph</span>
+                        <span class="w_category">Feels Like: </span><span class="w_description" id="like">100 &#176;F Very Hot</span>         
+                    </section>
+                </div>      
+                <div class="motto">Experience the Exotic, the Unknown, the Adventure.</div>           
+                
+                <!--FLOATING TOP NAV BAR-->
+                <div id="floating_nav_bar">
+                    <div id="nav_curtain"></div>
+                    <nav>
+                        <ul class="navigation">                        
+                            <li id="menu">
+                                <a href="#" onclick="toggleMenu(); Switch();" id="menu_a">
+                                    <span id="closed"><span class="menu_symbol">&#9776;&nbsp; &nbsp;</span>
+                                    MENU<span class="menu_symbol">&nbsp; &nbsp;&#9776;</span></span>
+                                    <span id="open"><span class="menu_symbol">&#8667;&nbsp; &nbsp;</span>
+                                    CLOSE<span class="menu_symbol">&nbsp; &nbsp;&#8666;</span></span>
+                                </a>
+                            </li>                            
+                            <li id="home" class="nav_list active"><a href="index.html">Home</a></li>
+                            <li id="rentals" class="nav_list"><a href="rentals.html">Rentals</a></li>
+                            <li id="reservations" class="nav_list"><a href="reservations.html">Reservations</a></li>
+                            <li id="tours" class="nav_list"><a href="tours.html">Tours</a></li>
+                            <li id="contact" class="nav_list"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>
+        </header>    
+        <!-- MAIN SECTION OF BODY -->
+        <main> 
+            <section id="main_content">
+                <!--MAIN HERO IMAGE WITH WELCOME & CALL TO ACTION-->       
+                <div class="hero">
+                    <picture class="home_hero_frame">
+                        <source media="(max-width: 500px)" srcset="images/home_hero500.jpg">
+                        <source media="(max-width: 800px)" srcset="images/home_hero800.jpg">
+                        <img src="images/home_hero.jpg" alt="hero image" id="home_hero_img">
+                    </picture>
+                    <div class="hero_text">
+                        <h1>Welcome</h1>
+                        <h2>to Cozumel</h2>
+                    </div>
+                    <div class="hero_action">
+                        <a href="reservations.html">Rent Now!</a>
+                    </div>
+                </div>
+            </section>         
+            <!--5 DAY FORECAST SECTION -->
+            <section id="forecast">
+                <h2>5 Day Forecast</h2>
+                <div class="day" id="day1">
+                    <h2 id="forecast_day1">Sun</h2>
+                    <img id="day_ti1" src="images/w_sunny.svg" alt="Icon of sunny weather">
+                    <p><span id="day_t1">41</span> &#176;F</p>
+                </div> 
+                <div class="day" id="day2">
+                    <h2 id="forecast_day2">Mon</h2>
+                    <img id="day_ti2" src="images/w_sunny&cloudy.svg" alt="Icon of sunny but cloudy weather">
+                    <p><span id="day_t2">40</span> &#176;F</p>
+                </div>
+                <div class="day" id="day3">
+                    <h2 id="forecast_day3">Tue</h2>
+                    <img id="day_ti3" src="images/w_sunny_cloudy&rainy.svg" alt="Icon of sunny but cloudy and rainy weather">
+                    <p><span id="day_t3">38</span> &#176;F</p>
+                </div> 
+                <div class="day" id="day4">
+                    <h2 id="forecast_day4">Wed</h2>
+                    <img id="day_ti4" src="images/w_some_rain.svg" alt="Icon of rain sprinkes weather">
+                    <p><span id="day_t4">36</span> &#176;F</p>
+                </div> 
+                <div class="day" id="day5">
+                    <h2 id="forecast_day5">Thu</h2>
+                    <img id="day_ti5" src="images/w_rain.svg" alt="Icon of rain showers weather">
+                    <p><span id="day_t5">39</span> &#176;F</p>
+                </div>                           
+            </section > 
+            <!--VEHICLE  RENTAL INTRODUCTIONS-->
+            <a href="rentals.html"><h2 class="subject_title">Rides to Help You Get Where You Want to Go!</h2></a>  
+            <section id= vehicle_intro>                             
+                
+              <figure id="jeep">
+                <a href="rentals.html" class="link_wrapper">
+                <div class="click_push">Click for Rental</div>
+                <figcaption>Jeeps</figcaption>
+                <div>Starting at $60</div>
+                <img src="images/jeep.png" alt="Jeep for Rent" id="jeep_img">
+              </a>>               
+            </figure>
+            
+            <figure id="scooter">
+                <a href="rentals.html" class="link_wrapper">
+                <div class="click_push">Click for Rental</div>               
+                <figcaption>Scooters</figcaption>
+                <div>Starting at $20</div>               
+                <img src="images/scooter1.png" alt="Scooter for Rent" id="scooter_img"> 
+                </a>            
+            </figure>            
+           
+            <figure id="atv">
+                <a href="rentals.html" class="link_wrapper"> 
+                <div class="click_push">Click for Rental</div>
+                <figcaption>ATVs</figcaption>
+                <div>Starting at $50</div>
+                <img src="images/atv.png" alt="ATV for Rent" id="atv_img"> 
+                </a>
+            </figure>            
+
+            </section>
+        </main>    
+        <!--FOOTER SECTION-->
+        <footer>
+            <section id="contact_resources">
+                <!--GOOGLE MAP OF ONE OF THE ADDRESSES IN MY CONTACT INFORMATION>-->            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.056591939031!2d-86.95455928458172!3d20.503906210862738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59d458946967%3A0x9c24353de07094e2!2sC.%207%20Sur%2C%20Centro%2C%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1649294252266!5m2!1sen!2sus" 
+                id="map" width="600" height="450" style allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <!--CONTACT INFORMATION-->
+                <div id="contact_info">
+                    <!--FIRST ADDRESS-->
+                    <p><b>~Scoots<span id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">scoots@wcc.com</span></span></b></p>
+                    <p>By Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel</p>
+                    <p><b>&#9906;</b>C. 7 Sur, Centro, 77600 </p>
+                    <p id="br">San Miguel de Cozumel, Q.R., Mexico</p>
+                    <br>
+                    <p>&#9742;  +52 987 113 9491</p>
+                    <!--SECOND ADDRESS-->
+                    <br>
+                    <p><b>~Scoots<span id="one_line"><span id="email_s"><b>&#9993;&nbsp;</b></span><span id="email_w">scoots@wcc.com</span></span></b></p>
+                    <p>By  the Terminal Puerta Maya further south along the coast</p>
+                    <p><b>&#9906;</b>Calle 30 Nte, Av. 45 Nte., Gonzalo Guerrero</p>
+                    <p id="br"> 77710 Playa del Carmen, Q.R., Mexico</p>
+                    <br>
+                    <p>&#9742;   +52 999 993 3145</p>
+                    <br>
+                    <!--SOCIAL MEDIA LINKS-->
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
+                        src="images/facebook_logo.png"
+                        alt="Facebook icon"></a>
+                        <a href="https://twitter.com/" target="_blank"><img id="twitter"
+                        src="images/twitter_logo.png"
+                        alt="Twitter icon"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img id="youtube"
+                        src="images/youtube_logo.png"
+                        alt="Youtube icon"></a>
+                    </div>
+                </div>
+            </section>
+            <!--FIRST LINE OF THE FOOTER-->
+            <p class="footer_info">
+                &copy; <span id="current_year"></span> ~Scoots |&nbsp; Jeremy T. Suchanski | Cozumel, Mexico | - WDD 230 Project | <span id="today"></span>, <span id="m_day"></span> <span id="cur_month"></span> <span id="cur_year"></span>               
+            </p>
+            <!--SECOND LINE OF THE FOOTER-->
+            <p class="footer_info">
+                <a href="">OpenWeatherMap</a> &nbsp; <a href="" >References</a> &nbsp;
+                <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/a9de4d023" target="_blank">
+                    Wireframe #1
+                </a> &nbsp;
+                <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/aa617a8b2" target="_blank">
+                    Wireframe #2
+                </a> &nbsp;
+                <a href="https://app.moqups.com/wk7jPrQrFT3cFxwDqdS27kHa4XPFliBI/view/page/a63486c3a" target="_blank">
+                    Wireframe #3
+                </a> &nbsp;-
+            </p>
+            <!--THIRD LINE OF THE FOOTER-->
+            <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1">
+                <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+            </a>                                                   
+            <p id="footer_update" ><span id="modified"></span></p> 
+            <a href="https://github.com/JmmonJeremy/JmmonJeremy.github.io" id="portal1_sml">
+                <img src="images/GitHub.svg" alt="icon for GitHub Repository Portal"> 
+            </a>                                                   
+            <a href="https://jmmonjeremy.github.io" id="portal2">
+                <img src="images/Portal1a.svg" alt="icon for Assignment Portal"> 
+            </a>                             
+        </footer>
+    </div>
+</body>
+</html>
