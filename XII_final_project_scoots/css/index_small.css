@@ -4,8 +4,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
-    background-color: none;
+	background-size: cover;   
 }
 #content {
 	max-width: 1200px;
@@ -18,9 +17,6 @@ body {
 header #header_content {
     background: linear-gradient(0deg, rgba(49, 110, 244, .66) 10%, rgba(50, 231, 200, .66)  100%); 
     padding-top: 1rem;  
-} 
-section#weather_summary { 
-   display:none;      
 }
 #top_section {
     display: flex;
