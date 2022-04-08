@@ -220,7 +220,9 @@ main div .hero_action {
 }  
 main div .hero_action:hover {    
     --t: 70%; 
-    background-color: #0062a3;  
+    background-color: #0062a3;
+    transition: all 0.65s linear;
+    transform: scale(1.15);    
 }  
 main div .hero_action a {
     box-sizing: border-box;
@@ -245,18 +247,24 @@ a.sub_t_link {
 .subject_title {
     color: black;
     font-size: 25px;
-    text-align: center;
-    background-color: #ad2222; 
+    text-align: center;    
     border: 10px outset #fff;
     outline: 1px solid;    
     border-radius: 1rem; 
     max-width: 1000px; 
-    margin: 10px auto 0 auto;    
+    margin: 10px auto 0 auto;
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) top / var(--t, 0) 65px no-repeat;
+    background-color: #ad2222;     
+}
+.subject_title:hover {
+    --t:70%;
+    transition: 1.85s;
 }
 a h2.subject_title:hover {    
     padding: .75rem;       
-    transition: 0.85s;
+    transition: 1.85s;
     text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00; 
+    
 } 
 h4 {
     font-family: "Permanent Marker", "Verdana", cursive;
@@ -352,22 +360,29 @@ article#rent_sum dt, article#rent_sum dd {
 article#rent_sum dt {
     font-family: "Ranchers", "Verdana", cursive;
     color:#1A237E;
-    text-shadow:3px 3px 10px #ffff00, -3px -3px 10px #ffff00;
-    background-color: #ad2222;
+    text-shadow:3px 3px 10px #ffff00, -3px -3px 10px #ffff00; 
     outline: 1px dotted;
     border: 2px solid;    
     border-radius: .75rem; 
     width:fit-content;
-    padding: .5rem;  
+    padding: .5rem;
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 50px no-repeat;
+    background-color: #ad2222;
+    --t:65%;
 }
-article#rent_sum dt:hover { 
-    background-color: #0062a3;   
-    padding: .75rem;   
-    transition: 0.85s;
-    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
-    border-radius: .75rem; 
+article#rent_sum dt a {
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 50px no-repeat;
+}
+article#rent_sum dt a:hover {
+    color: #ad2222;
     border: 1px solid #ad2222;
-} 
+    text-shadow:3px 3px 10px  #ffff00, -3px -3px 10px #ffff00;
+    border-radius: .75rem;
+    background-color: #2f3feb;  
+    padding: .75rem;   
+    transition: 0.85s; 
+    --t:85%
+}
 article#rent_sum dd {
     color: #ad2222;
     text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
@@ -383,21 +398,24 @@ article#rent_sum dd ul {
 
 article#rent_sum h3 {
     padding: .25rem;
-    color: black;    
-    background-color: #ad2222; 
+    color: black;     
     border: 10px outset #fff;
     outline: 1px solid;    
     border-radius: 1rem; 
     text-align: center;
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 50px no-repeat;
+    background-color: #ad2222;         
 }
 article#rent_sum a {
     text-decoration: none;
 }
 article#rent_sum a h3:hover {
-    background-color: #0062a3;  
-    padding: .75rem;    
-    transition: 0.85s;
-    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00; 
+    background-color: #2f3feb;  
+    padding: .75rem;
+    transform: scale(1.2);    
+    transition: 1.25s;
+    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
+    --t: 70%; 
 }
 /*-------------------------------- FOOTER ---------------------------------*/
 iframe #map {
