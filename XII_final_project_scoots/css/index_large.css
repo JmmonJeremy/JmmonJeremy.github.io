@@ -83,14 +83,14 @@
      #atv, #atv_img {        
         grid-row: 1;
         grid-column:1;          
-     }
-     #atv_img {
+    }
+    #atv_img {
          margin-left: -90px;
-     }
-     #jeep_img {
+    }
+    #jeep_img {
          padding-top: 5rem;
-     }
-     #jeep, #jeep_img {
+    }
+    #jeep, #jeep_img {
         grid-row: 1;
         grid-column:2;
         margin-left: -20px;
@@ -99,34 +99,51 @@
         left: -50px;
         top: 40px
        
-     }
-     #scooter, #scooters_img {
+    }
+    .subject_title {    
+        margin-bottom: -30px;
+    }
+    #scooter, #scooters_img {
         position: absolute;        
-        top: 50px;
+        top: -3px;
         left: 20px;       
         grid-row: 1;
         grid-column:3;         
-     }
-     #scooter figcaption,  #scooter div {
-        margin-right: 100px;
+    }  
+    #scooter .click_push {   
+        margin-top: 0;
+        margin-bottom: 0; 
+        margin-left: -100px;      
+    }   
+    #scooter h4 {       
+        margin-top: -3px;       
+        margin-left: -110px;
     }
-    #atv figcaption, #atv div {
+    #scooter .price {      
+        margin-top: -40px;
+        margin-bottom: 26px;
+        margin-left: -100px;
+    }
+    #atv h4, #atv div {
         text-align: left;
         line-height: 100px;
     }
-    #atv figcaption {
+    #atv h4 {        
         margin-top: -10px;
+        margin-left: -90px;
     }
+    #atv h4 .flag {      
+        font-size: 70px;     
+    } 
     #atv .click_push {
-       margin-left: 5px;
+       margin-left: 32px;
     }
     #atv div {
-        margin-left: -20px;
+        margin-left: 0px;
         line-height: 40px;
         margin-top: -10px
-    }
-  
-    #jeep figcaption, #jeep div {
+    }  
+    #jeep h4, #jeep div {
         margin-right: 100px;
         margin-top: -35px;        
     }

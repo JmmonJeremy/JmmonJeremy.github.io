@@ -160,10 +160,9 @@ main #main_content {
     margin-top:  10rem;
 	display: grid;
 	grid-template-columns: 1fr;    
-	margin: 0 2% 0 2%;
-	background-color: rgba(252, 252, 252, .75);    
+	margin: 0 2% 0 2%; 
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: "Permanent Marker", "Verdana", cursive;
 }
 /*--------------- HERO IMG, WELCOME, & CALL TO ACTION -----------------*/
@@ -239,34 +238,46 @@ main div .hero_action a:hover {
     text-align: center;  
 }
 /*------------------------- VEHICLE INTRODUCTIONS ---------------------------*/
+a.sub_t_link {
+    text-decoration: none;
+    color:black;
+}
 .subject_title {
     color: black;
     font-size: 25px;
     text-align: center;
-    background-color: #ad2222;  
+    background-color: #ad2222; 
     border: 10px outset #fff;
     outline: 1px solid;    
-    border-radius: 1rem;    
+    border-radius: 1rem; 
+    max-width: 1000px; 
+    margin: 10px auto 0 auto;    
 }
-.subject_title a:hover {
-    background-color: #004775;
+a h2.subject_title:hover {    
+    padding: .75rem;       
+    transition: 0.85s;
+    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00; 
 } 
-figcaption {
+h4 {
     font-family: "Permanent Marker", "Verdana", cursive;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #ad2222;
     text-shadow: 3px 3px 5px black;
-    text-shadow:1px 1px 10px #fff, -1px -1px 10px #fff;    
+    text-shadow:1px 1px 10px #fff, -1px -1px 10px #fff; 
+    margin: 0;   
 }
 figure div {
     font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 900;
     text-align: center; 
-    color: #fff;
-    text-shadow: 3px 3px 5px black;
+    color: #fff;   
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+}
+.click_push {
+    font-size: .75rem;
+    color: #000;
 }
 #scooter_img {
     padding-top: 2rem;
@@ -281,26 +292,115 @@ figure div {
 #atv, #atv_img {       
      width: 100%;
      order: -1;
-    }
+}
+#atv h4 {   
+    width: 136px;
+    margin-left: auto;
+    margin-right: auto;    
+  }
 #jeep, #jeep_img {
    /* margin-top: 8rem;*/
     order: 1;
     width: 100%;
-    }
+}
 #scooter, #scooter_img {       
     width: 100%;
-    }
+}
 a.link_wrapper img:hover, .subject_title:hover {
     transition: all 0.85s linear;
     transform: scale(1.15);      
 }
-.click_push {
-    font-size: 1.5rem;
-    color: #000;
+/*--------------------- VEHICLE VISUAL INTRODUCTIONS ----------------------*/
+article#rent_sum {   
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;    
+}
+#rs_title {    
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;   
+}
+article#rent_sum hr {
+    height: 3px;
+    color:rgb(46, 94, 255);
+    width: 600px;
+}
+#rs_grp1 {
+    background-color: rgba(44, 125, 160, .5);
+    padding: 0 1rem;
+    border-radius: 1rem;
+    border: 2px solid #C7E973;
+}
+#rs_grp2 {
+    background-color: rgba(44, 125, 160, .5);
+    padding: 0 1rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #C7E973;
+}
+#rs_grp3 {
+    background-color: rgba(44, 125, 160, .5);
+    padding: 0 1rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #C7E973;
+}
+article#rent_sum dt, article#rent_sum dd {
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+article#rent_sum dt {
+    font-family: "Ranchers", "Verdana", cursive;
+    color:#1A237E;
+    text-shadow:3px 3px 10px #ffff00, -3px -3px 10px #ffff00;
+    background-color: #ad2222;
+    outline: 1px dotted;
+    border: 2px solid;    
+    border-radius: .75rem; 
+    width:fit-content;
+    padding: .5rem;  
+}
+article#rent_sum dt:hover { 
+    background-color: #0062a3;   
+    padding: .75rem;   
+    transition: 0.85s;
+    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
+    border-radius: .75rem; 
+    border: 1px solid #ad2222;
+} 
+article#rent_sum dd {
+    color: #ad2222;
+    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
+    margin-left: 0;  
+}
+article#rent_sum dd ul {
+    font-weight: 100;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0 0 0;
+    margin-left: -20px; 
 }
 
+article#rent_sum h3 {
+    padding: .25rem;
+    color: black;    
+    background-color: #ad2222; 
+    border: 10px outset #fff;
+    outline: 1px solid;    
+    border-radius: 1rem; 
+    text-align: center;
+}
+article#rent_sum a {
+    text-decoration: none;
+}
+article#rent_sum a h3:hover {
+    background-color: #0062a3;  
+    padding: .75rem;    
+    transition: 0.85s;
+    text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00; 
+}
 /*-------------------------------- FOOTER ---------------------------------*/
-iframe {
+iframe #map {
     border: 5px solid #ffff00;
 }
 #contact_resources {   

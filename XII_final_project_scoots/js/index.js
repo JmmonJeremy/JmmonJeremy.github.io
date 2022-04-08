@@ -14,6 +14,41 @@ let modified = document.lastModified;
 document.getElementById("modified").innerText = "Last Updated: " + modified;
 // End *** Current Year Code ****************************************************************************************** */
 
+// *** Code to keep the Nav Bar at the top of the screen
+/*let scrollpos = window.scrollY
+const header = document.querySelector(".motto")
+const header_height = header.offsetHeight
+
+const add_class_on_scroll = () => header.classList.add("fix")
+const remove_class_on_scroll = () => header.classList.remove("fix")
+
+window.addEventListener('scroll', function() { 
+  scrollpos = window.scrollY;
+
+  if (scrollpos >= header_height) { add_class_on_scroll() }
+  else { remove_class_on_scroll() }
+
+  console.log(scrollpos)
+})
+
+
+/*const navLoc = Math.round(document.querySelector(".floating_nav_bar").getBoundingClientRect().top);
+
+
+window.addEventListener("scroll", () => {
+  //const windowTop = document.querySelector("#header_content").offsetTop - document.body.scrollTop;
+ // console.log(navLoc);
+  let amtScrolled = document.body.clientHeight - scrollY;
+  console.log(amtScrolled)
+  console.log(navLoc - amtScrolled)
+  if (navLoc - amtScrolled == 0) {
+    
+    console.log(document.getElementsByClassName("floating_nav_bar")[0].classList.toggle("fix"));
+    
+  }
+})
+*/
+
 // *** Function to do Hamburger Menu
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive"); 
