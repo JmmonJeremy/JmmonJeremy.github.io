@@ -250,6 +250,18 @@
     text-align: center;
     font-size: 3rem;
 }
+/*--------------------- VEHICLE RENTAL IMAGES & CARDS ----------------------   Rental PAGE*/
+#rental_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+}
+.rental_card {
+    max-width: 360px;
+    width:100%;
+}
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   
         display: grid;
