@@ -209,7 +209,7 @@ buildHTML = (objectList, lease) => {
       let bttmText = document.createElement("div");     
       let h4Passengers = document.createElement("h4");      
       let space = document.createElement("br");
-      let taxes = document.createElement("h3");
+      let h3Taxes = document.createElement("h3");
       let rentalFacts = document.createElement("div");
       let hlfDayRs = document.createElement("p");
       let fullDayRs = document.createElement("p");
@@ -228,7 +228,7 @@ buildHTML = (objectList, lease) => {
       // bttmText & rentalFacts = a container/no text 
       h4Passengers.textContent = vehicle.occTitle + " " + vehicle.maxP;
       // space = a line space/no text
-      taxes.textContent = vehicle.taxes;
+      h3Taxes.textContent = vehicle.taxes;
       hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle["reservation"].halfDay;
       fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation.fullDay;
       hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.halfDay;
@@ -245,8 +245,9 @@ buildHTML = (objectList, lease) => {
       link.className = "card_img_link";
       img.className = "rental_img";
       bttmText.className = "r_card_top_txt";
-      rentalFacts.className = "rentalFacts";
+      rentalFacts.className = "rental_facts";
       h4Passengers.className = "occupancy";
+      h3Taxes.className = "incld_tax"
          
       // Add the HTML & content to the web page     
       document.querySelector("#rental_cards").appendChild(rOption);
@@ -256,11 +257,11 @@ buildHTML = (objectList, lease) => {
       topText.appendChild(features);
       rOption.appendChild(line);
       rOption.appendChild(link);
-      rOption.appendChild(img);
+      link.appendChild(img);
       rOption.appendChild(bttmText);
       bttmText.appendChild(h4Passengers);      
       bttmText.appendChild(space);
-      bttmText.appendChild(taxes);
+      bttmText.appendChild(h3Taxes);
       bttmText.appendChild(line);
       bttmText.appendChild(rentalFacts);
       rentalFacts.appendChild(hlfDayRs);

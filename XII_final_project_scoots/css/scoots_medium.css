@@ -256,11 +256,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-   
+   min-height: 400px;
 }
 .rental_card {
     max-width: 360px;
     width:100%;
+}
+h4.occupancy {
+    font-size: 2rem;
 }
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   
