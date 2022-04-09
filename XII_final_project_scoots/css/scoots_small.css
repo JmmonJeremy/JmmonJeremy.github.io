@@ -519,6 +519,97 @@ section#terms ul li {
     padding-bottom: 1.5rem; 
     text-shadow:1px 1px 10px #fff, -1px -1px 10px #fff;  
 }
+/*-------------------------------- FORM -----------------------------------*/
+h1#form_title {
+    text-align: center;   
+    color: #fff;   
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+    font-size: 10rem;   
+}
+form {
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif; 
+    /*margin: 0 3em 6em 3em;*/  
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #ffff00;
+    border-radius: 10px;
+    padding: .5rem 2%;    
+}
+form legend {
+    color: #ffff00;
+    margin: 0 1rem 1rem 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #ffff00;
+    padding: 2px;
+    font-size: .8rem;
+
+}
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #e3f0ff;
+    margin-bottom: 1rem; 
+}
+
+form input.submitBtn {
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif; 
+    border: 2px solid #ffff00;
+    background: linear-gradient(90deg, transparent, #C7E973, transparent) bottom / var(--t, 0) 50px no-repeat;
+    --t: 99%;     
+    background-color: #ad2222;     
+    font-weight: 900;
+    font-size: 14px;
+    color: #1A237E; 
+    border-radius: 1rem;
+    padding:.85rem 0;
+    margin: 0 0 0 1%;/*2.75%;*/
+    width: 93%;
+    max-width: 19.85rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+#choose_type_symbol {  
+    display: none
+}
+input, select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  } 
+#comments {
+    padding: 0;
+
+  }
+
+/*---------------------------- CONFIRMATION PAGE -------------------------*/
+#success_banner{
+    font-size: 10rem;
+    text-align: center;
+    font-family: "Permanent Marker", "Verdana", cursive;
+}
+#scoots_email {
+    margin-right: 300px;
+    display:inline-block
+  
+}
+
+
 /*-------------------------------- FOOTER ---------------------------------*/
 iframe #map {
     border: 5px solid #ffff00;
