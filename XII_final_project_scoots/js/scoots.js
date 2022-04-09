@@ -3,14 +3,14 @@
 let date = new Date();
 // set variable to the getFullYear() child function
 let year = date.getFullYear();
-// replace the variable with the year through variable
+// revehicle the variable with the year through variable
 document.getElementById("current_year").innerHTML = year;
 // Use for date written out
 document.getElementById("cur_year").innerText = year;
 // Last Update JS Code
 // Set variable to the document.lastModified function result
 let modified = document.lastModified;
-// replace variable with the results from function call & replace modified in document
+// revehicle variable with the results from function call & revehicle modified in document
 document.getElementById("modified").innerText = "Last Updated: " + modified;
 // End *** Current Year Code ****************************************************************************************** */
 
@@ -191,3 +191,98 @@ fetch(fcAPIurl)
         day_ti.setAttribute("alt", day.description);     
     })         
 })
+
+// *** Generic function to Get Rental Info
+buildHTML = (objectList, lease) => {
+  const rentals = objectList // instead of (jsonObject["rentals"];)
+  rentals.forEach(vehicle => { //  instead of ( for (let i = 0; i < rentals.length; i++ ) {} )        
+    if (vehicle.name == lease) { 
+      // Create an Element and assign a variable to it         
+      let rOption = document.createElement("article");
+      let topText = document.createElement("div");
+      let h2RentObjct = document.createElement("h2");
+      let prompt = document.createElement("span");
+      let features = document.createElement("p");
+      let line = document.createElement("div");
+      let link = document.createElement(a);
+      let img = document.createElement("img");
+      let bttmText = document.createElement("div");     
+      let h4Passengers = document.createElement("h4");      
+      let space = document.createElemnt("br");
+      let taxes = document.createElement("h3");
+      let rentalFacts = document.createElement("div");
+      let hlfDayRs = document.createElement("p");
+      let fullDayRs = document.createElement("p");
+      let hlfDayW = document.createElement("p");
+      let fullDayW = document.createElement("p");         
+                 
+      // Assign input into the Element 
+      // rOption & topText = containers/no text       
+      h2RentObjct.textContent = vehicle.name; // instead of (rentals[i].name;)
+      prompt.textContent = vehicle.prompt;
+      features.innerHTML = vehicle.infoTitle + " an " + vehicle.transmission + ", a " + vehicle.engine + " with " + vehicle.cooling + " and " + vehicle.power +".";
+      // bar = a decoration line/no text
+      a.setAttribute("href", vehicle.link);
+      img.setAttribute("src", "images/" + vehicle.imgLoc);
+      img.setAttribute("alt", "Image of " + vehicle.name);
+      // bttmText & rentalFacts = a container/no text 
+      h4Passengers.textContent = vehicle.occTitle + " " + vehicle.maxP;
+      // space = a line space/no text
+      taxes.textContent = vehicle.taxes;
+      hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle.reserved.halfDay;
+      fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reserved.fullDay;
+      hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.halfDay;
+      fullDayW.innerHTML = vehicle.dayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.fullDay;      
+
+      // Give class names to Elements    
+      //rentalFacts.id = id; ADD id VARIABLE AS THE THIRD VARIABLE IF YOU NEED TO ADD AN ID SOMEWHERE    
+      rOption.className = "rental_card";
+      topText.className = "r_card_top_txt"    
+      h2RentObjct.className = "rental_title";
+      prompt.className = "prompt";
+      features.className = "features";
+      line.className = "rental_line";
+      link.className = "card_img_link";
+      img.className = "rental_img";
+      bttmText.className = "r_card_top_txt";
+      rentalFacts.className = "rentalFacts";
+      h4Passengers.className = "occupancy";
+         
+      // Add the HTML & content to the web page     
+      document.querySelector("article#rental_cards").appendChild(rOption);
+      rOption.appendChild(topText);
+      topText.appendChild(h2RentObjct);
+      topText.appendChild(prompt);
+      topText.appendChild(features);
+      rOption.appendChild(line);
+      rOption.appendChild(link);
+      rOption.appendChild(img);
+      rOption.appendChild(bttmText);
+      bttmText.appendChild(h4Passengers);      
+      bttmText.appendChild(space);
+      bttmText.appendChild(taxes);
+      bttmText.appendChild(line);
+      bttmText.appendChild(rentalFacts);
+      rentalFacts.appendChild(hlfDayRs);
+      rentalFacts.appendChild(fullDayRs);
+      rentalFacts.appendChild(hlfDayW);
+      rentalFacts.appendChild(fullDayW);              
+    }
+  });
+}
+// End *** Generic function to Get Rental Info ************************************************************************** */
+
+// *** Get the Rental Info from my Json file 
+const rentalURL = "XII_final_project_scoots/data/rental_info.json";
+fetch(rentalURL)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (jsonObject) {
+        //console.table(jsonObject);  // temporary checking for valid response and data parsing
+        buildHTML(jsonObject["rentals"], "Honda Metro Scooter");
+        //buildHTML(jsonObject["rentals"], "Preston", "townFacts2P");
+        //buildHTML(jsonObject["rentals"], "Soda Springs", "townFacts3S");
+      });
+// End *** Get the Town Info Using fetch ****************************************************************************** */
+ 

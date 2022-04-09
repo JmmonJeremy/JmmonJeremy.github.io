@@ -1,0 +1,161 @@
+{
+        "rentals": [
+            {
+                "name": "Honda Metro Scooter",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 1,
+                "infoTitle": "Features",
+                "cooling": "open air",
+                "transmission": "automatic transmission",
+                "engine": "49cc two stroke engine",
+                "power": "a top speed of 30 mph",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "scooter49cc.png",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:",
+                "taxes": "Taxes Included",                               
+                "reservation": [{
+                    "halfDay": "$20",
+                    "fullDay": "$30"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$25",
+                    "fullDay": "$35"
+                }]              
+            },
+            {
+                "name": "Honda Dio Scooter",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 2,
+                "infoTitle": "Features",
+                "cooling": "open air",
+                "transmission": "automatic transmission",
+                "engine": "110cc engine",
+                "power": "a top speed of 45 mph",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "left_scooter110cc.png",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:",
+                "taxes": "Taxes Included",                                
+                "reservation": [{
+                    "halfDay": "$30",
+                    "fullDay": "$40"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$35",
+                    "fullDay": "45"
+                }]              
+            },
+            {
+                "name": "Honda PCX150 Scooter",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 2,
+                "infoTitle": "Features",
+                "cooling": "open air",
+                "transmission": "automatic transmission",
+                "engine": "149cc engine",
+                "power": "a top speed of 60 mph",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "scooter150cc.png",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:", 
+                "taxes": "Taxes Included",                               
+                "reservation": [{
+                    "halfDay": "$40",
+                    "fullDay": "$50"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$45",
+                    "fullDay": "$55"
+                }]              
+            },
+            {
+                "name": "Honda Pioneer ATV",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 4,
+                "infoTitle": "Features",
+                "cooling": "open air",
+                "transmission": "automatic transmission",
+                "engine": "999cc engine",
+                "power": "a top speed of 73 mph",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "atv_pioneer.jpg",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:", 
+                "taxes": "Taxes Included",                               
+                "reservation": [{
+                    "halfDay": "$50",
+                    "fullDay": "$70"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$60",
+                    "fullDay": "$80"
+                }]              
+            },
+            {
+                "name": "4 dr: Jeep Wrangler",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 5,
+                "infoTitle": "Features",
+                "cooling": "a/c",
+                "transmission": "automatic transmission",
+                "engine": "250hp engine",
+                "power": "a top speed of 112 mph ",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "4dr_jeep.jpg",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:", 
+                "taxes": "Taxes Included",                               
+                "reservation": [{
+                    "halfDay": "$70",
+                    "fullDay": "$100"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$85",
+                    "fullDay": "$125"
+                }]              
+            },
+            {
+                "name": "2 dr: Jeep Wrangler",
+                "prompt": "Click Image to Reserve",
+                "occTitle": "Occupancy of",
+                "maxP": 4,
+                "infoTitle": "Features",
+                "cooling": "a/c",
+                "transmission": "automatic transmission",
+                "engine": "250hp engine",
+                "power": "a top speed of 112 mph ",             
+                "link": "https://jmmonjeremy.github.io/XII_final_project_scoots/reservations.html",
+                "imgLoc": "left_dr_jeep.png",
+                "hlfDayTitle": "Half Day (3 hrs)",
+                "dayTitle": "Full Day",
+                "reserveTitle": "Reserved:", 
+                "taxes": "Taxes Included",                               
+                "reservation": [{
+                    "halfDay": "$60",
+                    "fullDay": "$85"
+                }],
+                "wlkTitle": "Walk-in",
+                "walkIn": [{
+                    "halfDay": "$70",
+                    "fullDay": "$90"
+                }]              
+            }
+           
+        ]
+    }
