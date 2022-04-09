@@ -318,7 +318,7 @@ h1#form_title {
     #contact_info p:nth-of-type(1) {
         letter-spacing: -1.6px;       
     } 
-    #email_w {
+    #email_w, #email_w2 {
         font-size: 14px;
     } 
     #one_line {
