@@ -665,12 +665,18 @@ input, select {
 /*-------------------------------- CONTACT PAGE-------------------------------------CONTACT PAGE---------------------------*/
 .smller_wdth {
     max-width: 300px;
+   
 }
 #cnt_env {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
     padding: 0;
+}
+#drawn_mp {
+    width:100%;
+    max-width: 600px;
 }
 /*-------------------------------- FOOTER ------------ ---------------------*/
 iframe #map {
