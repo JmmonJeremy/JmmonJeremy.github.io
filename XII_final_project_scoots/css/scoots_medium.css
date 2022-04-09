@@ -291,6 +291,10 @@ h2#terms_header {
 h1#form_title {
        font-size: 5rem;  
 }
+/*-------------------------------- TOUR PAGE-------------------------------------TOUR PAGE---------------------------*/
+.tour_title {   
+    font-size: 4rem;     
+}
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   
         display: grid;

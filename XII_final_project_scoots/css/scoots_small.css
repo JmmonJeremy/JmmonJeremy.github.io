@@ -611,12 +611,58 @@ input, select {
 /*-------------------------------- TOUR PAGE-------------------------------------TOUR PAGE---------------------------*/
 .tour{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10rem;
 }
-
-/*-------------------------------- FOOTER ------------flex: 0 1 100%;
-text-align: center;
-font-size: 5rem;
-color: #fff; ---------------------*/
+.tour_title {
+    flex: 0 1 100%; 
+    font-size: 2rem;
+    color: #fff;   
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+    text-align: center;    
+}
+.tour img {
+    border: 2px solid #ad2222;
+    
+}
+.tour_text1 {
+    background-color: #ad2222;
+    margin: 0 2.5%;
+    margin-top: 2rem;
+}
+.tour p {
+    color: #fff;
+    margin: 1.25rem;
+    line-height: 2; 
+}
+.tour a {
+    font-family: "Permanent Marker", "Verdana", cursive;
+    color:#C7E973;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.25rem; 
+    text-underline-offset: 10px;
+    text-shadow:1px 1px 10px #000, -1px -1px 10px #000;
+}
+.tour_text2 {
+    width: 100%;
+    background-color: #ad2222;   
+    margin-top: 2rem;
+}
+#fst_tour {
+ padding-top: 0;
+   
+}
+.o_tour_img {
+    max-width: 550px;
+    width: 100%
+}
+.e_tour_img {
+    max-width:1198px; 
+    width: 100%;
+}
+/*-------------------------------- FOOTER ------------ ---------------------*/
 iframe #map {
     border: 5px solid #ffff00;
 }
