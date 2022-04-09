@@ -207,16 +207,18 @@ buildHTML = (objectList, lease) => {
       // Create an Element and assign a variable to it         
       let rOption = document.createElement("article");
       let topText = document.createElement("div");
+      let hWrap = document.createElement("div");
       let h2RentObjct = document.createElement("h2");
-      let prompt = document.createElement("span");
+      let h5Prompt = document.createElement("h5");
       let features = document.createElement("p");
-      let line = document.createElement("div");
+      let line1 = document.createElement("div");
       let link = document.createElement("a");
       let img = document.createElement("img");
       let bttmText = document.createElement("div");     
       let h4Passengers = document.createElement("h4");      
       let space = document.createElement("br");
       let h3Taxes = document.createElement("h3");
+      let line2 = document.createElement("div");
       let rentalFacts = document.createElement("div");
       let hlfDayRs = document.createElement("p");
       let fullDayRs = document.createElement("p");
@@ -224,11 +226,11 @@ buildHTML = (objectList, lease) => {
       let fullDayW = document.createElement("p");         
                  
       // Assign input into the Element 
-      // rOption & topText = containers/no text       
+      // rOption & topText & hWrap = containers/no text       
       h2RentObjct.textContent = vehicle.name; // instead of (rentals[i].name;)
-      prompt.textContent = vehicle.prompt;
+      h5Prompt.textContent = vehicle.prompt;
       features.innerHTML = vehicle.infoTitle + " an " + vehicle.transmission + ", a " + vehicle.engine + " with " + vehicle.cooling + " and " + vehicle.power +".";
-      // bar = a decoration line/no text
+      // line1 = a decoration line/no text
       link.setAttribute("href", vehicle.link);
       img.setAttribute("src", "images/" + vehicle.imgLoc);
       img.setAttribute("alt", "Image of " + vehicle.name);
@@ -236,6 +238,7 @@ buildHTML = (objectList, lease) => {
       h4Passengers.textContent = vehicle.occTitle + " " + vehicle.maxP;
       // space = a line space/no text
       h3Taxes.textContent = vehicle.taxes;
+      // line2
       hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation[0].halfDay;
       fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation[0].fullDay;
       hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn[0].halfDay;
@@ -244,32 +247,35 @@ buildHTML = (objectList, lease) => {
       // Give class names to Elements    
       //rentalFacts.id = id; ADD id VARIABLE AS THE THIRD VARIABLE IF YOU NEED TO ADD AN ID SOMEWHERE    
       rOption.className = "rental_card";
-      topText.className = "r_card_top_txt"    
+      topText.className = "r_card_top_txt"
+      hWrap.className = "h_wrap";    
       h2RentObjct.className = "rental_title";
-      prompt.className = "prompt";
+      h5Prompt.className = "prompt";
       features.className = "features";
-      line.className = "rental_line";
+      line1.className = "rental_line";
       link.className = "card_img_link";
       img.className = "rental_img";
       bttmText.className = "r_card_btm_txt";
       rentalFacts.className = "rental_facts";
       h4Passengers.className = "occupancy";
       h3Taxes.className = "incld_tax"
+      line2.className= "rental_line";
          
       // Add the HTML & content to the web page     
       document.querySelector("#rental_cards").appendChild(rOption);
       rOption.appendChild(topText);
-      topText.appendChild(h2RentObjct);
-      topText.appendChild(prompt);
+      topText.appendChild(hWrap);
+      hWrap.appendChild(h2RentObjct);
+      hWrap.appendChild(h5Prompt);
       topText.appendChild(features);
-      rOption.appendChild(line);
+      rOption.appendChild(line1);
       rOption.appendChild(link);
       link.appendChild(img);
       rOption.appendChild(bttmText);
       bttmText.appendChild(h4Passengers);      
       bttmText.appendChild(space);
       bttmText.appendChild(h3Taxes);
-      bttmText.appendChild(line);
+      bttmText.appendChild(line2);
       bttmText.appendChild(rentalFacts);
       rentalFacts.appendChild(hlfDayRs);
       rentalFacts.appendChild(fullDayRs);
@@ -288,8 +294,8 @@ fetch(rentalURL)
       })
       .then(function (jsonObject) {
         //console.table(jsonObject);  // temporary checking for valid response and data parsing
-        buildHTML(jsonObject["rentals"], "Honda Dio Scooter");
         buildHTML(jsonObject["rentals"], "Honda Metro Scooter");
+        buildHTML(jsonObject["rentals"], "Honda Dio Scooter");      
         buildHTML(jsonObject["rentals"], "Honda PCX150 Scooter");
         buildHTML(jsonObject["rentals"], "Honda Pioneer ATV");
         buildHTML(jsonObject["rentals"], "2 dr: Jeep Wrangler");
