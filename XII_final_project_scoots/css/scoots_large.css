@@ -58,15 +58,15 @@ h5.prompt {
     height: 40px;
     padding-bottom: o;
 }
-
-
 main section.townCard:hover {
     box-shadow: 0 0 50px #333;
     transition: all 0.4s linear;
     transform: scale(1.1);
 } 
-
-
+/*-------------------------------- FORM -----------------------------------*/
+h1#form_title {
+    font-size: 8rem;  
+}
 /*-------------------------------- FOOTER ---------------------------------*/
     #contact_info p {
         font-size: 16px;       

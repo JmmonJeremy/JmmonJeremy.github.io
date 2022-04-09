@@ -174,7 +174,7 @@ h1, h2, h3 {
 p, h4, h5 {
      font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
 }
-/*--------------- HERO IMG, WELCOME, & CALL TO ACTION -----------------   HOME PAGE*/
+/*--------------- HERO IMG, WELCOME, & CALL TO ACTION -----------------   HOME PAGE* ************************************************/
 main .hero {
     display: grid;
     grid-template-columns: 1fr; 
@@ -247,7 +247,7 @@ main div .hero_action a:hover {
     display: none;
     text-align: center;  
 }
-/*------------------------- VEHICLE INTRODUCTIONS ---------------------------   HOME PAGE*/ 
+/*------------------------- VEHICLE INTRODUCTIONS ---------------------------   HOME PAGE --------------------------*/ 
 a.sub_t_link {
     text-decoration: none;
     color:black;
@@ -326,7 +326,7 @@ a.link_wrapper img:hover, .subject_title:hover {
     transition: all 0.85s linear;
     transform: scale(1.15);      
 }
-/*--------------------- VEHICLE RENTAL INFO SUMMARY ----------------------  HOME PAGE*/
+/*--------------------- VEHICLE RENTAL INFO SUMMARY ----------------------  HOME PAGE------------------------------*/
 article#rent_sum {   
     font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;    
 }
@@ -425,7 +425,7 @@ article#rent_sum a h3:hover {
     text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
     --t: 70%; 
 }
-/*--------------------- VEHICLE RENTAL IMAGES & CARDS ----------------------   Rental PAGE*/
+/*--------------------- VEHICLE RENTAL IMAGES & CARDS ---------------------- Rental PAGE --------------------------*/
 #rental_selections_title { 
     color: #fff;   
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
@@ -493,7 +493,7 @@ img.rental_img:hover {
     background-color: #004775;
    
 }
-/*--------------------- VEHICLE RENTAL TERMS & INFO ----------------------   Rental PAGE*/
+/*--------------------- VEHICLE RENTAL TERMS & INFO ---------------------- Rental PAGE ----------------------------*/
 section#terms {
     text-align: center;
 }
@@ -519,12 +519,12 @@ section#terms ul li {
     padding-bottom: 1.5rem; 
     text-shadow:1px 1px 10px #fff, -1px -1px 10px #fff;  
 }
-/*-------------------------------- FORM -----------------------------------*/
+/*-------------------------------- FORM -----------------------------------FORM -----------------------------------*/
 h1#form_title {
     text-align: center;   
     color: #fff;   
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
-    font-size: 10rem;   
+    font-size: 2rem;   
 }
 form {
     font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif; 
@@ -597,7 +597,7 @@ input, select {
 
   }
 
-/*---------------------------- CONFIRMATION PAGE -------------------------*/
+/*---------------------------- CONFIRMATION PAGE -------------------------CONFIRMATION PAGE -------------------------*/
 #success_banner{
     font-size: 10rem;
     text-align: center;
@@ -608,9 +608,15 @@ input, select {
     display:inline-block
   
 }
+/*-------------------------------- TOUR PAGE-------------------------------------TOUR PAGE---------------------------*/
+.tour{
+    display:flex;
+}
 
-
-/*-------------------------------- FOOTER ---------------------------------*/
+/*-------------------------------- FOOTER ------------flex: 0 1 100%;
+text-align: center;
+font-size: 5rem;
+color: #fff; ---------------------*/
 iframe #map {
     border: 5px solid #ffff00;
 }
