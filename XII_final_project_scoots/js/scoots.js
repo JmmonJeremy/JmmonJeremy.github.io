@@ -204,11 +204,11 @@ buildHTML = (objectList, lease) => {
       let prompt = document.createElement("span");
       let features = document.createElement("p");
       let line = document.createElement("div");
-      let link = document.createElement(a);
+      let link = document.createElement("a");
       let img = document.createElement("img");
       let bttmText = document.createElement("div");     
       let h4Passengers = document.createElement("h4");      
-      let space = document.createElemnt("br");
+      let space = document.createElement("br");
       let taxes = document.createElement("h3");
       let rentalFacts = document.createElement("div");
       let hlfDayRs = document.createElement("p");
@@ -222,15 +222,15 @@ buildHTML = (objectList, lease) => {
       prompt.textContent = vehicle.prompt;
       features.innerHTML = vehicle.infoTitle + " an " + vehicle.transmission + ", a " + vehicle.engine + " with " + vehicle.cooling + " and " + vehicle.power +".";
       // bar = a decoration line/no text
-      a.setAttribute("href", vehicle.link);
+      link.setAttribute("href", vehicle.link);
       img.setAttribute("src", "images/" + vehicle.imgLoc);
       img.setAttribute("alt", "Image of " + vehicle.name);
       // bttmText & rentalFacts = a container/no text 
       h4Passengers.textContent = vehicle.occTitle + " " + vehicle.maxP;
       // space = a line space/no text
       taxes.textContent = vehicle.taxes;
-      hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle.reserved.halfDay;
-      fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reserved.fullDay;
+      hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle["reservation"].halfDay;
+      fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation.fullDay;
       hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.halfDay;
       fullDayW.innerHTML = vehicle.dayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.fullDay;      
 
@@ -249,7 +249,7 @@ buildHTML = (objectList, lease) => {
       h4Passengers.className = "occupancy";
          
       // Add the HTML & content to the web page     
-      document.querySelector("article#rental_cards").appendChild(rOption);
+      document.querySelector("#rental_cards").appendChild(rOption);
       rOption.appendChild(topText);
       topText.appendChild(h2RentObjct);
       topText.appendChild(prompt);
@@ -280,9 +280,12 @@ fetch(rentalURL)
       })
       .then(function (jsonObject) {
         //console.table(jsonObject);  // temporary checking for valid response and data parsing
+        buildHTML(jsonObject["rentals"], "Honda Dio Scooter");
         buildHTML(jsonObject["rentals"], "Honda Metro Scooter");
-        //buildHTML(jsonObject["rentals"], "Preston", "townFacts2P");
-        //buildHTML(jsonObject["rentals"], "Soda Springs", "townFacts3S");
+        buildHTML(jsonObject["rentals"], "Honda PCX150 Scooter");
+        buildHTML(jsonObject["rentals"], "Honda Pioneer ATV");
+        buildHTML(jsonObject["rentals"], "2 dr: Jeep Wrangler");
+        buildHTML(jsonObject["rentals"], "4 dr: Jeep Wrangler");
       });
-// End *** Get the Town Info Using fetch ****************************************************************************** */
+// End *** Get the Rentals Info Using fetch ****************************************************************************** */
  
