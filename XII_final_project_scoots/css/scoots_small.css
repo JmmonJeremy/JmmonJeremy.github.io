@@ -662,6 +662,16 @@ input, select {
     max-width:1198px; 
     width: 100%;
 }
+/*-------------------------------- CONTACT PAGE-------------------------------------CONTACT PAGE---------------------------*/
+.smller_wdth {
+    max-width: 300px;
+}
+#cnt_env {
+    display:flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
 /*-------------------------------- FOOTER ------------ ---------------------*/
 iframe #map {
     border: 5px solid #ffff00;

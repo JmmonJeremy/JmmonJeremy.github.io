@@ -108,7 +108,39 @@
                     <p><span id="day_t5">39</span> &#176;F</p>
                 </div>                           
             </section > 
-          
+           <!-- CONTACT FORM -->
+           <h1 id="form_title">Say Hello</h1>
+           <div id="cnt_env">
+            <form method="get" action="confirmation.html" autocomplete="on">
+                <fieldset class="smller_wdth">
+                    
+                    <legend class="lg_text">Contact Us</legend>
+                    
+                    <!--NAME-->
+                    <label class="top">Full Name* <input type="text" name="name" placeholder="Joe Smith"
+                    pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" title="Name must be at 
+                    least five characters long and only use uppercase letters (A-Z), lowercase letters a-z, or 
+                    hyphens(-)." required></label>
+                    <!--EMAIL-->                   
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <!--PHONE-->  
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"
+                    pattern="[\d]{10}" title="To be valid enter the area code and the seven digit telephone number with 
+                    no spaces." required></label>
+                    <fieldset class="smller_wdth">
+                        <legend class="top lg_text">Message</legend> 
+                        <!--MESSAGE-->                   
+                        <label for="comments" class="top">How can we help you?
+                        <textarea class="top lg_text" id="comments" name="comments" rows="12"  placeholder="We want to hear from you."></textarea>                     
+                        </label>                 
+                    </fieldset>
+                    <input type="submit" value="Send Message" class="submitBtn">
+                    </fieldset>                                 
+                    </form>
+                    <!--MAP WITH BOTH LOCATIONS SHOWN-->
+                    <img src=" images/cozumel-map700.jpg" alt="Map of Cozumel showing the locations of the Scoots locations">
+                </div>
+                <hr>
         </main>    
         <!--FOOTER SECTION-->
         <footer>
