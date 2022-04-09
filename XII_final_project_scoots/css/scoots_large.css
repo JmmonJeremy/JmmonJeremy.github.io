@@ -50,7 +50,44 @@
         box-shadow: -3px 3px 6px #fff;
         margin-bottom: 0rem;
     }
-    /*-------------------------------- FOOTER ---------------------------------*/
+/*--------------------- VEHICLE RENTAL IMAGES & CARDS ----------------------   Rental PAGE*/
+.towns {        
+    display: grid;        
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+    grid-gap: 1rem;                
+}
+main section.townCard {       
+    display: block;
+                
+} 
+main section.townCard:hover {
+    box-shadow: 0 0 50px #333;
+    transition: all 0.4s linear;
+    transform: scale(1.1);
+}      
+main p.townMotto {      
+    height: 40px;
+} 
+.townFacts {
+    width: 100%;
+    margin-bottom: 0;
+} 
+.tabletLine {       
+    margin-top: 0;
+}   
+main img.townPhoto { 
+    border-radius: 0;       
+    margin-bottom: 2rem;     
+}
+main section.townCard img {
+    max-width: 100%; 
+}  
+.townLine {
+    display: block;
+}    
+/*-------------------------------- FOOTER ---------------------------------*/
     #contact_info p {
         font-size: 16px;       
     } 

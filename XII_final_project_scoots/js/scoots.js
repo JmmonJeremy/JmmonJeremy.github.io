@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
   else { remove_class_on_scroll() }
 
   console.log(scrollpos)
-})
+})*/
 
 
 /*const navLoc = Math.round(document.querySelector(".floating_nav_bar").getBoundingClientRect().top);
@@ -43,11 +43,18 @@ window.addEventListener("scroll", () => {
   console.log(navLoc - amtScrolled)
   if (navLoc - amtScrolled == 0) {
     
-    console.log(document.getElementsByClassName("floating_nav_bar")[0].classList.toggle("fix"));
+    console.log(document.getElementsByClassName("float")[0].classList.toggle("fix"));
+
+    
     
   }
 })
 */
+// *** Code to toggle a class to pin nav bar from floating to top of screen
+function pinBar() {
+  document.getElementsByClassName("float")[0].classList.toggle("fix");
+}
+// End *** Code to toggle a class to pin nav bar from floating to top of screen *************************************** */
 
 // *** Function to do Hamburger Menu
 function toggleMenu() {
@@ -229,11 +236,11 @@ buildHTML = (objectList, lease) => {
       h4Passengers.textContent = vehicle.occTitle + " " + vehicle.maxP;
       // space = a line space/no text
       h3Taxes.textContent = vehicle.taxes;
-      hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle["reservation"].halfDay;
-      fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation.fullDay;
-      hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.halfDay;
-      fullDayW.innerHTML = vehicle.dayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn.fullDay;      
-
+      hlfDayRs.innerHTML = vehicle.hlfDayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation[0].halfDay;
+      fullDayRs.innerHTML = vehicle.dayTitle + " " + vehicle.reserveTitle + " " + vehicle.reservation[0].fullDay;
+      hlfDayW.innerHTML = vehicle.hlfDayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn[0].halfDay;
+      fullDayW.innerHTML = vehicle.dayTitle + " " + vehicle.wlkTitle + " " + vehicle.walkIn[0].fullDay;      
+      
       // Give class names to Elements    
       //rentalFacts.id = id; ADD id VARIABLE AS THE THIRD VARIABLE IF YOU NEED TO ADD AN ID SOMEWHERE    
       rOption.className = "rental_card";
@@ -244,7 +251,7 @@ buildHTML = (objectList, lease) => {
       line.className = "rental_line";
       link.className = "card_img_link";
       img.className = "rental_img";
-      bttmText.className = "r_card_top_txt";
+      bttmText.className = "r_card_btm_txt";
       rentalFacts.className = "rental_facts";
       h4Passengers.className = "occupancy";
       h3Taxes.className = "incld_tax"

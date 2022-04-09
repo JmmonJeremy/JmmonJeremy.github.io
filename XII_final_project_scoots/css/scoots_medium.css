@@ -43,7 +43,15 @@
             font-size: 25px;    
     }
 /*-------------------------------- HEAD NAV -------------------------------*/
-    header div #floating_nav_bar {   
+header div#nav_curtain { 
+    color: #fff;  
+    text-align:center;   
+} 
+header div#nav_curtain:hover {
+    color: #ffff00;
+    cursor: pointer;
+}  
+header div #floating_nav_bar {   
         position: fixed; /* Set the navbar to fixed position */
         /*top:0;*/   
         left: 0;
@@ -256,7 +264,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-   min-height: 400px;
+    min-height: 400px;
+}
+#rental_selections_title {
+    flex: 0 1 100%;
+    text-align: center;
+    font-size: 5rem;
 }
 .rental_card {
     max-width: 360px;
@@ -265,6 +278,56 @@
 h4.occupancy {
     font-size: 2rem;
 }
+
+h2#terms_header {
+    font-size: 3rem;
+}
+
+/*.towns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem .5rem;             
+}
+main section.townCard {
+    padding: 2rem .2rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;                  
+}
+main section.townCard:nth-child(even) {
+    flex-direction: row-reverse;
+}           
+p {       
+    font-size: 16px; 
+}
+.townFacts {
+    width: 350px;
+    margin-top: 1.5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+main img.townPhoto {        
+    margin-bottom: 0;
+    border-radius: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+main section.townCard img {
+    max-width: 400px; 
+}
+.tabletLine {
+    height: 16px;
+    border-top: 3.75px solid #1A237E;
+    box-shadow: 0 -18px 10px #747474;
+    border-bottom: 3.75px solid #1A237E;
+    box-shadow: 0 0 20px #000;
+    border-radius: .35rem;
+    margin-top: 1.5rem;
+} 
+.townLine {
+    display: none;
+} 
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   
         display: grid;

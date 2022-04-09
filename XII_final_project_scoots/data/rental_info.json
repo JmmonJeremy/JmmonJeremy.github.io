@@ -2,7 +2,7 @@
         "rentals": [
             {
                 "name": "Honda Dio Scooter",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 2,
                 "infoTitle": "Features",
@@ -28,7 +28,7 @@
             },
             {
                 "name": "Honda Metro Scooter",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 1,
                 "infoTitle": "Features",
@@ -54,7 +54,7 @@
             },           
             {
                 "name": "Honda PCX150 Scooter",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 2,
                 "infoTitle": "Features",
@@ -80,7 +80,7 @@
             },
             {
                 "name": "Honda Pioneer ATV",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 4,
                 "infoTitle": "Features",
@@ -106,11 +106,11 @@
             },           
             {
                 "name": "2 dr: Jeep Wrangler",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 4,
                 "infoTitle": "Features",
-                "cooling": "a/c",
+                "cooling": "open air",
                 "transmission": "automatic transmission",
                 "engine": "250hp engine",
                 "power": "a top speed of 112 mph ",             
@@ -124,7 +124,7 @@
                     "halfDay": "$60",
                     "fullDay": "$85"
                 }],
-                "wlkTitle": "Walk-in",
+                "wlkTitle": "Walk-in:",
                 "walkIn": [{
                     "halfDay": "$70",
                     "fullDay": "$90"
@@ -132,7 +132,7 @@
             },
             {
                 "name": "4 dr: Jeep Wrangler",
-                "prompt": "Click Image to Reserve",
+                "prompt": "To Reserve Click Image",
                 "occTitle": "Occupancy of",
                 "maxP": 5,
                 "infoTitle": "Features",

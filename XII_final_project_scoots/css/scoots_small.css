@@ -420,6 +420,61 @@ article#rent_sum a h3:hover {
     text-shadow:1px 1px 10px #ffff00, -1px -1px 10px #ffff00;
     --t: 70%; 
 }
+/*--------------------- VEHICLE RENTAL IMAGES & CARDS ----------------------   Rental PAGE*/
+section#terms {
+    text-align: center;
+}
+h2#terms_header {
+    margin-bottom: 1.25rem;
+}
+section#terms ul li {
+    list-style-type: none;
+    font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+    font-weight:900;
+    margin-bottom: 1.5rem;
+}
+div.r_card_btm_txt {
+    align-content: flex-end;
+
+/*.cards {
+    display: block;    
+}
+section {
+    text-align: center;    
+    background-color: antiquewhite;   
+    margin: .5em;   
+    border: 10px groove #fff;
+    outline: 1px solid;
+    padding-bottom: .75rem;
+}
+img {
+    width: 80%;    
+    border: 1px solid #912626;   
+    border-left: 5px solid  #c46d6d;
+    border-right: 5px solid  #c46d6d; 
+    box-shadow: 0 8px 10px #912626; 
+    border-top: 0;    
+}
+h2 {
+    font-size: 1.7rem;
+    margin: 0;
+    color: #c46d6d;
+    text-shadow:1px 1px 10px #8b8b8b, 1px 1px 10px #747474;
+}
+h1 {
+    text-align: center;    
+    color: #912626;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    background-color: #d3d2d2;
+    width: 75%;
+    padding: .3rem;
+    margin: 1rem auto  2rem auto;
+    border: 2px solid;
+    outline: 10px outset #fff;  
+}
+p {
+    font-size: 1.1rem;
+}
 /*-------------------------------- FOOTER ---------------------------------*/
 iframe #map {
     border: 5px solid #ffff00;
