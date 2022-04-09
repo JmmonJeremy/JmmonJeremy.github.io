@@ -740,6 +740,22 @@ div#add2 h3 {
 #add2 h3.loc {
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
 }
+/*-------------------------------- ACCEPTANCE PAGE OF AN EMAIL BEING SENT THROUGH THE CONTACT PAGE ------------ ---------------------*/
+#acceptance_header{
+    background-color:rgba(0, 0, 0, 0.5)
+}
+#acceptance_p {
+    color: #fff;
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+#acceptance_h1 {
+    color: #fff;
+    padding: .5rem 2rem;
+    text-align: center;
+}
+
 /*-------------------------------- FOOTER ------------ ---------------------*/
 iframe #map {
     border: 5px solid #ffff00;
