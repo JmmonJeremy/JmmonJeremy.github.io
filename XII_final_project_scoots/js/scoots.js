@@ -273,7 +273,7 @@ buildHTML = (objectList, lease) => {
 // End *** Generic function to Get Rental Info ************************************************************************** */
 
 // *** Get the Rental Info from my Json file 
-const rentalURL = "XII_final_project_scoots/data/rental_info.json";
+const rentalURL = "https://jmmonjeremy.github.io/XII_final_project_scoots/data/rental_info.json";
 fetch(rentalURL)
       .then(function (response) {
         return response.json();
