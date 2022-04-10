@@ -755,6 +755,15 @@ div#add2 h3 {
     padding: .5rem 2rem;
     text-align: center;
 }
+/*-------------------------------- FOOTER ------------ ---------------------*/
+#acknoledgements {
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+}
+#references_list {
+margin-left: 3rem;
+}
 
 /*-------------------------------- FOOTER ------------ ---------------------*/
 iframe #map {
