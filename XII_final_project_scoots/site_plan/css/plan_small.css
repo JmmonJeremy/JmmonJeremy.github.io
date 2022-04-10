@@ -248,5 +248,6 @@ strong {
 .sole_span h2, .half1 h2 {
   text-align: center;
 }
-
-/******************************* End for TARGET AUDIENCE PAGE */
+img.wireframe {
+  width: 100%;
+}
