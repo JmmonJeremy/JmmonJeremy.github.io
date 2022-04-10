@@ -1,0 +1,33 @@
+h1 {
+    font-size: 50px;
+}
+/* Start for TYPOGRAPHY PAGE **********************************/
+p {
+    font-size: 16px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#domain {
+line-height: 480px;  
+}
+th {
+    font-family: "Ranchers", "Verdana", cursive;
+    letter-spacing: 5px;  
+    font-size: 24px;
+}
+#head_size, #head_ex, #h1_size, #h1_ex {
+    font-size: 50px;
+}  
+#head_fontf, #h1_fontf, #h2_fontf, #h3_fontf {
+    letter-spacing: 5px;
+}
+#h2_size {
+    font-size: 24px;
+}
+#head_color, #nav_color, #ft_nav_color, #h1_color, #h2_color, 
+#h3_color, #h4_color, #p1_color, #p2_color {
+    font-size: 16px;
+}  
+/************************************ End for TYPOGRAPHY PAGE */

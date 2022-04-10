@@ -1,0 +1,84 @@
+/* 32.5em is also 520px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    nav ul {
+      display: flex;}
+      nav ul li {
+        flex: 1 1 100%;
+      }
+      .grid-container {
+        display: grid;
+        font-size: 1rem;
+        grid-gap: 20px;
+      }
+      .two-up {
+        grid-template-columns: 1fr 1fr;
+      }
+      h1{
+        font-size: 4rem;
+      }
+      h2{
+        font-size: 1rem;
+      }
+    main{
+      font-size: 1rem;
+    }
+/* Start for TYPOGRAPHY PAGE **********************************/
+table {
+    border: 5px solid #000000;
+    display:table;
+    width: 100%; 
+}
+
+table tr {
+    display:table-row;
+    text-align: left;
+}
+
+td {
+    white-space: normal;
+}
+#head_ex, #head_ex2, #h1_ex, #h1_ex2 {
+    border: 0; 
+    background-color: #ad2222;    
+}
+#head_ex2, #h1_ex2 {
+    position:relative;
+    left: -2px;           
+}
+#head_ex, #h1_ex {
+    text-align: right;      
+}
+/************************************ End for TYPOGRAPHY PAGE */
+/* Start for TARGET AUDIENCE PAGE *****************************/
+section img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.section_title {
+  grid-column: 1/3;
+  text-align: center;
+}
+.division_line {
+  grid-column: 1/3;
+  justify-self: center;
+  width: 90%;
+  border-bottom: 5px solid;
+  margin: auto;
+}
+.sole_span {
+  grid-column: 1/3;    
+}
+
+/******************************* End for TARGET AUDIENCE PAGE */
+
+
+
+
+
+
+      }

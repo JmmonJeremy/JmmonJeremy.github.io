@@ -1,0 +1,252 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+main,
+footer, nav {
+  font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+}
+
+header,
+footer {
+  background-color: #1a237e;
+  color: #fff;
+  text-align: center;
+}
+header {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  }
+  header img {                          /*******************/
+    max-width: 128px;
+  }
+
+nav {
+  background-color: #2f3feb;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;                   /********************************/
+}
+
+nav li a {
+  display: block;
+  color: #ffff00;
+  text-align: center;
+  padding: .75rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color .3s;           /**************************/
+}
+nav ul li.active a{ background-color: rgba(251, 133, 0, 0.9); color: #fff;}
+nav ul li a:hover{ background-color: rgba(33, 158, 188, 1); color: #fff;}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+  font-size: .5rem;
+  
+}
+
+h1 {
+  font-family: "Permanent Marker", "Verdana", cursive;
+  font-size: 2rem;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+h2 {
+  font-size: .8rem;
+  margin: 5px 0 20px 10px;
+  padding: 0;
+  font-family: "Permanent Marker", "Verdana", cursive
+
+}
+h2.emphasized {
+  font-size: 1.5rem;
+  border-bottom: 4px solid #ad2222;
+}
+
+h3 {
+  font-size: .6rem;
+  margin: 10px;
+  color: #ad2222;
+}
+
+p {
+  margin: 10px;
+  
+}
+
+footer a {
+  color: #fff;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+td {
+border: 2px solid #023047;
+text-align: center;
+padding: 10px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+main img{
+  margin-top: 20px;
+  width: 100%;
+}
+.grid-container img{
+  align-self: center;
+}
+.back{
+  text-align: left;
+  padding: 5px;
+  padding-left: 15px;
+}
+.back a{
+  color: #011C26;
+  text-decoration: none;
+}
+main ul{
+  margin: 0;
+}
+/* Start for TYPOGRAPHY PAGE **********************************/
+th, td {
+  border:1px solid #000000;
+}
+table {
+  display: flex;  
+  flex-wrap: nowrap;
+  justify-content: center;
+} 
+table tr {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;    
+}
+th {
+
+  color: #fff;
+  background-color: #6195c2;    
+}
+td {
+  font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+  white-space: nowrap;
+}  
+#head_ex {   
+  color: #ad2222;
+  background-color: #004775;
+}
+#h2_ex, #h3_ex {
+  letter-spacing: 5px;
+}
+#head_fontf, #head_ex, #nav_fontf, #nav_ex, #ft_nav_fontf, #ft_nav_ex, #h1_fontf, #h1_ex, #h2_ex, 
+#h2_fontf, #h3_ex, #h3_fontf {
+  font-family: "Permanent Marker", "Verdana", cursive;  
+}
+#head_ex, #h1_ex {
+  font-size: 50px;
+}
+#head_color {
+  color: #ad2222;
+  background-color: #ffff00;
+}
+#nav_ex, #ft_nav_ex {    
+  background-color: #1A237E;
+}
+#nav_size, #nav_ex, #ft_nav_size, #ft_nav_ex {
+  font-size: 16px;
+}
+#nav_color {
+  background-color: #474747;
+}
+#nav_color, #nav_ex {
+  color: #fff;  
+}
+#ft_nav_color {
+  background-color: #474747;
+}
+#ft_nav_color, #ft_nav_ex {
+  color: #fff;  
+}
+#h1_color, #h1_ex {
+  color: #1A237E;
+} 
+#h1_color {
+  background-color: #ffff00;
+  font-weight: 900; 
+}
+#h1_ex {
+  background-color: #ad2222;
+}
+#h2_ex {
+  font-size: 24px;
+}
+#h2_color, #h2_ex, #h3_color, #h3_ex {
+  color: #000000;
+}
+#h3_size, #h3_ex {
+  font-size: 18.72px;
+}
+#p2_ex, #p2_size {
+  font-size: 14px;
+}
+#head_color, #nav_color, #ft_nav_color, #h1_color, #h2_color, 
+#h3_color, #h4_color, #p1_color, #p2_color {
+  font-size: 12px;
+}
+#head_ex, #head_ex2, #h1_ex, #h1_ex2 {
+  border: 0; 
+  background-color: #ad2222;    
+}
+/************************************ End for TYPOGRAPHY PAGE */
+/* Start for TARGET AUDIENCE PAGE *****************************/
+/* (h3) = 18.72px */
+.subtitle {
+  font-family: "Ranchers", "Verdana", cursive;
+  letter-spacing: 5px;
+  text-align: center;   
+}
+/* (h4) = 16px */
+.p_titles {
+  font-family: "Krona One", "Trebuchet MS", sans-serif;
+  text-align: start;
+  display: inline;   
+}
+
+.p_info {
+  display: inline; 
+  font-size: 14px;
+/* medium = 16px */   
+}
+strong {
+  font-size:medium;
+}
+.sole_span h2, .half1 h2 {
+  text-align: center;
+}
+
+/******************************* End for TARGET AUDIENCE PAGE */
