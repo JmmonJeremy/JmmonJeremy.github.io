@@ -605,8 +605,11 @@ input, select {
 }
 #scoots_email {
     margin-right: 300px;
-    display:inline-block
-  
+    display:inline-block  
+}
+ 
+#mini_title, #conf_message, #conf_scoots_home_link{
+    text-align: center;
 }
 /*-------------------------------- TOUR PAGE-------------------------------------TOUR PAGE---------------------------*/
 .tour{
