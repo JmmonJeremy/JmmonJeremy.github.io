@@ -755,6 +755,12 @@ div#add2 h3 {
     padding: .5rem 2rem;
     text-align: center;
 }
+#acceptance_link {
+    text-align: center;
+}
+#acceptance_link a {
+    color: #000000;
+}
 /*-------------------------------- FOOTER ------------ ---------------------*/
 #acknoledgements {
     text-align: center;
