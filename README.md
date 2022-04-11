@@ -32,7 +32,7 @@
 
 ### &nbsp; &nbsp; &emsp; &nbsp;Fish Haven Pg Link: &nbsp; &emsp; &nbsp; | &nbsp; &emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; Scoots Website Link
 
-###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)&emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp;(click on icon below) 
+###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below) &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp;(click on icon below) 
 
 
 &emsp; &emsp;[<img src="sources/weather_fish_haven_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-6/fish_haven.html)
