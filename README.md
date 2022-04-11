@@ -30,7 +30,7 @@
 &emsp; &emsp; &emsp; &emsp; &emsp;[<img src="sources/2nd_weather_preston_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-10/preston-10.html)
 &nbsp;&emsp; &emsp; &emsp; &nbsp;[<img src="sources/weather_soda_springs_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-11/soda_springs.html)
 
-### &nbsp; &nbsp; &emsp; &nbsp;Fish Haven Pg Link: &nbsp; &emsp; &nbsp; | &nbsp; &emsp; &emsp; &nbsp;Scoots Website Link
+### &nbsp; &nbsp; &emsp; &nbsp;Fish Haven Pg Link: &nbsp; &emsp; &nbsp; | &nbsp; &emsp; &emsp; Scoots Website Link
 
 ###### &emsp; &nbsp; &emsp; &emsp; &emsp; (click on icon below)&emsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp;(click on icon below) &emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &emsp; &emsp; &emsp;(click on icon below) 
 
