@@ -36,4 +36,4 @@
 
 
 &emsp; &emsp;[<img src="sources/weather_fish_haven_pg_icon_link.png" width="200">](https://jmmonjeremy.github.io/lesson-6/fish_haven.html)
-&emsp; &emsp; &emsp; &emsp; &emsp; [<img src="sources/scoots_icon_link.png" width="200">](https://jmmonjeremy.github.io/XII_final_project_scoots/index.html)
+&emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;[<img src="sources/scoots_icon_link.png" width="200">](https://jmmonjeremy.github.io/XII_final_project_scoots/index.html)
