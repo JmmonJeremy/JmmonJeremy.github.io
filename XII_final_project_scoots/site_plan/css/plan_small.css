@@ -248,6 +248,34 @@ strong {
 .sole_span h2, .half1 h2 {
   text-align: center;
 }
-img.wireframe {
+/* Start for  WIREFRAME PAGE **********************************/
+h1.wireframe_title {
+  grid-column: 1/3;
+  grid-row: 1;  
+  text-align: center;
+  display: block;
   width: 100%;
+}
+div.wireframe_box h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: -20px; 
+}
+div.wireframe_box h2.top_w_t {
+  margin-bottom: -15px; 
+}
+div.wireframe_box h2.bttm_w_t {
+  margin-top: 0;
+}
+div.wireframe_box {
+  grid-column: 1/3;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.wireframe {
+  max-width: 250px;
 }
