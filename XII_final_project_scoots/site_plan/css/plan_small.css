@@ -255,6 +255,7 @@ h1.wireframe_title {
   text-align: center;
   display: block;
   width: 100%;
+  font-size: 1.5rem;
 }
 div.wireframe_box h2 {
   text-align: center;

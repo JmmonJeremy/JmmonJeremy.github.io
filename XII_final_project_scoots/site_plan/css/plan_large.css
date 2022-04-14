@@ -1,3 +1,5 @@
+/* 69em is also 1104px when basefont is 16px */
+@media only screen and (min-width: 69em) {
 h1 {
     font-size: 50px;
 }
@@ -31,3 +33,4 @@ th {
     font-size: 16px;
 }  
 /************************************ End for TYPOGRAPHY PAGE */
+}

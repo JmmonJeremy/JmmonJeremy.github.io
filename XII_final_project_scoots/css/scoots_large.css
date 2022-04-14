@@ -1,4 +1,4 @@
-/* 69em is also 800px when basefont is 16px */
+/* 50em is also 800px when basefont is 16px */
 @media only screen and (min-width: 50em) {
 /*-------------------------------- HEADER ---------------------------------*/
 /*--------------------------- WEATHER SUMMARY -----------------------------*/

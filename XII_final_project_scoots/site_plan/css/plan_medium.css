@@ -75,10 +75,8 @@ section img {
 }
 
 /******************************* End for TARGET AUDIENCE PAGE */
-
-
-
-
-
-
-      }
+/* Start for  WIREFRAME PAGE **********************************/
+h1.wireframe_title { 
+  font-size: 2rem;
+}
+}
