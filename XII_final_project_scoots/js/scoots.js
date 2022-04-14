@@ -171,7 +171,7 @@ fetch(apiURL2)
 // Code for 5 Day Forecast at Noon Using OpenWeatherMap  ****************************************
 let forecastDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-const fcAPIurl = "http://api.openweathermap.org/data/2.5/forecast?q=Cozumel&appid=c8e65c67b29a4c9cbeb5e066024d1050&units=imperial"
+const fcAPIurl = "https://api.openweathermap.org/data/2.5/forecast?q=Cozumel&appid=c8e65c67b29a4c9cbeb5e066024d1050&units=imperial"
 fetch(fcAPIurl)
   .then((response) => response.json())
   .then((jsData) => {
