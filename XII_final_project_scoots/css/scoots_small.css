@@ -428,7 +428,7 @@ article#rent_sum a h3:hover {
 /*--------------------- VEHICLE RENTAL IMAGES & CARDS ---------------------- Rental PAGE --------------------------*/
 #rental_selections_title { 
     color: #fff;   
-    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+    text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;  
 }
 section#rental_cards { 
     padding: .1rem .4rem;    
@@ -454,7 +454,7 @@ div.h_wrap {
    min-height: 170px;
 }
 h2.rental_title {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     margin: 0;
     color: #1A237E;
     text-shadow:1px 1px 10px #8b8b8b, 1px 1px 10px #747474;    
@@ -616,7 +616,7 @@ input, select {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 10rem;
+    padding-top: 10rem;  
 }
 .tour_title {
     flex: 0 1 100%; 
@@ -627,7 +627,7 @@ input, select {
 }
 .tour img {
     border: 2px solid #ad2222;
-    
+  
 }
 .tour_text1 {
     background-color: #ad2222;
@@ -648,9 +648,9 @@ input, select {
     text-underline-offset: 10px;
     text-shadow:1px 1px 10px #000, -1px -1px 10px #000;
 }
-.tour_text2 {
-    width: 100%;
-    background-color: #ad2222;   
+.tour_text2 {    
+    background-color: #ad2222;
+    margin: 0 2.5%;   
     margin-top: 2rem;
 }
 #fst_tour {
@@ -659,11 +659,12 @@ input, select {
 }
 .o_tour_img {
     max-width: 550px;
-    width: 100%
+    width: 92%;
+     
 }
 .e_tour_img {
     max-width:1198px; 
-    width: 100%;
+    width: 92%;
 }
 /*-------------------------------- CONTACT PAGE-------------------------------------CONTACT PAGE---------------------------*/
 .smller_wdth {
@@ -678,17 +679,14 @@ input, select {
     padding: 0;
 }
 #drawn_mp {
-    width:100%;
-    max-width: 600px;  
+    width:98%;
+    max-width: 600px;     
 }
-#top_addresses {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: #000;
-  
-    font-size: 1.5rem;
- 
-    justify-items:center
+#top_addresses {   
+    color: #000;  
+    font-size: 1.5rem; 
+    justify-items:center;
+    padding: 0 .25rem;
 }
 #title_box {
     grid-column: 1/3;  
@@ -729,12 +727,12 @@ div#add2 h3 {
     font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
     box-shadow: 1px 1px 10px #000; 
     font-size: 1.25rem;
-    max-width: 350px;
+    max-width: 350px;   
 }
 #inner_title{
     color: #fff;   
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
-    font-size: 8rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 #add1 h3.loc {
@@ -742,6 +740,11 @@ div#add2 h3 {
 }
 #add2 h3.loc {
     text-shadow:1px 1px 10px #ad2222, -1px -1px 10px #ad2222;
+}
+#add1_txt, #add2_txt {
+    min-height: 331px;
+    max-width: 350px;
+    margin: 0 auto;  
 }
 /*-------------------------------- ACCEPTANCE PAGE OF AN EMAIL BEING SENT THROUGH THE CONTACT PAGE ------------ ---------------------*/
 #acceptance_header{

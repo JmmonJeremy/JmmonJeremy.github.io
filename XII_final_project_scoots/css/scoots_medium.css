@@ -262,6 +262,9 @@ header div #floating_nav_bar {
     text-align: center;
     font-size: 3rem;     
 }
+h2.rental_title {
+    font-size: 2.25rem; 
+}
 h5.prompt {
     padding-bottom: 1rem;
 }
@@ -283,7 +286,6 @@ h5.prompt {
 h4.occupancy {
     font-size: 2rem;
 }
-
 h2#terms_header {
     font-size: 3rem;
 }
@@ -294,6 +296,28 @@ h1#form_title {
 /*-------------------------------- TOUR PAGE-------------------------------------TOUR PAGE---------------------------*/
 .tour_title {   
     font-size: 4rem;     
+}
+.tour_text2 {    
+    background-color: #ad2222;
+    margin: 0;   
+    margin-top: 2rem;
+}
+.o_tour_img {
+    max-width: 550px;
+    width: 100%;
+     
+}
+.e_tour_img {
+    max-width:1198px; 
+    width: 100%;
+}
+/*-------------------------------- CONTACT PAGE-------------------------------------CONTACT PAGE---------------------------*/
+#top_addresses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+#inner_title{ 
+    font-size: 8rem;    
 }
 /*-------------------------------- FOOTER ---------------------------------*/    
     #contact_resources {   
