@@ -144,7 +144,7 @@ fetch(fcAPIurl)
 // Weather Forecast for #1 Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel or 
 //#2 the Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons
 // *** API JSON Weather Request for AccuWeather of Current Weather
-const apiURL2 = "http://api.openweathermap.org/data/2.5/weather?q=Cozumel&appid=c8e65c67b29a4c9cbeb5e066024d1050&units=imperial"
+const apiURL2 = "https://api.openweathermap.org/data/2.5/weather?q=Cozumel&appid=c8e65c67b29a4c9cbeb5e066024d1050&units=imperial"
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject2) => {
